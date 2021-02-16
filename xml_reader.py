@@ -12,6 +12,7 @@ dir_list = sorted(os.listdir(xml_path))
 csv_list = []
 
 for file in dir_list:
+
 	#************************************************************************************
 	# PART 1: PARSE XML DOCUMENT.
 	#
@@ -35,7 +36,8 @@ for file in dir_list:
 	#				</Annotation>
 	#
 	#************************************************************************************
-	
+
+	print('\n', file)
 	tree = ET.parse(xml_path + file)
 	root = tree.getroot() # returns the root element for the tree
 
@@ -70,8 +72,6 @@ for file in dir_list:
 	# annotations for each file.
 	#
 	#************************************************************************************
-	
-	print(40*'-', ' CSV File ', 40*'-')
 
 	soup = BeautifulSoup(open(xml_path + file), features="lxml")
 	file_text = soup.prettify() # spits out document text as one big string
