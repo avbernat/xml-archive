@@ -1,0 +1,152 @@
+---
+title: "Untitled"
+author: "Anastasia Bernat"
+date: "5/12/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+rm(list=ls())
+library(readxl)
+library(dplyr)
+
+dir = "/Users/anastasiabernat/Desktop/search_engine/"
+setwd(dir)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Read XLS file and remove unnecessary
+
+1) Read XLS file
+
+```{r}
+data2 <- read_excel("savedrecs-2.xls")
+data3 <- read_excel("savedrecs-3.xls")
+data4 <- read_excel("savedrecs-4.xls")
+
+data = rbind(data2,data3,data4)
+```
+
+2) Remove unnecessary columns 
+
+```{r}
+remove_cols = c("Book Authors", "Book Editors", "Book Group Authors", "Book Author Full Names", 
+                "Group Authors", "Book Series Title", "Book Series Subtitle", "Book DOI", 
+                "Conference Title", "Conference Date", "Conference Location", "Conference Sponsor",
+                "Conference Host", "Funding Orgs", "Funding Text", "Cited References", "ISBN",
+                "Supplement", "Early Access Date", "...68", "Journal Abbreviation", 
+                "Journal ISO Abbreviation", "WoS Categories", "Research Areas")
+drop_identifiers = c("Email Addresses", "Researcher Ids", "ORCIDs", "ISSN", 
+                     "eISSN", "IDS Number", "UT (Unique WOS ID)", "Pubmed Id")
+drop_nuances = c("Cited Reference Count", "Times Cited, WoS Core", 
+                 "180 Day Usage Count", "Highly Cited Status", "Hot Paper Status")
+
+d = data %>%
+  select(-remove_cols) %>%
+  select(-drop_identifiers) %>%
+  select(-drop_nuances)
+```
+
+## Filtering
+
+1) Filter out duplicates
+
+```{r}
+df = d[!duplicated(d$`Article Title`),]
+```
+
+2) Filter non-extreme citations (Keep high and low citations).
+
+```{r}
+df$CiteX = df$`Times Cited, All Databases` - df$`Since 2013 Usage Count`
+```
+
+a) Remove papers with citation counts of <= 0
+
+```{r}
+dd = df[df$CiteX > 0, ]
+```
+
+b) Order by descending publication year and citation number. Store the intermediary step.
+
+```{r}
+dt = dd[order(-dd$`Publication Year`, -dd$CiteX),]
+```
+
+```{r}
+write.csv(dt, "filtered_articles.csv") 
+```
+
+c) Get top 5 cited and bottom 5 cited. Could also become top 5% or bottom 5% because there can be a lot of papers only cited once and it doesn't really matter.
+
+```{r}
+unique(dt$`Publication Year`) # notice that there were no papers published before 1920
+```
+
+```{r}
+# Top and bottom 5% 
+
+start_year = 1920
+top_list = c()
+bottom_list = c()
+for (i in 1:8) {
+  end_year = start_year + 10
+  cat("Decade:", start_year, "to", end_year, "\n")
+  
+  df_decade = dt[dt$`Publication Year` >= start_year & dt$`Publication Year` < end_year,]
+  df_sorted = df_decade[order(-df_decade$CiteX),]
+  
+  top5 = quantile(df_sorted$CiteX,  0.95)
+  bottom5 = quantile(df_sorted$CiteX,  0.05)
+  
+  top = c()
+  bottom = c()
+  for (row in 1:nrow(df_sorted)) {
+    paper = df_sorted[row, ]$`Article Title`
+    cite_n = df_sorted[row, ]$CiteX
+    if (cite_n > top5) {
+      top = c(top, paper)
+    }
+    if (cite_n > bottom5) {
+      bottom = c(bottom, paper)
+    }
+  }
+  
+  if (length(top) < 5) {read_nt = 3}
+  else{read_nt=5}
+  if (length(bottom) < 5) {read_nb = 3}
+  else{read_nb=5}
+  
+  top_reading = sample(top, size=read_nt, replace=F)
+  bottom_reading = sample(bottom, size=read_nb, replace=F)
+  
+  print(top_reading)
+  print(bottom_reading)
+  
+  top_list = c(top_list, start_year)
+  top_list = c(top_list, top_reading)
+  bottom_list = c(bottom_list, start_year)
+  bottom_list = c(bottom_list, bottom_reading)
+  
+  start_year = end_year
+  
+}
+```
+
+```{r}
+datat = as.data.frame(top_list)
+datat$group = "top"
+datab = as.data.frame(bottom_list)
+datab$group = "bottom"
+colnames(datat) = c("", "group")
+colnames(datab) = c("", "group")
+
+masterlist = rbind(datat, datab)
+masterlist
+```
+
+## Write as a CSV file
+
+```{r}
+write.csv(masterlist, "masterlist.csv") 
+```
