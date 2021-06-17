@@ -18,7 +18,7 @@ for file in dir_list:
 	#
 	# Use an XML parser and maker library, xml.etree.ElementTree (ET in short). Most 
 	# XMLs are represented in a hierarchical data format. In those cases, the most 
-	# natural way to represent an XML file is with a tree. However, that is not what 
+	# natural way to represent an XML file is with a tree. However, that is not  
 	# how GATE annotated XML files are structured. Unlike a hierarchical format, our XML 
 	# files have annotations embedded into other annotations and has only 3 main 
 	# categories (<AnnotationSet> will always be empty): 
@@ -26,7 +26,7 @@ for file in dir_list:
 	#		<GateDocumentFeatures> 	
 	#				This tells you meta-information about the doc (e.g. title, location).
 	#		<TextWithNodes>								
-	#				This are where all the annotaitons you wrote are in HTML tags 
+	#				This is where all the annotaitons you wrote are in HTML tags 
 	#				called <Nodes id=####>.
 	#		<AnnotationSet Name="Original markups">	 	
 	#				This has the GATE tagnames you assigned to each annotation. It also 
