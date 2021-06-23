@@ -10,7 +10,7 @@ rm(list=ls())
 library(readxl)
 library(dplyr)
 
-dir = "/Users/anastasiabernat/Desktop/search_engine/"
+dir = "/Users/anastasiabernat/Desktop/git_repositories/xml-archive/search_engine/"
 setwd(dir)
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 1) Read XLS file
 
-```{r}
+```{r message=FALSE}
 data2 <- read_excel("savedrecs-2.xls")
 data3 <- read_excel("savedrecs-3.xls")
 data4 <- read_excel("savedrecs-4.xls")
@@ -46,7 +46,7 @@ cites = rbind(cite1, cite2, cite3)
 
 2) Remove unnecessary columns 
 
-```{r warning=FALSE}
+```{r warning=FALSE, message=FALSE}
 remove_cols = c("Book Authors", "Book Editors", "Book Group Authors", "Book Author Full Names", 
                 "Group Authors", "Book Series Title", "Book Series Subtitle", "Book DOI", 
                 "Conference Title", "Conference Date", "Conference Location", "Conference Sponsor",
