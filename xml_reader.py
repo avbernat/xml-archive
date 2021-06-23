@@ -39,7 +39,9 @@ for file in dir_list:
 
 	print('\n', file)
 	tree = ET.parse(xml_path + file)
+	print(tree)
 	root = tree.getroot() # returns the root element for the tree
+	print(root)
 
 	print(40*'-', ' Metadata ', 40*'-')
 	for i in range(0,len(root)):
