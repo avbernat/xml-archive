@@ -1,0 +1,395 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">DC:TITLE</Name>
+  <Value className="java.lang.String">Studies in Nocturnal Ecology, III. Recording Apparatus and Further Analysis of Activity Rhythm</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/anastasiabernat/Desktop/group_corpus/1935%20-%20Studies%20in%20Nocturnal%20Ecology.pdf</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">application/pdf</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">TIKA_DC:TITLE</Name>
+  <Value className="java.lang.String">Studies in Nocturnal Ecology, III. Recording Apparatus and Further Analysis of Activity Rhythm</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Studies in Nocturnal Ecology, III. Recording Apparatus and Further Analysis of Activity
+Rhythm<Node id="94"/>
+ 
+ Studies in Nocturnal Ecology, III. Recording Apparatus and Further Analysis of ActivityRhythmAuthor(s):<Node id="201"/> Orlando Park<Node id="214"/>Source: Ecology, Vol. 16, No. 2 (Apr., <Node id="253"/>1935<Node id="257"/>), pp. 152-163Published by: Wiley on behalf of the Ecological Society of AmericaStable URL: https://www.jstor.org/stable/1932422Accessed: 01-07-2021 17:04 UTC
+ JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+ 
+Your use of the JSTOR archive indicates your acceptance of the Terms &amp; Conditions of Use, available at
+https://about.jstor.org/terms
+Ecological Society of America, Wiley are collaborating with JSTOR to digitize, preserve andextend access to Ecology
+This content downloaded from 98.193.32.14 on Thu, 01 Jul 2021 17:04:16 UTCAll use subject to https://about.jstor.org/terms
+ STUDIES IN NOCTURNAL ECOLOGY, III. RECORDING APPA-
+ RATUS AND FURTHER ANALYSIS OF ACTIVITY RHYTHM
+ ORLANDO PARK
+ North-Western University
+ RECORDING OF ACTIVITY
+<Node id="1292"/> The first measurement of nocturnal activity by recording apparatus was
+ by Johnson ('26). Relatively heavy animals were used, e.g., forest deer
+ mice, which allowed a simple technique to be employed. This consisted in placing a mouse in a light-weight cage suspended by rubber bands. An indi-
+ cator fastened to the cage traced the animal's movements on a record made
+ by a paper disk turned by clock mechanism. Unfortunately the apparatus,
+ though simple, was neither figured nor fully explained; neither was the tem-
+ perature, which varied seven degrees, nor presumably the humidity, adequately controlled. The work was important, however, in that it recorded nocturnal
+ activity, and gave an insight into the behavior of characteristic forest rodents.<Node id="2048"/>
+ <Node id="2050"/>Quite recently Davis ('32, '33) has reported an improved apparatus of the
+ same general type for recording the activity of small mammals.
+ Turning from mammals to the insects, the only other group of animals in which nocturnal activity has been measured by recording apparatus, significant
+ work has been done by Lutz ('32a, b) on three species of Orthoptera.<Node id="2409"/> Here the small weight of the animals necessitated a much more refined technique.
+ This work is so recent that it is sufficient to mention the lprinciple used. <Node id="2569"/>The weight of an insect depressed a counter-balanced treadle, completing an elec-
+ tric circuit through an electromagnet, which in turn moved an inked pen
+ which registered the animal's movements upon a moving drum. Unhappily such an excellent piece of equipment was neither described nor figured in the
+ text, nor were the experimental conditions of the cellar, in which the experi- ments were conducted, fully described. The work, however, is the best that has been done with recording apparatus in measuring nocturnal activity.<Node id="3099"/>
+ <Node id="3101"/>Four years ago the writer began construction of a recording apparatus' which would measure objectively the activity of small animals. The circular disk of a phonograph, having a diameter of eleven and three-quarter inches, or No. 10 aluminum pan-covers, were threaded at the exact center so that a brass screw, which was lathed to a blunt point, could be inserted from above and adjusted to any required length. This screw point was centered on a dish-shaped table made by cutting off the end of another brass screwv and
+ 1 I am greatly indebted to F. B. Adamstone, G. Almy, and to F. E. Nelson for aid and criticism in constructing this apparatus.<Node id="3749"/>
+ I52
+This content downloaded from 98.193.32.14 on Thu, 01 Jul 2021 17:04:16 UTCAll use subject to https://about.jstor.org/terms
+ April, 1935 STUDIES IN NOCTURNAL ECOLOGY 153
+ polishing the surface. This second screw was passed from below, through an oblong of transite measuring 16 X 14 X'4 inches. The latter was threaded to hold three brass screws so arranged that the transite base could be leveled rapidly, and secondly threaded for four brass screws so that their filed points would contact with the circular disk noted at the four major compass points (fig. la, b). A rim of celluloid, three inches high, was placed
+ X ,~~~~~~~~~~~~~~~~~~~~C
+<Node id="4398"/> FIG. 1. Recording Apparatus for Measurement of Nocturnal Activity. a. Transit plate with three leveling screws, four peripheral contacts, and central contact on which is balanced a circular disk. b. Method of balancing circular disk on central contact. c. Electric clock. d. Model T Ford ignition coil. e. Mercury cup contact for sweep- second clock hand. f. Shorting wire from Kymograph back to coil. g. Fuse wires h. Six volt storage battery (or transformer if using alternating current). i. Kymo- graph drum mounted on 24-hour Taylor clock-works.<Node id="4948"/>
+ against the raised rim of the disk to complete a container for the experimental animals. When in use the transite base was leveled rapidly and the container or disk balanced so that it just cleared the four screw points, or lightly rested on one of them. <Node id="5205"/>The plate when balanced could be deflected by a gentle breath and was sensitive to half a gram.<Node id="5300"/>
+ The central contact of the base, upon which the disk is balanced, was wired to an electric clock (fig. ic), and the four peripheral contacts wired respec- tively to four vibrators of a MIodel T Ford coil (fig. id), each of which bears a sharpened iron wire. The terminals of this coil are wired to the negative pole of a six volt storage battery, and the positive pole of the latter is wired to a cup of mercury (fig. le) so placed that a copper wire or strip attached to the sweep-second hand of the clock passes through the mercury for a fraction of each minute.<Node id="5866"/> The use of the storage battery is especially desirable for field recording but in the laboratory a transformer was wired to the coil and alternating current used.<Node id="6029"/>
+This content downloaded from 98.193.32.14 on Thu, 01 Jul 2021 17:04:16 UTCAll use subject to https://about.jstor.org/terms
+ ,54 ORLANDO PARK Ecology, Vol. 16, No. 2
+ One end of the primary circuit, then, is completed for a part of each min-
+ ute by the sweeping second hand. The duration of this contact between clock and mercury cup is adjusted by manipulating either the length of the second- hand strip or the amount of mercury in the cup.<Node id="6472"/> I found between two and
+ three seconds to be a desirable contact. <Node id="6539"/>The other end of the primary circuit is always complete as a consequence of the loaded disk touching one, or two
+ adjacent, peripheral contacts. Each minute the circuit is made, and the coil wires of the secondary circuit fire a spark of roughly a quarter to a third of
+ all inch long. These sparking wires burn small dots into a strip of a(lling machine paper which is fastened around a kymograph drum driven 1w a 24 hour Taylor clock-works. Thus a continuous record is formed, each minute
+ giving the position of the contained animal on the disk, and hence its inactiv-
+ ity, and duration and direction of its active periods.<Node id="7166"/> The record is divided
+ into twenty-four hour lines and the apparatus started at a given line. To
+ prevent a spark from jumping through the record and metal drum and back into the passive sparking wires, the drum is shorted back to the coil (fig. If).
+ Finally, if the electric clock should stop at the moment when the second hand
+ was contacted with the mercury cup, the resulting continuous arc of one or more coil wires would set fire to the moving paper record. To avoid this (langer, fuse wires totaling one and a half amperes were placed in the primary circuit (fig. ig) and at this amperage a single contact of more than five seconds would melt the fuse and stop the sparking until the gap had been re-
+ pairedl.<Node id="7885"/> Obviously, in analysis of activity rhythm as complete a control of the
+ immediate environment as possible is necessary to a proper evaluation of the
+ data obtained. <Node id="8051"/>To this end the disk holding the animals, and the supporting base were placed in a cabinet and the several wires running from the central and peripheral contacts passed through the wall of the cabinet to the recording unit which was arranged compactly outside.<Node id="8311"/> This cabinet has been previously described (Park and Keller, '32), but it may be said here that the air tem-
+ l)erature, relative humidity and rate of evaporation within the cabinet were held practically constant, air movements were absent, and when closed the interior was in complete darkness.<Node id="8607"/> If desired, the interior of the chamber can be illuminated by directing a beam of light through an uncovered double glass port, the heat being carried away by a stream of water moving between the port and the light source. <Node id="8831"/>In using this chamber with a saturated atmos- phere it became necessary to avoid rusting. To this end brass screw contacts were utilized and the transite plate did not warp, an event which would throw off the distance between the plate and the peripheral contacts.<Node id="9095"/> Also, the aluminum disks were used in such atmospheres rather than steel ones.
+ Like most apparatus, this one is far from perfection and has evolved from a very crude original machine. One of its chief faults is that, when the plate is balanced so that one animal in walking around its circumference progres-
+ sively makes each peripheral contact strong enough to overcome contact
+This content downloaded from 98.193.32.14 on Thu, 01 Jul 2021 17:04:16 UTCAll use subject to https://about.jstor.org/terms
+ April, 1935 STUDIES IN NOCTURNAL ECOLOGY 155
+<Node id="9646"/> resistance, food or a part of the environment cannot be added as the plate would become unbalanced permanently for the experiment; even the accumu- lation of faecal pellets in certain species of insects over twenty-four hours would at times overbalance the disk. Hence an artificial environment must be reckoned with in interpretation of the data, <Node id="9995"/>and where starvation or muscu- lar fatigue is not being investigated directly, short runs of twenty-four hours must be alternated with periods of rest in which the animals can eat and drink. With animals of a gram or more in weight, however, satisfactory records can be confidently counted upon. Under a gram, very light aluminum disks must be used and the transformer set at a much higher voltage to gain complete records.
+ <Node id="10420"/>Data taken with this apparatus in the laboratory can be supplemented by obtaining data in the field with a compact, duplicate unit, using the storage battery of an automobile, and a clock-works for the transformer, and electric clock respectively.<Node id="10667"/> <Node id="10668"/>The unit can be sheltered from falling leaves or strong winds by appropriate screens, and data compiled under normal habitat con- ditions. Further electromagnets drawing pens over the record can be used in place of the sparking coil, in either laboratory or field.
+ FURTHER ANALYSIS OF NOCTURNAL ACTIVITY<Node id="10972"/>
+<Node id="10973"/> It was shown previously (Park and Keller, '32) that species active at night belonged to at least two categories, viz., their activity apparently was largely controlled by the operative environmental factor complex (Environ- mental Type), or the activity was more or less inherently rhythmic and con- sequently apparently not affected by changes within the normal environmental limits (Inherent Type). Lutz ('32b) also found inherent activity in three more species of insects, using the Lutz recording apparatus mentioned earlier.<Node id="11503"/>
+ <Node id="11505"/>The work done by Park and Keller was subjective to the extent that change in position of marked individuals was measured by eye, and there was the further objection of illuminating the experimental chamber for a few seconds each hour. Although it was felt that the results obtained were sound, an objective check of the problem was necessary. The recording apparatus described in this article was developed therefore, and a part of the data taken with this instrument over the last two years are given at this timie.<Node id="12021"/>
+<Node id="12022"/> It has been rather difficult to acquire suitable experimental material due to the following limitations: (1) the species must be common enough to be obtained in relatively large numbers from its natural habitat; (2) heavy enough to strongly depress the suspended disk in the experimental cabinet (1 to 2 gms.); (3) flightless, or at least unable to escape from this walled- disk.<Node id="12402"/>
+ Data on two of those animals which were found to meet these conditions are presented here. These are the black passalid beetle, Passalus corn-utus Fab., and the milliped, Spirobolus Axarginatus (Say). Both species are rela-
+This content downloaded from 98.193.32.14 on Thu, 01 Jul 2021 17:04:16 UTCAll use subject to https://about.jstor.org/terms
+ i56 ORLANDO PARK Ecology, Vol. 16, No. 2
+ tively large, heavy, hardy forms which are both abundant and characteristic inhabitants of decaying logs, especially of the more mesophytic forest floors.
+<Node id="12949"/> Results with Iassalits coru -intls<Node id="12984"/>
+ Individuals or colonies were taken from logs in a climax maple forest an(1 their activity measured in the laboratory at once. They were then kept in
+ fresh, moist log mold in the laboratory until needed for later experiments of
+ the same kind to determine how resistant their activity cycle was to the change
+ in habitat conditions.
+<Node id="13319"/> The following table (table I) summarizes the results obtained in analysing
+ activity cycles of solitary Passalus corn utus<Node id="13442"/>. The table is concerned only with
+ the activity of single individuals for twenty-four consecutive hours, so that hunger and fatigue are minimized as much as possible. <Node id="13610"/>In part of the trials
+ the cabinet was kept in the laboratory, and partly kept in a basement where the
+ maximum summer fluctuation was only 3.30 C. Within the experimental
+ cabinet the average temperature range was 2 degrees (22.6 to 24.6? C.), with
+ a minimum 24 hour fluctuation of zero to a maximum of 3.5 degrees. The
+ average rate of evaporation in the cabinet was 0.32 cc. per hour, with a nmini- mum hourly rate of zero at saturation, to a maximum hourly rate of 0.44 cc. in other trials. The cabinet interior was in total darkness.<Node id="14149"/>
+ <Node id="14151"/>TABLE I. Activity of single Passalus cornituis for 24 consecutive hours in total darkness
+ Night Day Total Activity Activity<Node id="14275"/>
+ Activity (6 P. M.- (6 A. M.- Date of Experiment in hrs. 6 A.M.) 6 P.M.) trial Animal Trial started for 24 hrs. in hrs. in hrs.
+ 10-17-31 No. 1 1st 10:00 P.M. 8.83 6.33 2.50 10-27-31 No. 2 1st 4:00 P.At 9.75 3.75 6.00 10-31-31 No. 3 1st 2:00 P.M. 6.50 4.50 2.00 5-31-32 No. 4 lst 3:00 P.M. 7.50 3.00 4.50 6- 4-32 No. 4 2d 8:45 A.M. 3.25 0.50 2.75 10-19-32 No. 5 1st 11:30 A.M. 11.25 4.50 6.75 11-10-32 No. 6 1st 10:10 A.M. 8.33 3.00 5.33 1- 9-33 No. 50 1st 9:00 A.M. 9.50 0.50 9.00 1-24-33 No. 50 2d 1:10 P.M. 15.00 7.00 8.00 1-26-33 No. 52 1st 10:00 A.M. 10.00 3.25 6.75 2- 2-33 No. 51 1st 9:05 A.M. 7.50 2.75 4.75 2- 8-33 No. 51 2d 10:30 A.M. 14.75 10.25 4.50 2-14-33 No. 50 3d 11:00 A.M. 22.00 12.00 10.00
+ 9 individuals in 13 trials for a total of 312 animal experimental hours.
+ Total hours active: 134.16 Twenty-four hour average: 10.32 hours Night hours active: 61.33 Nightly active average: 4.71 hours Day hours active: 72.83 Daily active average: 5.60 hours
+ <Node id="15244"/>From this table we see that apparently time of year. time of start of trial, familiarity with apparatus as indicated by trial sequence, and interval spent in laboratory have little appreciable affect upon the character of the activity. As expected, some animals tended to give individualized behavior, as was indi-
+ cated earlier for another beetle, Patrobus ionqgicornis <Node id="15616"/>(Park and Keller '32).
+This content downloaded from 98.193.32.14 on Thu, 01 Jul 2021 17:04:16 UTCAll use subject to https://about.jstor.org/terms
+ April, 1935 STUDIES IN NOCTURNAL ECOLOGY 157
+ <Node id="15809"/>The experimental conditions of darkness, constant moisture, temperature,
+ etc., at least parallel the physical conditions obtaining in the natural log habitat.<Node id="15968"/> This is interesting in view of the chief conclusion reached, e.g. that Passalus cornutus has no definite rhythm or periodicity of activity.<Node id="16108"/> The daily activity is roughly 54 per cent, and the nightly activity is 46 per cent, of the total, and these averages are not applicable to all individuals. <Node id="16265"/>Therefore, in
+ 6 8 10 12 2 4 6 8 /0 12 2 + 6
+ ZAY b 8 10 2z 2 4 6 8 10 12 z + A
+ A
+ I~ ~ ~ ~~~~~
+ 6 8 10 12 2 4 6 8 0o /2 2 4 6 A
+ 60 8 /O /2 2 Ar 6 8 10 /2 z It 6
+ A t_ I~~
+ 6 8 /0 12 2. * to 8 /0 /2 2 4 6
+ A- Actvie : I- TeV% Vt'%Ve
+ <Node id="16501"/>FIG. 2. Arhythmic Activity of Individual Passalls cornutus in Total Darkness. Temperature, humidity and evaporation rate practically constant. Arrows indicate start of each trial.<Node id="16680"/>
+<Node id="16681"/> addition to the Inherent and Environmental types of activity rhythms, defined previously, we are led to postulate a third, or Arhythmic type. The following graphs (fig. 2) illustrate this third condition.<Node id="16886"/>
+ I find this arhythmic condition in Passalus cornutus especially interesting,<Node id="16964"/> since the passalids in general are equipped with a body of social " instincts," live in colonies and care for their young (cf. account .of Ohaus in Wheeler ('23); Miller ('32)). Further investigation may show that the social spe- cies of insects, e.g. the ants, etc. have less inherently fixed rhythms of ac-
+This content downloaded from 98.193.32.14 on Thu, 01 Jul 2021 17:04:16 UTCAll use subject to https://about.jstor.org/terms
+ I58 ORLANDO PARK Ecology, Vol. 16, No. 2
+ tivity than the solitary species.<Node id="17473"/> This has been indicated previously for ants
+ (Park, Lockett and Myers, '31; Flint, '14), where individuals were appar- ently never all active at the same time, and there was a general absence of
+ species activity rhythm.<Node id="17694"/> If this is true, the social habit may be advanced either as a possible outcome of the arhythmic condition, or as an underlying
+ causal factor for the appearance of this aperiodicity.<Node id="17877"/>
+ On the other hand, the activity rhythm of a species may be wholly un- related to the social matrix. If such is the case, this arhvthmic habit may be viewed as a loss or impairment of an original inherent activity rhythm through time, since all stages of the life cycle of Passalms cornutus are passed within the dark, stable log mold save when adults move from one log to another.
+ <Node id="18261"/>Results with Spiroboluis mnargini-atits<Node id="18300"/>
+ Turning to the millipedes, it was found earlier that under natural condi-
+ tions, e.g. in the forest at night, they were nocturnal (Park, Lockett and
+ 7tal Aeha#.i
+ 1 2 3 4 5 6 7 /8 iiO / 1 S2 E 7cn h Hose Perf od s
+ 
+<Node id="18520"/>FIG. 3. Inherent Nocturnal Activity of Spiwrobolus warginlatufs. Showing relation of total, nocturnal, and diurnal activity in constant darkness, temperature and humidity to rhythm persistence, vs. starvation. Weight at start of experiment 1.50 grams; weight at death 0.86 grams. Note that for the first fifteen twenty-four hour periods the starv- ing animal manifested 88 per cent of nocturnal activity as against 8.5 per cent of di- urnal activity, and that the relative inactivity increased with increase of hunger and fatigue.<Node id="19050"/>
+ Myers, '31). The data taken on Spirobolus inargin~atus bear out these ob- servations. Under the identical experimental conditions used in studying
+This content downloaded from 98.193.32.14 on Thu, 01 Jul 2021 17:04:16 UTCAll use subject to https://about.jstor.org/terms
+ April, 1935 STUDIES IN NOCTURNAL ECOLOGY I59
+ Passalus cornittus, this species of millipede was rarely active by day and pre-
+ dominantly active at night. Therefore, Spirobolus margiatuts has an in- herent nocturnal rhythm.
+ <Node id="19548"/>After the innate nature of the rhythm had been established, individuals were allowed to remain in the experimental cage, without anything to eat or drink. As would be expected under such conditions. they lived from ten to eighteen days, with a gradual decrease in weight and activity.<Node id="19832"/> However, as shown by table II and figure 3, which summarizes a typical case, the general character of the rhythm did not change, the animals being preponderantly active at night.
+ <Node id="20013"/>TABLE III. The effect of starvation upon the Inherent Nocturnal Activity of a Spiro- bolus marginatus until death (432 hours), under constant darkness, humidity, tem- perature and evaporation rate. Weight at start (3:00 P.M., June 28), 1.50 grams; Weight at death (3:00 P.M. to 10:15 P-vr., July 16), 0.86 grams. (Hours '; Minute- ")<Node id="20346"/>
+ Total Night Day Elapsed time activity activity activity
+ in hours per 24 hrs. (6 P.Mi.-6 A.M.) (6 A.M.-6 P.M.)
+ 24 5' 45"t 4' 45" 1' 00 48 1' 00 1' 00 0 00 72 4' 25" 4' 15" 0 10" 96 4' 55" 4' 45" 0 10" 120 2' 45" 2' 45" 0 00 144 2' 50" 2' 30" 0 20" 168 0 30" 0 30 0 00 192 3' 10" 3' 05" 0 05" 216 0 25" 0 25" 0 00 240 0 35" 0 35" 0 00 264 1' 30" 1' 10" 0 20"t 288 0 25" 0 25" 0 00 312 0 00 0 00 0 00 336 0 55" 0 40" 0 15"' 360 0 05" 0 00 0 05" 384 0 05" 0 00 0 05" 408 0 05" 0 00 0 05" 432 0 00 0 00 0 00
+ Total Experimental Hours: 432 Total Inactive Period: 402' 45" Total Active Period: 29' 15" Total Night Activity: 26' 10" Total Day Activity 2' 35" (Including adjustment period of 30 min. activity at start of experiment).
+ <Node id="21076"/>Thus in the experiment graphed, of a total of 432 hours spent in the dark
+ experimental chamber, roughly 88% of the activity of the starving animal was at night, and 8.5%o during the day. Hence we are led to believe that their innate activity is a deep-seated mechanism.<Node id="21346"/>
+ From this graph we also find that the general activity rises and falls, on the average reaching a maximum every second night, until the very end of the experiment when exhaustion made any but the smallest movements
+This content downloaded from 98.193.32.14 on Thu, 01 Jul 2021 17:04:16 UTCAll use subject to https://about.jstor.org/terms
+ i6o ORLANDO PARK Ecology, Vol. 16, No. 2
+ impossible. We suggest that these peaks of activity represent more or less
+ normal periodic searching f or f ood, which gradually decrease in strength
+ and duration as fatigue increases.
+ <Node id="21917"/>SIGNIFICANCE OF RHYTHMIC ACTIVITY TO CERTAIN PROBLEMS<Node id="21970"/>
+<Node id="21971"/> Before the writer began studying nocturnal animals, he held a too gen-
+ eralized concept of protoplasmic response to environmental stimuli. The
+ literatures of experimental physiology and development gave innumerable
+ examples of the modifiability of response, and within the confines of
+ ecology, it was obvious that such phenomena as aggregation, hibernation, and
+ others could be controlled by certain techniques. From such a position it was
+ easy to assume that, granting a peculiar genetic matrix, the autecology of any
+ species was a series of responses, called into being by internal states but
+ strictly under the control of the environmental complex.<Node id="22631"/> Now if this was
+ applied to the study of distribution and activity of an animal community, the well known limiting and modifying affect of the external physical factors was realized, and justifiably so. However, the complete activity-inactivity cycle
+ of the species involved was also considered a product of the environment.
+ Apparently, in view of the recent work on nocturnal activity, this last tacit
+ assumption was unjustifiable.
+ In other words, the very existence of periodic active and inactive states
+ was confused with the environmentally modifiable rate and character of these
+ states. Persistent activity rhythm in darkness was found in forest deer mice
+ (Johnson, '26), a species of Microtus (Davis, '33), three species of Orthop-
+ tera (Lutz, '32), a beetle, Boletotherus cornutus (Park and Keller, '32),
+ and the millipede, Spirobolus miarginatus reported here. In all seven of these species (embracing rodents, millipedes and two orders of insects), a dark, constant environment did not prevent the animals from being more
+ active at night than during the day. It is to be expected that this rhythm would break in time due to the increasing fatigue, although in the case of
+ Spirobolus inarginatus this seemed unusually long delayed. Where the illumination was reversed, the rhythm was reversed in all save one species.
+ <Node id="23970"/>This reversal does not disprove the innate nature of the cycle; rather it shows us that the rhythm can be experimentally modified. <Node id="24101"/>The rate and character of the reptilian heart, to cite another example, can be controlled by experi- mental technique (Chu and Sollmann, '25 a, b), yet the innate nature of the cardiac rhythm is apparent. <Node id="24306"/>Neither does it clarify the problem to term such periodic activities habits or instincts. To this end, critical study of the affects of each operating factor and combination of factors should further our knowledge of nocturnal activity.<Node id="24542"/>
+ It would appear axiomatic that, since certain species have been shown to be active despite controlled environment, too many conclusions have been drawn in the study of activity, or its results in ecological communities, espe- cially with reference to the data collected on physical environmental factors.
+This content downloaded from 98.193.32.14 on Thu, 01 Jul 2021 17:04:16 UTCAll use subject to https://about.jstor.org/terms
+ April, 1935 STUDIES IN NOCTURNAL ECOLOGY i6i
+ In studying nocturnal animals, Park, Lockett and Myers ('31) found the environmental data paralleled animal activity. One of the species studied at that time was subsequently observed under controlled conditions in dark- ness (Park and Keller, '32) and this form, Boletotherus cornutus, gave the same nocturnal rhythm. In the first paper environmental control was the apparent explanation, although internal rhythmicity was realized to be a possibility; in the second paper, the data showed the activity to be an ex- pression of inherent rhythm within the limits of the experiments. Another species, Parcoblatta penusylzanica, studied under the same controlled con- ditions, was found to have its activity far more amenable to environmental manipulation.<Node id="25773"/> From this it appears unsafe to draw conclusions as to the cause or nature of population activity or movements within a community, unless at least the characteristic species have been thoroughly studied experi- mentally to determine the type of activity rhythm they manifest. A great amount of autecological work is indicated.<Node id="26099"/>
+ Future investigation may find that the several types of nocturnal activity noted here are quantitative concepts only, and hence the necessity for types of rhythm may eventually disappear. <Node id="26289"/>Naturally, the degree of inherent and of environmentally-induced activity is important as bearing upon the ageless problem of heredity and environment. Further, in species which may have inherent rhythms, there lies the further problem of the nature of the control, e.g., whether genetic, hormonal or both. <Node id="26596"/>The rhythm in the movement of eye pigment of several species of crustaceans recently demonstrated (Ben- nitt, '32; 'Welsh, '30) bears on this problem, and a vascular regulation is suggested by these authors, following the results of Perkins ('28), and Perkins and Kropp ('32).
+ The body temperature rhythm is obviously closely related to activity in warm-blooded animals, and analysis of temperature rhythm in both warm- and cold-blooded species has just begun. Hilden and Stenbach ('16) are said to have confined birds in a dark room and to have regulated activity by artificial light, and to have reversed the temperature cycle. Wetmore ('21) and Simpson and Galbraith ('05) found diurnal and nocturnal species to have directly opposite curves of body temperature, each type paralleling the respective active and inactive periods. \Vetmore is probably correct in thinking this rhythm a result of metabolic activity, although this is in turn partly a result of bodily activity. <Node id="27575"/>However the question arises to what ex- tent, if any, is this species activity inherent, and to what extent environ- mental. Further, inherent temperature rhythms may be looked for, even in cold-blooded animals. Far more exact methods and controlled experiments are needed to investigate this group of problems.<Node id="27886"/>
+ Following analysis of activity, we will be much nearer an appreciation of population curves in community studies. As yet no study in total nor stratal population for nocturnal animals is available, and the structural ad-
+This content downloaded from 98.193.32.14 on Thu, 01 Jul 2021 17:04:16 UTCAll use subject to https://about.jstor.org/terms
+ i62 ORLANDO PARK Ecology, Vol. 16, No. 2
+ justment of nocturnal species is very incompletely known (cf. literature
+ cited by Park and Keller, '32; Crawford, '33 a, b, '34; Walls, '31).
+ To what extent the nightly active species prey upon their fellows, and upon resting diurnal forms is also relatively unknown (Elton, '32). Clark
+ ('14) has suggested that the predative mammals and birds, which are largely
+ nocturnal, feed chiefly upon sleeping diurnal species, in fact owe their
+ nocturnalism to this ecological arrangement. Finally the origin of the noc-
+ turnal habit is quite unsolved and both Clark ('14) and Kennedy ('28) have interesting suggestions upon this point.
+ SUMMARY
+ Three types of recording apparatus for measuring nocturnal activity are
+ discussed briefly, and one of these described in detail.
+ An arhythmic form of activity is described for Passalus cornulus, and a
+ possible bearing of this upon the social habit is noted. An inherent activity rhythm is described for Spirobolhs mairginatus, and the relation of this in-
+ nate activity to progressive starvation is discussed.
+ An attempt is made to integrate partially a number of ecological and
+ physiological problems on the basis of activity, and the bearing of data on nocturnal rhythms upon current community analysis is suggested.
+ LITERATURE CITED
+ Bennitt, Rudolf. 1932a. Diurnal rhythm in the proximal pigment cells of the
+ crayfish retina. Phvsiol. Zoal. 5: 65-69.
+ . 1932b. Physiological interrelationship in the eyes of decapod crustaceae.
+ Physiol. Zoal. 5: 49-64.
+ Chu, H. P., and T. Sollmann. 1925a. The autonomic rhythm of the turtle heart,
+ as influenced by various conditions. Jour. Biochem. 5: 87-97. - 1925b. Idem, IV. Types of inhibited rhythms and Luciani groups. Anm.
+ Jour. Physiol. 74: 478-488.
+ Clark, A. H. 1914. Nocturnal animals. Jour. Wash. Acad. Sci. 4: 139-142. Crawford, S. C. 1933. A survey of nocturnal vertebrates in the Kartabo region oi
+ British Guiana. Jour. Animal Ecol. 2: 282-289.
+ 1934. The habits and characteristics of nocturnal animals. Quar. Rev. Biol.
+ 9: 201-214.
+ Crawford, S. C., and E. P. Jones. 1933. Field notes on some amphibians from British Guiana. Copeia, No. 2: 88-92.
+ Davis, D. H. S. 1932. Note in minutes of British Ecological Society, Jan. 1-3,
+ 1932. Jour. Ecol. 20: 228.
+ 1933. Rhythmic activity in the short-tailed vole, Microtus. Jour. Animal Ecol.
+ 2: 232-9.
+ Elton, Charles. 1932. (Review.) Jour. Animal Ecol. 1: 214. Hilden, A., and Stenbdck, K. S. 1916. Zur Kenntniss der Tagessch-wankungen
+ der Korpertemperatur bei den Vogeln. Skandinav. Arch. fur Physiol. 34: 382- 413. (Not seen.)
+ Johnson, M. S. 1926. Activity and distribution of certain wild mice in relation to biotic communities. Joulr. M/a0mm. 7: 245-277.
+This content downloaded from 98.193.32.14 on Thu, 01 Jul 2021 17:04:16 UTCAll use subject to https://about.jstor.org/terms
+ April, 1935 STUDIES IN NOCTURNAL ECOLOGY i63
+ Kennedy, C. H. 1928. Evolutionary level in relation to geographic, seasonal and
+ diurnal distribution of insects. Ecology 9: 367-379. Lutz, F. E. 1932a. Our ignorance concerning insects, Part II. Can. Ent. 64: 73-
+ 78.
+ 1932b. Experiments with Orthoptera concerning diurnal rhythm. Am. Mus.
+ Novitates, No. 550, pp. 1-24. Miller, W. C. 1932. The pupa-case building activities of Passulmts cornutus Fab.
+ Ann. Ent. Soc. Am. 25: 709-713.
+ Park, O., J. A. Lockett and D. J. Myers. 1931. Studies in nocturnal ecology with special reference to climax forest. Ecology 12: 709-727.
+ Park, O., and J. G. Keller. 1932. Studies in nocturnal ecology, II. Preliminary
+ analysis of activity rhythm in nocturnal forest insects. Ecology 13: 335-347. Perkins, E. B. 1928. Color change in crustaceans, especially in Palaeinonetes.
+ Joztr. Exp. Zool. 50: 71-105. Perkins, E. B., and B. Kropp. 1932. The crustacean eye hormone as a vertebrate
+ melanophore activator. Biol. Bull. 63: 108-112.
+ Simpson, S., and J. J. Galbraith. 1905. An investigation into the diurnal variation of the body temperature of nocturnal and other birds, and a few mammals.
+ Joour. Physiol. 33: 225-238. Walls, G. L. 1931. The occurrence of colored lenses in the eyes of snakes and
+ squirrels, and their probable significance. Copeia, No. 3: 125-27. Welsh, J. H. 1930. Diurnal rhythm of the distal pigment cells in the eyes of cer-
+ tain crustaceans. Proc. Nat. Acad. Sci. 16: 386-395. Wetmore, Alexander. 1921. A study of the body temperature of birds, Smithson.
+ Misc. Coll. 72: 1-52. Wheeler, W. M. 1923. Social life among the insects. N. Y., Harcourt, Brace, and
+ Co. vii + 375 pp.
+This content downloaded from 98.193.32.14 on Thu, 01 Jul 2021 17:04:16 UTCAll use subject to https://about.jstor.org/terms
+	Contents
+	p. 152
+	p. 153
+	p. 154
+	p. 155
+	p. 156
+	p. 157
+	p. 158
+	p. 159
+	p. 160
+	p. 161
+	p. 162
+	p. 163
+	Issue Table of Contents
+	Ecology, Vol. 16, No. 2 (Apr., 1935) pp. 127-280
+	Front Matter [pp. ]
+	Some Animal Relations to Soils [pp. 127-136]
+	The Role of Western White Pine in Forest Succession in Northern Idaho [pp. 137-151]
+	Studies in Nocturnal Ecology, III. Recording Apparatus and Further Analysis of Activity Rhythm [pp. 152-163]
+	Studies in Nocturnal Ecology, IV. Megalodacne Heros [pp. 164-172]
+	Peat Land as a Conserver of Rainfall and Water Supplies [pp. 173-177]
+	Root Systems in Illinois Prairie [pp. 178-202]
+	Flucutations in Biotic Communities I. Prairie-Forest Ecotone of Central Illinois [pp. 203-212]
+	Catastrophes and Pure Stands of Southern Shortleaf Pine [pp. 213-215]
+	Study of Arthropod Populations by the Method of Sweeping [pp. 216-225]
+	An Ecological Reconnaissance in the White Sands, New Mexico [pp. 226-233]
+	A Study of the Community Relationships of the Sea Mussel, Mytilus Edulis L. [pp. 234-243]
+	Ecological Succession in the Mytilus Californianus Habitat as Observed in Monterey Bay, California [pp. 244-251]
+	Origin of White Pine in Virgin Forest Stands of Northwestern Pennsylvania as Indicated by Stem and Basal Branch Features [pp. 252-256]
+	Coordinate Method of Mapping Low Shrubs [pp. 257-261]
+	Reviews
+	Phytogeography of the Yucatan Peninsula [pp. 262-263]
+	Moss Flora of North America [pp. 263]
+	Living Plant Materials in Prairie Soils [pp. 264]
+	Ecological Literature Received [pp. 265]
+	Proceedings: Business Meetings of the Ecological Society of America at Pittsburgh, Pennsylvania, December 27 and 28, 1934 [pp. 266-277]
+	Notes and Comment
+	Stomatal Frequency in Cereals [pp. 278-279]
+	Membership in the Ecological Society of America [pp. 279-280]
+	Back Matter [pp. ]
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="353" Type="title" StartNode="0" EndNode="94">
+</Annotation>
+<Annotation Id="354" Type="published_year" StartNode="253" EndNode="257">
+</Annotation>
+<Annotation Id="355" Type="author" StartNode="201" EndNode="214">
+</Annotation>
+<Annotation Id="358" Type="neither figured nor fully explained; this is very interesting - it's an indication that controls and precise experiment measurement recordings are important to the field" StartNode="1292" EndNode="2048">
+</Annotation>
+<Annotation Id="359" Type="Introduction; scientists are being cited in these opening sentences along with details of their experimental set-up (setting out the scope of the research question and how has been addressed)" StartNode="2050" EndNode="2409">
+</Annotation>
+<Annotation Id="360" Type="nor figured...nor fully described; again, scientist holds a frustration at the lack of experimental details, especially regarding the tools, apparatuses, or machines researchers used" StartNode="2569" EndNode="3099">
+</Annotation>
+<Annotation Id="361" Type="objectively; the first time I've seen objective/objectively show up in a paper and what makes this objective to the scientist is the use of a very well-recorded tool/apparatus " StartNode="3101" EndNode="3749">
+</Annotation>
+<Annotation Id="362" Type="FIG. 1; &quot;modern&quot; approach to a figure legend - there's a title sentence, and labels that point to different aspects or panels of the figure." StartNode="4398" EndNode="4948">
+</Annotation>
+<Annotation Id="363" Type="sensitive to half a gram; mass measurements for the apparatus " StartNode="5205" EndNode="5300">
+</Annotation>
+<Annotation Id="364" Type="for field...in the laboratory; this scientist is keenly aware and deciding about what materials, tools, or appartuses best fit this scientific concept of the &quot;field&quot; vs. the &quot;laboratory&quot;" StartNode="5866" EndNode="6029">
+</Annotation>
+<Annotation Id="365" Type="between two and three seconds; range, time " StartNode="6472" EndNode="6539">
+</Annotation>
+<Annotation Id="366" Type="a continuous record is formed; the growing importance between reproduciblity, specificity, and continuous measuring thanks to machines/apparatuses" StartNode="6539" EndNode="7166">
+</Annotation>
+<Annotation Id="367" Type="control; stressing laboratory conditions" StartNode="7885" EndNode="8051">
+</Annotation>
+<Annotation Id="368" Type="held practically constant; the notion/concept/idea of a control is being defined here" StartNode="8311" EndNode="8607">
+</Annotation>
+<Annotation Id="369" Type=" utilized; there is a need for flexiblity in the apparatus and resilience in order to be a strong functioning and consistent measurement-taker (this builds on our ideas of biases and a control)" StartNode="8831" EndNode="9095">
+</Annotation>
+<Annotation Id="371" Type="artificial environment ; again that need for consistency and flexibility is driving the nature of the apparatus and experiences for different species, also the growing connection between control and analysis of data" StartNode="9646" EndNode="9995">
+</Annotation>
+<Annotation Id="372" Type="data, apparatus, laboratory, field ; the distinction between supplies in the field and lab and how it shapes data to create comparisons" StartNode="10420" EndNode="10667">
+</Annotation>
+<Annotation Id="373" Type="further analysis ; it seems like the introduction of this piece is meshed with peer review analyses and there is no methods section. Analysis is also methodological rather than quantitative (based on results)" StartNode="10668" EndNode="10972">
+</Annotation>
+<Annotation Id="374" Type="categories ; " StartNode="10973" EndNode="11503">
+</Annotation>
+<Annotation Id="375" Type="objective ; objectivity shows up again - these eye measurements are seen as impercise and this author wanted to change the methodology to be so an appartus takes the measurement, not the human " StartNode="11505" EndNode="12021">
+</Annotation>
+<Annotation Id="376" Type="large numbers; the apparatus is molding the experiment before the experimental quesiton has even been asked" StartNode="12022" EndNode="12402">
+</Annotation>
+<Annotation Id="377" Type="Results ; a clearly marked results section" StartNode="12949" EndNode="12984">
+</Annotation>
+<Annotation Id="378" Type="table 1 ; " StartNode="13319" EndNode="13442">
+</Annotation>
+<Annotation Id="379" Type="laboratory ; methods in the lab explained, temperature ranges and rates of evaporation, etc. given in detail" StartNode="13610" EndNode="14149">
+</Annotation>
+<Annotation Id="380" Type="table 1 ; Clear table title and format as modern day papers could show" StartNode="14151" EndNode="14275">
+</Annotation>
+<Annotation Id="381" Type="little appreciable affect, individualized ; tested for and found no experimental effects, which defines a control and seems to reveal the behavior of the species more individually (the witnessing of the individualization of science)" StartNode="15244" EndNode="15616">
+</Annotation>
+<Annotation Id="382" Type="parallel the physical conditions ; what is the relationship between the laboratory and the field? How is this scientist understanding it without testing it?" StartNode="15809" EndNode="15968">
+</Annotation>
+<Annotation Id="383" Type="per cent, averages ;" StartNode="16108" EndNode="16265">
+</Annotation>
+<Annotation Id="384" Type="FIG. 2 ; hand-drawn figure? and neat figure legend with details as we might expect today" StartNode="16501" EndNode="16680">
+</Annotation>
+<Annotation Id="385" Type="postulate ; categorizing, creating a new category based on findings" StartNode="16681" EndNode="16886">
+</Annotation>
+<Annotation Id="387" Type="social instincts, solitary species; categorization between social and solitary specie behavior and the relationship with rhythms of activity" StartNode="16964" EndNode="17473">
+</Annotation>
+<Annotation Id="388" Type="causal factor; these analyses, conclusions on the data are mixed with the results (no separate discussion section), scientist is also trying to determine the direciton of causality in their expeiment" StartNode="17694" EndNode="17877">
+</Annotation>
+<Annotation Id="389" Type="Results ; a clearly marked results section" StartNode="18261" EndNode="18300">
+</Annotation>
+<Annotation Id="390" Type="FIG.3 ; " StartNode="18520" EndNode="19050">
+</Annotation>
+<Annotation Id="391" Type="without anything to eat or drink; experiment ran until death of the subject (ethics?)" StartNode="19548" EndNode="19832">
+</Annotation>
+<Annotation Id="392" Type="TABLE III ;" StartNode="20013" EndNode="20346">
+</Annotation>
+<Annotation Id="393" Type="dead-seated mechanism, percent, hours ; what sort of theory of evolution is this scientist proposing? Their ecology theory was the social vs. solitary theory of specie units but what about traits?" StartNode="21076" EndNode="21346">
+</Annotation>
+<Annotation Id="394" Type="significance ; the significance section resembles the end of the discussion" StartNode="21917" EndNode="21970">
+</Annotation>
+<Annotation Id="395" Type="internal states ; internal states gets at the idea of traits and adaptation in a subtle way" StartNode="21971" EndNode="22631">
+</Annotation>
+<Annotation Id="396" Type="experimentally modified ; the purpose of the lab and the experiment is to create specific responses and stimuli, expand modification " StartNode="23970" EndNode="24101">
+</Annotation>
+<Annotation Id="397" Type="habits or instincts; the word the scientist may be looking for is trait" StartNode="24306" EndNode="24542">
+</Annotation>
+<Annotation Id="398" Type="the type...they manifest ; again the notion of traits and population dynamics/adaption of traits is strong here even though not explicit" StartNode="25773" EndNode="26099">
+</Annotation>
+<Annotation Id="399" Type="heredity ; the need of a control and the laboratory spurred by the need to define evolution as a concept, had evolution not been the main ideological framework, would we have labs?" StartNode="26289" EndNode="26596">
+</Annotation>
+<Annotation Id="400" Type="far more exact methods and controlled experiments are needed ; precision and accuracy rising in demand in order to understand the split or relatinship between environment and subject, this idea could have been heighted by the idea of individualism in human capitalist culture" StartNode="27575" EndNode="27886">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>
