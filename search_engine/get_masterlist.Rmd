@@ -238,7 +238,7 @@ dt = dd[order(-dd$`Publication Year`, -dd$CiteX),]
 write.csv(dt, "filtered_articles2.csv") 
 ```
 
-c) Get top 5 cited and bottom 5 cited. Could also become top 5% or bottom 5% because there can be a lot of papers only cited once and it doesn't really matter.
+c) Get top 10% or bottom 10% cited.
 
 ```{r}
 unique(dt$`Publication Year`) # notice that there were no papers published before 1920
@@ -304,11 +304,13 @@ colnames(datat) = c("", paste0("group",q))
 colnames(datab) = c("", paste0("group",q))
 
 masterlist = rbind(datat, datab)
+masterlist$reader = ""
+
 masterlist
 ```
 
 ## Write as a CSV file
 
 ```{r}
-write.csv(masterlist, "masterlist2.csv") 
+write.csv(masterlist, "masterlist3.csv") 
 ```
