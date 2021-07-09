@@ -62,20 +62,46 @@ data10B <- read_excel("xls_exports/basicsearch-10.xls")
 data11B <- read_excel("xls_exports/basicsearch-11.xls")
 data12B <- read_excel("xls_exports/basicsearch-12.xls")
 
-# cite1 <- read_excel("xls_exports/yr_citations.xls")
-# cite2 <- read_excel("xls_exports/yr_citations-2.xls")
-# cite3 <- read_excel("xls_exports/yr_citations-3.xls")
+cite1A <- read_excel("xls_exports/advancedcite-1.xls")
+cite2A <- read_excel("xls_exports/advancedcite-2.xls")
+cite3A <- read_excel("xls_exports/advancedcite-3.xls")
 
+cite1B <- read_excel("xls_exports/basiccite-1.xls")
+cite2B <- read_excel("xls_exports/basiccite-2.xls")
+cite3B <- read_excel("xls_exports/basiccite-3.xls")
+cite4B <- read_excel("xls_exports/basiccite-4.xls")
+cite5B <- read_excel("xls_exports/basiccite-5.xls")
+cite6B <- read_excel("xls_exports/basiccite-6.xls")
+cite7B <- read_excel("xls_exports/basiccite-7.xls")
+cite8B <- read_excel("xls_exports/basiccite-8.xls")
+cite9B <- read_excel("xls_exports/basiccite-9.xls")
+cite10B <- read_excel("xls_exports/basiccite-10.xls")
+cite11B <- read_excel("xls_exports/basiccite-11.xls")
+cite12B <- read_excel("xls_exports/basiccite-12.xls")
 
-# cite1 = clean_cite_data(cite1, cols)
-# cite2 = clean_cite_data(cite2, cols)
-# cite3 = clean_cite_data(cite3, cols)
+cite1A = clean_cite_data(cite1A, cols)
+cite2A = clean_cite_data(cite2A, cols)
+cite3A = clean_cite_data(cite3A, cols)
+
+cite1B = clean_cite_data(cite1B, cols)
+cite2B = clean_cite_data(cite2B, cols)
+cite3B = clean_cite_data(cite3B, cols)
+cite4B = clean_cite_data(cite4B, cols)
+cite5B = clean_cite_data(cite5B, cols)
+cite6B = clean_cite_data(cite6B, cols)
+cite7B = clean_cite_data(cite7B, cols)
+cite8B = clean_cite_data(cite8B, cols)
+cite9B = clean_cite_data(cite9B, cols)
+cite10B = clean_cite_data(cite10B, cols)
+cite11B = clean_cite_data(cite11B, cols)
+cite12B = clean_cite_data(cite12B, cols)
 
 dataTS9J2 = rbind(data1A,data2A,data3A)
 dataBAJ2 = rbind(data1B,data2B,data3B,data4B,data5B,data6B,
                  data7B,data8B,data9B,data10B,data11B,data12B)
-# citesTS9J2 = rbind(cite1, cite2, cite3)
-# citesBAJ2 = rbind()
+citesTS9J2 = rbind(cite1A,cite2A,cite3A)
+citesBAJ2 = rbind(cite1B,cite2B,cite3B,cite4B,cite5B,cite6B,
+                  cite7B,cite8B,cite9B,cite10B,cite11B,cite12B)
 ```
 
 2) Remove unnecessary columns 
@@ -113,21 +139,43 @@ dBAJ2 = dataBAJ2 %>%
 ```{r}
 remove_cols = c("Corporate Authors","Editors","Book Editors","Supplement","Special Issue","Conference Title","Conference Date")
 
-c = citesWC %>%
+cWC = citesWC %>%
+  select(-remove_cols)
+```
+
+```{r}
+cTS9J2 = citesTS9J2 %>%
+  select(-remove_cols)
+
+cBAJ2 = citesBAJ2 %>%
   select(-remove_cols)
 ```
 
 3) Clean inconsistent data entries
 
 ```{r}
-c$`Publication Year` = as.numeric(c$`Publication Year`)
+cWC$`Publication Year` = as.numeric(cWC$`Publication Year`)
 ```
+
+```{r}
+cTS9J2$`Publication Year` = as.numeric(cTS9J2$`Publication Year`)
+cBAJ2$`Publication Year` = as.numeric(cBAJ2$`Publication Year`)
+```
+
 
 4) Order the data by year and article title 
 
 ```{r}
-do = d[order(-dWC$`Publication Year`, dWC$`Article Title`),]
-co = c[order(-c$`Publication Year`, c$Title),]
+doWC = dWC[order(-dWC$`Publication Year`, dWC$`Article Title`),]
+coWC = cWC[order(-cWC$`Publication Year`, cWC$Title),]
+```
+
+```{r}
+doTS9J2 = dTS9J2[order(-dTS9J2$`Publication Year`, dTS9J2$`Article Title`),]
+doBAJ2 = dBAJ2[order(-dBAJ2$`Publication Year`, dBAJ2$`Article Title`),]
+
+coTS9J2 = cTS9J2[order(-cTS9J2$`Publication Year`, cTS9J2$Title),]
+coBAJ2 = cBAJ2[order(-cBAJ2$`Publication Year`, cBAJ2$Title),]
 ```
 
 ## Filtering
@@ -135,79 +183,122 @@ co = c[order(-c$`Publication Year`, c$Title),]
 1) Filter out duplicates
 
 ```{r}
-df = do[!duplicated(do$`Article Title`),]
-cf = co[!duplicated(co$Title),]
+dfWC = doWC[!duplicated(doWC$`Article Title`),]
+cfWC = coWC[!duplicated(coWC$Title),]
 ```
 
-2) Determine citation year range (str). 
+```{r}
+dfTS9J2 = doTS9J2[!duplicated(doTS9J2$`Article Title`),]
+dfBAJ2 = doBAJ2[!duplicated(doBAJ2$`Article Title`),]
+
+cfTS9J2 = coTS9J2[!duplicated(coTS9J2$Title),]
+cfBAJ2 = coBAJ2[!duplicated(coBAJ2$Title),]
+```
+
+2) Determine citation year range (str). [First year cited to the last year cited]
 
 ```{r warning=FALSE}
-r = c()
-s = c()
-e = c()
-for (i in 1:nrow(cf)) { 
-  yrs = unlist(cf[i,15:length(cf)])
-
-  if (sum(yrs) == 0) {
-    range = ""
-    r = c(r, range)
-    s = c(s, range)
-    e = c(e, range)
-  }
-  if (sum(yrs) > 0) {
-    yrscited = which(yrs > 1)
-    
-    if (length(yrscited) == 0) {
+get_citation_yr_range = function(cf, df) {
+  
+  r = c()
+  s = c()
+  e = c()
+  
+  for (i in 1:nrow(cf)) { 
+    yrs = unlist(cf[i,15:length(cf)])
+  
+    if (sum(yrs) == 0) {
       range = ""
       r = c(r, range)
       s = c(s, range)
       e = c(e, range)
     }
-    if (length(yrscited) == 1) {
-      range = names(yrscited)
-      r = c(r, range)
-      s = c(s, range)
-      e = c(e, range)
-    }
-    if (length(yrscited) > 1) {
-      all_yrs = (as.numeric(names(yrscited)))
-      start_yr = min(all_yrs)
-      end_yr = max(all_yrs)
-      range = paste0(start_yr,"-", end_yr)
-      r = c(r, range)
-      s = c(s, start_yr)
-      e = c(e, end_yr)
+    if (sum(yrs) > 0) {
+      yrscited = which(yrs > 1)
+      
+      if (length(yrscited) == 0) {
+        range = ""
+        r = c(r, range)
+        s = c(s, range)
+        e = c(e, range)
+      }
+      if (length(yrscited) == 1) {
+        range = names(yrscited)
+        r = c(r, range)
+        s = c(s, range)
+        e = c(e, range)
+      }
+      if (length(yrscited) > 1) {
+        all_yrs = (as.numeric(names(yrscited)))
+        start_yr = min(all_yrs)
+        end_yr = max(all_yrs)
+        range = paste0(start_yr,"-", end_yr)
+        r = c(r, range)
+        s = c(s, start_yr)
+        e = c(e, end_yr)
+      }
     }
   }
+  
+  cf$YrRange = r
+  cf$YrStart = s
+  cf$YrEnd = e
+  
+  df$YrRange = r
+  df$YrStart = s
+  df$YrEnd = e
+
+  return(list(cf,df))
 }
-length(r)
-length(s)
-length(e)
 ```
 
-```{r warning=FALSE}
-cf$YrRange = r
-cf$YrStart = s
-cf$YrEnd = e
-
-df$YrRange = r
-df$YrStart = s
-df$YrEnd = e
+```{r}
+cfWCy = get_citation_yr_range(cfWC, dfWC)[[1]]
+dfWCy = get_citation_yr_range(cfWC, dfWC)[[2]]
 ```
+
+```{r}
+cfTS9J2y = get_citation_yr_range(cfTS9J2, dfTS9J2)[[1]]
+dfTS9J2y = get_citation_yr_range(cfTS9J2, dfTS9J2)[[2]]
+
+cfBAJ2y = get_citation_yr_range(cfBAJ2, dfBAJ2)[[1]]
+dfBAJ2y = get_citation_yr_range(cfBAJ2, dfBAJ2)[[2]]
+```
+
 
 3) Compute the number times cited from 1900-1999.
 
 ```{r}
-years = cf[,18:length(cf)-3]
-cf$CiteT = rowSums(years) 
-df$CiteT = cf$CiteT
+get_num_cited = function(cf, df) {
+  
+  years = cf[,18:length(cf)-3]
+  cf$CiteT = rowSums(years) 
+  df$CiteT = cf$CiteT 
+  
+  return(list(cf,df))
+}
+```
+
+```{r}
+cfWCyn = get_num_cited(cfWCy,dfWCy)[[1]]
+dfWCyn = get_num_cited(cfWCy,dfWCy)[[2]]
+```
+
+```{r}
+cfTS9J2yn = get_num_cited(cfTS9J2y,dfTS9J2y)[[1]]
+dfTS9J2yn = get_num_cited(cfTS9J2y,dfTS9J2y)[[2]]
+
+cfBAJ2yn = get_num_cited(cfBAJ2y,dfBAJ2y)[[1]]
+dfBAJ2yn = get_num_cited(cfBAJ2y,dfBAJ2y)[[2]]
 ```
 
 4) Compare citation metrics.
 
 ```{r}
-df$CiteX = df$`Times Cited, All Databases` - df$`Since 2013 Usage Count`
-cbind(df$CiteT,df$CiteX)[1:10,] 
+dfWCyn$CiteX = dfWCyn$`Times Cited, All Databases` - dfWCyn$`Since 2013 Usage Count`
+compare = cbind(dfWCyn$CiteT,dfWCyn$CiteX)[1:10,] 
+colnames(compare) = c("Times Cited (1900-1999) ", "Num Cited All Years - Cited Since 2013")
+compare
 ```
 
 It is probably the case that 2000 onwards, papers were cited much more frequently and it shows: http://apps.webofknowledge.com.proxy.uchicago.edu/summary.do?product=WOS&parentProduct=WOS&search_mode=CitationReport&qid=3&SID=5C1gNouD5pzsDOQyCCj&&page=1&action=sort&sortBy=PY.A;LD.A;SO.A.en;VL.A;PG.A;AU.A.en&showFirstPage=1&isCRHidden=false.
@@ -226,14 +317,20 @@ invisible(t.col)
 ```
 
 ```{r}
-dp = cbind(as.numeric(df$CiteT),
-      as.numeric(df$CiteX), 
-      as.numeric(df$YrStart), 
-      as.numeric(df$YrEnd))
-dp = as.data.frame(dp)
-colnames(dp) = c("CiteT", "CiteX", "YrStart", "YrEnd")
-dp = dp[complete.cases(dp),]
+get_data_for_plotting = function(df) {
+  dp = cbind(as.numeric(df$CiteT),
+             as.numeric(df$YrStart), 
+             as.numeric(df$YrEnd))
+  dp = as.data.frame(dp)
+  colnames(dp) = c("CiteT", "YrStart", "YrEnd")
+  dp = dp[complete.cases(dp),]
+  
+  return(dp)
+}
+```
 
+```{r}
+dp = get_data_for_plotting(dfWCyn)
 plot(1, type="n", xlab="Year", ylab="Number of Citations Per Year Range", 
      xlim=c(1920,1999), ylim=c(0,610), 
      main="blue <=20 yr range | black = remaining")
@@ -245,6 +342,49 @@ for (i in 1:nrow(dp)){
     lines(c(dp$YrStart[i], dp$YrEnd[i]), c(dp$CiteT[i], dp$CiteT[i]), type="l", col=t_col("black"))}
 }
 ```
+
+```{r}
+get_data_for_plotting = function(df) {
+  dp = cbind(as.numeric(df$CiteT),
+             as.numeric(df$YrStart), 
+             as.numeric(df$YrEnd))
+  dp = as.data.frame(dp)
+  colnames(dp) = c("CiteT", "YrStart", "YrEnd")
+  dp = dp[complete.cases(dp),]
+  
+  return(dp)
+}
+```
+
+```{r}
+dp = get_data_for_plotting(dfTS9J2yn)
+plot(1, type="n", xlab="Year", ylab="Number of Citations Per Year Range", 
+     xlim=c(1920,1999), ylim=c(0,610), 
+     main="blue <=20 yr range | black = remaining")
+for (i in 1:nrow(dp)){
+  if (dp$YrEnd[i]-dp$YrStart[i] <=20) {
+    lines(c(dp$YrStart[i], dp$YrEnd[i]), c(dp$CiteT[i], dp$CiteT[i]), type="l", col="blue")
+  }
+  else {
+    lines(c(dp$YrStart[i], dp$YrEnd[i]), c(dp$CiteT[i], dp$CiteT[i]), type="l", col=t_col("black"))}
+}
+```
+```{r}
+dp = get_data_for_plotting(dfBAJ2yn)
+plot(1, type="n", xlab="Year", ylab="Number of Citations Per Year Range", 
+     xlim=c(1920,1999), ylim=c(0,610), 
+     main="blue <=20 yr range | black = remaining")
+for (i in 1:nrow(dp)){
+  if (dp$YrEnd[i]-dp$YrStart[i] <=20) {
+    lines(c(dp$YrStart[i], dp$YrEnd[i]), c(dp$CiteT[i], dp$CiteT[i]), type="l", col="blue")
+  }
+  else {
+    lines(c(dp$YrStart[i], dp$YrEnd[i]), c(dp$CiteT[i], dp$CiteT[i]), type="l", col=t_col("black"))}
+}
+```
+
+<<<<<< stopped here >>>>>>
+
 
 6) Compute some weighted or comparable factor.
 
