@@ -20,13 +20,13 @@ knitr::opts_chunk$set(echo = TRUE)
 1) Read XLS file
 
 ```{r message=FALSE}
-data2 <- read_excel("savedrecs-2.xls")
-data3 <- read_excel("savedrecs-3.xls")
-data4 <- read_excel("savedrecs-4.xls")
+data2 <- read_excel("xls_exports/savedrecs-2.xls")
+data3 <- read_excel("xls_exports/savedrecs-3.xls")
+data4 <- read_excel("xls_exports/savedrecs-4.xls")
 
-cite1 <- read_excel("yr_citations.xls")
-cite2 <- read_excel("yr_citations-2.xls")
-cite3 <- read_excel("yr_citations-3.xls")
+cite1 <- read_excel("xls_exports/yr_citations.xls")
+cite2 <- read_excel("xls_exports/yr_citations-2.xls")
+cite3 <- read_excel("xls_exports/yr_citations-3.xls")
 
 cols = c("Title","Authors","Corporate Authors","Editors","Book Editors","Source Title","Publication Date","Publication Year","Volume","Issue","Part Number","Supplement","Special Issue","Beginning Page","Ending Page","Article Number","DOI","Conference Title","Conference Date","Total Citations","Average per Year","1900","1901","1902","1903","1904","1905","1906","1907","1908","1909","1910","1911","1912","1913","1914","1915","1916","1917","1918","1919","1920","1921","1922","1923","1924","1925","1926","1927","1928","1929","1930","1931","1932","1933","1934","1935","1936","1937","1938","1939","1940","1941","1942","1943","1944","1945","1946","1947","1948","1949","1950","1951","1952","1953","1954","1955","1956","1957","1958","1959","1960","1961","1962","1963","1964","1965","1966","1967","1968","1969","1970","1971","1972","1973","1974","1975","1976","1977","1978","1979","1980","1981","1982","1983","1984","1985","1986","1987","1988","1989","1990","1991","1992","1993","1994","1995","1996","1997","1998","1999")
 
@@ -40,8 +40,42 @@ cite1 = clean_cite_data(cite1, cols)
 cite2 = clean_cite_data(cite2, cols)
 cite3 = clean_cite_data(cite3, cols)
 
-data = rbind(data2,data3,data4)
-cites = rbind(cite1, cite2, cite3)
+dataWC = rbind(data2,data3,data4)
+citesWC = rbind(cite1, cite2, cite3)
+```
+
+```{r message=FALSE}
+data1A <- read_excel("xls_exports/advancedsearch-1.xls")
+data2A <- read_excel("xls_exports/advancedsearch-2.xls")
+data3A <- read_excel("xls_exports/advancedsearch-3.xls")
+
+data1B <- read_excel("xls_exports/basicsearch-1.xls")
+data2B <- read_excel("xls_exports/basicsearch-2.xls")
+data3B <- read_excel("xls_exports/basicsearch-3.xls")
+data4B <- read_excel("xls_exports/basicsearch-4.xls")
+data5B <- read_excel("xls_exports/basicsearch-5.xls")
+data6B <- read_excel("xls_exports/basicsearch-6.xls")
+data7B <- read_excel("xls_exports/basicsearch-7.xls")
+data8B <- read_excel("xls_exports/basicsearch-8.xls")
+data9B <- read_excel("xls_exports/basicsearch-9.xls")
+data10B <- read_excel("xls_exports/basicsearch-10.xls")
+data11B <- read_excel("xls_exports/basicsearch-11.xls")
+data12B <- read_excel("xls_exports/basicsearch-12.xls")
+
+# cite1 <- read_excel("xls_exports/yr_citations.xls")
+# cite2 <- read_excel("xls_exports/yr_citations-2.xls")
+# cite3 <- read_excel("xls_exports/yr_citations-3.xls")
+
+
+# cite1 = clean_cite_data(cite1, cols)
+# cite2 = clean_cite_data(cite2, cols)
+# cite3 = clean_cite_data(cite3, cols)
+
+dataTS9J2 = rbind(data1A,data2A,data3A)
+dataBAJ2 = rbind(data1B,data2B,data3B,data4B,data5B,data6B,
+                 data7B,data8B,data9B,data10B,data11B,data12B)
+# citesTS9J2 = rbind(cite1, cite2, cite3)
+# citesBAJ2 = rbind()
 ```
 
 2) Remove unnecessary columns 
@@ -58,7 +92,19 @@ drop_identifiers = c("Email Addresses", "Researcher Ids", "ORCIDs", "ISSN",
 drop_nuances = c("Cited Reference Count", "Times Cited, WoS Core", 
                  "180 Day Usage Count", "Highly Cited Status", "Hot Paper Status")
 
-d = data %>%
+dWC = dataWC %>%
+  select(-remove_cols) %>%
+  select(-drop_identifiers) %>%
+  select(-drop_nuances)
+```
+
+```{r}
+dTS9J2 = dataTS9J2 %>%
+  select(-remove_cols) %>%
+  select(-drop_identifiers) %>%
+  select(-drop_nuances)
+
+dBAJ2 = dataBAJ2 %>%
   select(-remove_cols) %>%
   select(-drop_identifiers) %>%
   select(-drop_nuances)
@@ -67,7 +113,7 @@ d = data %>%
 ```{r}
 remove_cols = c("Corporate Authors","Editors","Book Editors","Supplement","Special Issue","Conference Title","Conference Date")
 
-c = cites %>%
+c = citesWC %>%
   select(-remove_cols)
 ```
 
@@ -80,7 +126,7 @@ c$`Publication Year` = as.numeric(c$`Publication Year`)
 4) Order the data by year and article title 
 
 ```{r}
-do = d[order(-d$`Publication Year`, d$`Article Title`),]
+do = d[order(-dWC$`Publication Year`, dWC$`Article Title`),]
 co = c[order(-c$`Publication Year`, c$Title),]
 ```
 
@@ -235,7 +281,7 @@ dt = dd[order(-dd$`Publication Year`, -dd$CiteX),]
 ```
 
 ```{r}
-write.csv(dt, "filtered_articles2.csv") 
+write.csv(dt, "output/filtered_articles2.csv") 
 ```
 
 c) Get top 10% or bottom 10% cited.
@@ -312,5 +358,5 @@ masterlist
 ## Write as a CSV file
 
 ```{r}
-write.csv(masterlist, "masterlist3.csv") 
+write.csv(masterlist, "output/masterlist3.csv") 
 ```
