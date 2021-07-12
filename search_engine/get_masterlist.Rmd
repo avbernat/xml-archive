@@ -15,6 +15,20 @@ setwd(dir)
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## Read Source Files
+
+```{r message=FALSE}
+source_path = paste0(dir,"/src/")
+
+script_names = c("get_cite_yr_range.R", # 1 function: get_citation_yr_range()
+                 "plotting_helpers.R") 
+
+for (script in script_names) { 
+  path = paste0(source_path, script)
+  source(path) 
+}
+```
+
 ## Read XLS file and remove unnecessary
 
 1) Read XLS file
@@ -197,61 +211,6 @@ cfBAJ2 = coBAJ2[!duplicated(coBAJ2$Title),]
 
 2) Determine citation year range (str). [First year cited to the last year cited]
 
-```{r warning=FALSE}
-get_citation_yr_range = function(cf, df) {
-  
-  r = c()
-  s = c()
-  e = c()
-  
-  for (i in 1:nrow(cf)) { 
-    yrs = unlist(cf[i,15:length(cf)])
-  
-    if (sum(yrs) == 0) {
-      range = ""
-      r = c(r, range)
-      s = c(s, range)
-      e = c(e, range)
-    }
-    if (sum(yrs) > 0) {
-      yrscited = which(yrs > 1)
-      
-      if (length(yrscited) == 0) {
-        range = ""
-        r = c(r, range)
-        s = c(s, range)
-        e = c(e, range)
-      }
-      if (length(yrscited) == 1) {
-        range = names(yrscited)
-        r = c(r, range)
-        s = c(s, range)
-        e = c(e, range)
-      }
-      if (length(yrscited) > 1) {
-        all_yrs = (as.numeric(names(yrscited)))
-        start_yr = min(all_yrs)
-        end_yr = max(all_yrs)
-        range = paste0(start_yr,"-", end_yr)
-        r = c(r, range)
-        s = c(s, start_yr)
-        e = c(e, end_yr)
-      }
-    }
-  }
-  
-  cf$YrRange = r
-  cf$YrStart = s
-  cf$YrEnd = e
-  
-  df$YrRange = r
-  df$YrStart = s
-  df$YrEnd = e
-
-  return(list(cf,df))
-}
-```
-
 ```{r}
 cfWCy = get_citation_yr_range(cfWC, dfWC)[[1]]
 dfWCy = get_citation_yr_range(cfWC, dfWC)[[2]]
@@ -306,84 +265,33 @@ It is probably the case that 2000 onwards, papers were cited much more frequentl
 5) Create a plot that shows the year range on the x axis and on the y the number of times cited.
 
 ```{r}
-t_col <- function(color, percent = 70, name = NULL) {
-  rgb.val <- col2rgb(color)
-  t.col <- rgb(rgb.val[1], rgb.val[2], rgb.val[3],
-             max = 255,
-             alpha = (100 - percent) * 255 / 100,
-             names = name)
-invisible(t.col)
-}
+dp1 = get_data_for_plotting(dfWCyn)
+generate_citation_plot(dp1)  # At first glance, it looks like the WC category retains papers that were most likely published from 1930 to 1960 and cited till the end of the century.
+
+dp2 = get_data_for_plotting(dfTS9J2yn)
+generate_citation_plot(dp2) # Noticing that this group has two groups: those cited since the 1920's and those cited since the 1970's.
+
+dp3 = get_data_for_plotting(dfBAJ2yn)
+generate_citation_plot(dp3) # This search mimics dp2, but it also has the most papers that were published from 1930-1960 and cited till the end of the century.
 ```
 
 ```{r}
-get_data_for_plotting = function(df) {
-  dp = cbind(as.numeric(df$CiteT),
-             as.numeric(df$YrStart), 
-             as.numeric(df$YrEnd))
-  dp = as.data.frame(dp)
-  colnames(dp) = c("CiteT", "YrStart", "YrEnd")
-  dp = dp[complete.cases(dp),]
-  
-  return(dp)
-}
+# check overlapping articles using intersect()
+overlapping_articles = intersect(dfTS9J2yn$`Article Title`,dfBAJ2yn$`Article Title`)
+length(overlapping_articles) # all aritcles in dfTS9J2yn are in dfBAJ2yn
+
+# remove overlapping articles from dfBAJ2yn
+dfBAJ2ynR <- dfBAJ2yn[ ! dfBAJ2yn$`Article Title` %in% overlapping_articles, ]
 ```
 
 ```{r}
-dp = get_data_for_plotting(dfWCyn)
-plot(1, type="n", xlab="Year", ylab="Number of Citations Per Year Range", 
-     xlim=c(1920,1999), ylim=c(0,610), 
-     main="blue <=20 yr range | black = remaining")
-for (i in 1:nrow(dp)){
-  if (dp$YrEnd[i]-dp$YrStart[i] <=20) {
-    lines(c(dp$YrStart[i], dp$YrEnd[i]), c(dp$CiteT[i], dp$CiteT[i]), type="l", col="blue")
-  }
-  else {
-    lines(c(dp$YrStart[i], dp$YrEnd[i]), c(dp$CiteT[i], dp$CiteT[i]), type="l", col=t_col("black"))}
-}
+dp4 = get_data_for_plotting(dfBAJ2ynR)
+generate_citation_plot(dp4) # removing dfTS9J2yn doesn't seem to make a dent in the overall composition of this pool of papers. Need to then check how necessary are these papers and why were they removed?
 ```
 
 ```{r}
-get_data_for_plotting = function(df) {
-  dp = cbind(as.numeric(df$CiteT),
-             as.numeric(df$YrStart), 
-             as.numeric(df$YrEnd))
-  dp = as.data.frame(dp)
-  colnames(dp) = c("CiteT", "YrStart", "YrEnd")
-  dp = dp[complete.cases(dp),]
-  
-  return(dp)
-}
+dfBAJ2ynR
 ```
-
-```{r}
-dp = get_data_for_plotting(dfTS9J2yn)
-plot(1, type="n", xlab="Year", ylab="Number of Citations Per Year Range", 
-     xlim=c(1920,1999), ylim=c(0,610), 
-     main="blue <=20 yr range | black = remaining")
-for (i in 1:nrow(dp)){
-  if (dp$YrEnd[i]-dp$YrStart[i] <=20) {
-    lines(c(dp$YrStart[i], dp$YrEnd[i]), c(dp$CiteT[i], dp$CiteT[i]), type="l", col="blue")
-  }
-  else {
-    lines(c(dp$YrStart[i], dp$YrEnd[i]), c(dp$CiteT[i], dp$CiteT[i]), type="l", col=t_col("black"))}
-}
-```
-```{r}
-dp = get_data_for_plotting(dfBAJ2yn)
-plot(1, type="n", xlab="Year", ylab="Number of Citations Per Year Range", 
-     xlim=c(1920,1999), ylim=c(0,610), 
-     main="blue <=20 yr range | black = remaining")
-for (i in 1:nrow(dp)){
-  if (dp$YrEnd[i]-dp$YrStart[i] <=20) {
-    lines(c(dp$YrStart[i], dp$YrEnd[i]), c(dp$CiteT[i], dp$CiteT[i]), type="l", col="blue")
-  }
-  else {
-    lines(c(dp$YrStart[i], dp$YrEnd[i]), c(dp$CiteT[i], dp$CiteT[i]), type="l", col=t_col("black"))}
-}
-```
-
-<<<<<< stopped here >>>>>>
 
 
 6) Compute some weighted or comparable factor.
