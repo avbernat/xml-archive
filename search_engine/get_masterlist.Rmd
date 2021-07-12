@@ -34,15 +34,7 @@ for (script in script_names) {
 1) Read XLS file
 
 ```{r message=FALSE}
-data2 <- read_excel("xls_exports/savedrecs-2.xls")
-data3 <- read_excel("xls_exports/savedrecs-3.xls")
-data4 <- read_excel("xls_exports/savedrecs-4.xls")
-
-cite1 <- read_excel("xls_exports/yr_citations.xls")
-cite2 <- read_excel("xls_exports/yr_citations-2.xls")
-cite3 <- read_excel("xls_exports/yr_citations-3.xls")
-
-cols = c("Title","Authors","Corporate Authors","Editors","Book Editors","Source Title","Publication Date","Publication Year","Volume","Issue","Part Number","Supplement","Special Issue","Beginning Page","Ending Page","Article Number","DOI","Conference Title","Conference Date","Total Citations","Average per Year","1900","1901","1902","1903","1904","1905","1906","1907","1908","1909","1910","1911","1912","1913","1914","1915","1916","1917","1918","1919","1920","1921","1922","1923","1924","1925","1926","1927","1928","1929","1930","1931","1932","1933","1934","1935","1936","1937","1938","1939","1940","1941","1942","1943","1944","1945","1946","1947","1948","1949","1950","1951","1952","1953","1954","1955","1956","1957","1958","1959","1960","1961","1962","1963","1964","1965","1966","1967","1968","1969","1970","1971","1972","1973","1974","1975","1976","1977","1978","1979","1980","1981","1982","1983","1984","1985","1986","1987","1988","1989","1990","1991","1992","1993","1994","1995","1996","1997","1998","1999")
+keep_cols = c("Title","Authors","Corporate Authors","Editors","Book Editors","Source Title","Publication Date","Publication Year","Volume","Issue","Part Number","Supplement","Special Issue","Beginning Page","Ending Page","Article Number","DOI","Conference Title","Conference Date","Total Citations","Average per Year","1900","1901","1902","1903","1904","1905","1906","1907","1908","1909","1910","1911","1912","1913","1914","1915","1916","1917","1918","1919","1920","1921","1922","1923","1924","1925","1926","1927","1928","1929","1930","1931","1932","1933","1934","1935","1936","1937","1938","1939","1940","1941","1942","1943","1944","1945","1946","1947","1948","1949","1950","1951","1952","1953","1954","1955","1956","1957","1958","1959","1960","1961","1962","1963","1964","1965","1966","1967","1968","1969","1970","1971","1972","1973","1974","1975","1976","1977","1978","1979","1980","1981","1982","1983","1984","1985","1986","1987","1988","1989","1990","1991","1992","1993","1994","1995","1996","1997","1998","1999")
 
 clean_cite_data = function(d, cnames) {
   colnames(d) = cnames
@@ -50,65 +42,70 @@ clean_cite_data = function(d, cnames) {
   return(d)
 }
 
-cite1 = clean_cite_data(cite1, cols)
-cite2 = clean_cite_data(cite2, cols)
-cite3 = clean_cite_data(cite3, cols)
+data1 <- read_excel("xls_exports/WCUSA-search-1.xls")
+data2 <- read_excel("xls_exports/WCUSA-search-2.xls")
 
-dataWC = rbind(data2,data3,data4)
-citesWC = rbind(cite1, cite2, cite3)
+cite1 <- read_excel("xls_exports/WCUSA-cite-1.xls")
+cite2 <- read_excel("xls_exports/WCUSA-cite-2.xls")
+
+cite1 = clean_cite_data(cite1, keep_cols)
+cite2 = clean_cite_data(cite2, keep_cols)
+
+dataWCUSA= rbind(data1, data2)
+citesWCUSA = rbind(cite1, cite2)
 ```
 
 ```{r message=FALSE}
-data1A <- read_excel("xls_exports/advancedsearch-1.xls")
-data2A <- read_excel("xls_exports/advancedsearch-2.xls")
-data3A <- read_excel("xls_exports/advancedsearch-3.xls")
+data1A <- read_excel("xls_exports/TS9J2-search-1.xls")
+data2A <- read_excel("xls_exports/TS9J2-search-2.xls")
+data3A <- read_excel("xls_exports/TS9J2-search-3.xls")
 
-data1B <- read_excel("xls_exports/basicsearch-1.xls")
-data2B <- read_excel("xls_exports/basicsearch-2.xls")
-data3B <- read_excel("xls_exports/basicsearch-3.xls")
-data4B <- read_excel("xls_exports/basicsearch-4.xls")
-data5B <- read_excel("xls_exports/basicsearch-5.xls")
-data6B <- read_excel("xls_exports/basicsearch-6.xls")
-data7B <- read_excel("xls_exports/basicsearch-7.xls")
-data8B <- read_excel("xls_exports/basicsearch-8.xls")
-data9B <- read_excel("xls_exports/basicsearch-9.xls")
-data10B <- read_excel("xls_exports/basicsearch-10.xls")
-data11B <- read_excel("xls_exports/basicsearch-11.xls")
-data12B <- read_excel("xls_exports/basicsearch-12.xls")
+data1B <- read_excel("xls_exports/BAJ2-search-1.xls")
+data2B <- read_excel("xls_exports/BAJ2-search-2.xls")
+data3B <- read_excel("xls_exports/BAJ2-search-3.xls")
+data4B <- read_excel("xls_exports/BAJ2-search-4.xls")
+data5B <- read_excel("xls_exports/BAJ2-search-5.xls")
+data6B <- read_excel("xls_exports/BAJ2-search-6.xls")
+data7B <- read_excel("xls_exports/BAJ2-search-7.xls")
+data8B <- read_excel("xls_exports/BAJ2-search-8.xls")
+data9B <- read_excel("xls_exports/BAJ2-search-9.xls")
+data10B <- read_excel("xls_exports/BAJ2-search-10.xls")
+data11B <- read_excel("xls_exports/BAJ2-search-11.xls")
+data12B <- read_excel("xls_exports/BAJ2-search-12.xls")
 
-cite1A <- read_excel("xls_exports/advancedcite-1.xls")
-cite2A <- read_excel("xls_exports/advancedcite-2.xls")
-cite3A <- read_excel("xls_exports/advancedcite-3.xls")
+cite1A <- read_excel("xls_exports/TS9J2-cite-1.xls")
+cite2A <- read_excel("xls_exports/TS9J2-cite-2.xls")
+cite3A <- read_excel("xls_exports/TS9J2-cite-3.xls")
 
-cite1B <- read_excel("xls_exports/basiccite-1.xls")
-cite2B <- read_excel("xls_exports/basiccite-2.xls")
-cite3B <- read_excel("xls_exports/basiccite-3.xls")
-cite4B <- read_excel("xls_exports/basiccite-4.xls")
-cite5B <- read_excel("xls_exports/basiccite-5.xls")
-cite6B <- read_excel("xls_exports/basiccite-6.xls")
-cite7B <- read_excel("xls_exports/basiccite-7.xls")
-cite8B <- read_excel("xls_exports/basiccite-8.xls")
-cite9B <- read_excel("xls_exports/basiccite-9.xls")
-cite10B <- read_excel("xls_exports/basiccite-10.xls")
-cite11B <- read_excel("xls_exports/basiccite-11.xls")
-cite12B <- read_excel("xls_exports/basiccite-12.xls")
+cite1B <- read_excel("xls_exports/BAJ2-cite-1.xls")
+cite2B <- read_excel("xls_exports/BAJ2-cite-2.xls")
+cite3B <- read_excel("xls_exports/BAJ2-cite-3.xls")
+cite4B <- read_excel("xls_exports/BAJ2-cite-4.xls")
+cite5B <- read_excel("xls_exports/BAJ2-cite-5.xls")
+cite6B <- read_excel("xls_exports/BAJ2-cite-6.xls")
+cite7B <- read_excel("xls_exports/BAJ2-cite-7.xls")
+cite8B <- read_excel("xls_exports/BAJ2-cite-8.xls")
+cite9B <- read_excel("xls_exports/BAJ2-cite-9.xls")
+cite10B <- read_excel("xls_exports/BAJ2-cite-10.xls")
+cite11B <- read_excel("xls_exports/BAJ2-cite-11.xls")
+cite12B <- read_excel("xls_exports/BAJ2-cite-12.xls")
 
-cite1A = clean_cite_data(cite1A, cols)
-cite2A = clean_cite_data(cite2A, cols)
-cite3A = clean_cite_data(cite3A, cols)
+cite1A = clean_cite_data(cite1A, keep_cols)
+cite2A = clean_cite_data(cite2A, keep_cols)
+cite3A = clean_cite_data(cite3A, keep_cols)
 
-cite1B = clean_cite_data(cite1B, cols)
-cite2B = clean_cite_data(cite2B, cols)
-cite3B = clean_cite_data(cite3B, cols)
-cite4B = clean_cite_data(cite4B, cols)
-cite5B = clean_cite_data(cite5B, cols)
-cite6B = clean_cite_data(cite6B, cols)
-cite7B = clean_cite_data(cite7B, cols)
-cite8B = clean_cite_data(cite8B, cols)
-cite9B = clean_cite_data(cite9B, cols)
-cite10B = clean_cite_data(cite10B, cols)
-cite11B = clean_cite_data(cite11B, cols)
-cite12B = clean_cite_data(cite12B, cols)
+cite1B = clean_cite_data(cite1B, keep_cols)
+cite2B = clean_cite_data(cite2B, keep_cols)
+cite3B = clean_cite_data(cite3B, keep_cols)
+cite4B = clean_cite_data(cite4B, keep_cols)
+cite5B = clean_cite_data(cite5B, keep_cols)
+cite6B = clean_cite_data(cite6B, keep_cols)
+cite7B = clean_cite_data(cite7B, keep_cols)
+cite8B = clean_cite_data(cite8B, keep_cols)
+cite9B = clean_cite_data(cite9B, keep_cols)
+cite10B = clean_cite_data(cite10B, keep_cols)
+cite11B = clean_cite_data(cite11B, keep_cols)
+cite12B = clean_cite_data(cite12B, keep_cols)
 
 dataTS9J2 = rbind(data1A,data2A,data3A)
 dataBAJ2 = rbind(data1B,data2B,data3B,data4B,data5B,data6B,
@@ -132,7 +129,7 @@ drop_identifiers = c("Email Addresses", "Researcher Ids", "ORCIDs", "ISSN",
 drop_nuances = c("Cited Reference Count", "Times Cited, WoS Core", 
                  "180 Day Usage Count", "Highly Cited Status", "Hot Paper Status")
 
-dWC = dataWC %>%
+dWCUSA = dataWCUSA %>%
   select(-remove_cols) %>%
   select(-drop_identifiers) %>%
   select(-drop_nuances)
@@ -153,7 +150,7 @@ dBAJ2 = dataBAJ2 %>%
 ```{r}
 remove_cols = c("Corporate Authors","Editors","Book Editors","Supplement","Special Issue","Conference Title","Conference Date")
 
-cWC = citesWC %>%
+cWCUSA = citesWCUSA %>%
   select(-remove_cols)
 ```
 
@@ -168,7 +165,7 @@ cBAJ2 = citesBAJ2 %>%
 3) Clean inconsistent data entries
 
 ```{r}
-cWC$`Publication Year` = as.numeric(cWC$`Publication Year`)
+cWCUSA$`Publication Year` = as.numeric(cWCUSA$`Publication Year`)
 ```
 
 ```{r}
@@ -180,8 +177,8 @@ cBAJ2$`Publication Year` = as.numeric(cBAJ2$`Publication Year`)
 4) Order the data by year and article title 
 
 ```{r}
-doWC = dWC[order(-dWC$`Publication Year`, dWC$`Article Title`),]
-coWC = cWC[order(-cWC$`Publication Year`, cWC$Title),]
+doWCUSA = dWCUSA[order(-dWCUSA$`Publication Year`, dWCUSA$`Article Title`),]
+coWCUSA = cWCUSA[order(-cWCUSA$`Publication Year`, cWCUSA$Title),]
 ```
 
 ```{r}
@@ -197,8 +194,8 @@ coBAJ2 = cBAJ2[order(-cBAJ2$`Publication Year`, cBAJ2$Title),]
 1) Filter out duplicates
 
 ```{r}
-dfWC = doWC[!duplicated(doWC$`Article Title`),]
-cfWC = coWC[!duplicated(coWC$Title),]
+dfWCUSA = doWCUSA[!duplicated(doWCUSA$`Article Title`),]
+cfWCUSA = coWCUSA[!duplicated(coWCUSA$Title),]
 ```
 
 ```{r}
@@ -212,8 +209,8 @@ cfBAJ2 = coBAJ2[!duplicated(coBAJ2$Title),]
 2) Determine citation year range (str). [First year cited to the last year cited]
 
 ```{r}
-cfWCy = get_citation_yr_range(cfWC, dfWC)[[1]]
-dfWCy = get_citation_yr_range(cfWC, dfWC)[[2]]
+cfWCUSAy = get_citation_yr_range(cfWCUSA, dfWCUSA)[[1]]
+dfWCUSAy = get_citation_yr_range(cfWCUSA, dfWCUSA)[[2]]
 ```
 
 ```{r}
@@ -239,8 +236,8 @@ get_num_cited = function(cf, df) {
 ```
 
 ```{r}
-cfWCyn = get_num_cited(cfWCy,dfWCy)[[1]]
-dfWCyn = get_num_cited(cfWCy,dfWCy)[[2]]
+cfWCUSAyn = get_num_cited(cfWCUSAy,dfWCUSAy)[[1]]
+dfWCUSAyn = get_num_cited(cfWCUSAy,dfWCUSAy)[[2]]
 ```
 
 ```{r}
@@ -254,8 +251,8 @@ dfBAJ2yn = get_num_cited(cfBAJ2y,dfBAJ2y)[[2]]
 4) Compare citation metrics.
 
 ```{r}
-dfWCyn$CiteX = dfWCyn$`Times Cited, All Databases` - dfWCyn$`Since 2013 Usage Count`
-compare = cbind(dfWCyn$CiteT,dfWCyn$CiteX)[1:10,] 
+dfWCUSAyn$CiteX = dfWCUSAyn$`Times Cited, All Databases` - dfWCUSAyn$`Since 2013 Usage Count`
+compare = cbind(dfWCUSAyn$CiteT,dfWCUSAyn$CiteX)[1:10,] 
 colnames(compare) = c("Times Cited (1900-1999) ", "Num Cited All Years - Cited Since 2013")
 compare
 ```
@@ -265,7 +262,7 @@ It is probably the case that 2000 onwards, papers were cited much more frequentl
 5) Create a plot that shows the year range on the x axis and on the y the number of times cited.
 
 ```{r}
-dp1 = get_data_for_plotting(dfWCyn)
+dp1 = get_data_for_plotting(dfWCUSAyn)
 generate_citation_plot(dp1)  # At first glance, it looks like the WC category retains papers that were most likely published from 1930 to 1960 and cited till the end of the century.
 
 dp2 = get_data_for_plotting(dfTS9J2yn)
@@ -285,15 +282,15 @@ dfBAJ2ynR <- dfBAJ2yn[ ! dfBAJ2yn$`Article Title` %in% overlapping_articles, ]
 ```
 
 ```{r}
-dfWCyn$YrStart = as.numeric(dfWCyn$YrStart) 
+dfWCUSAyn$YrStart = as.numeric(dfWCUSAyn$YrStart) 
 dfTS9J2yn$YrStart = as.numeric(dfTS9J2yn$YrStart) 
 dfBAJ2yn$YrStart = as.numeric(dfBAJ2yn$YrStart) 
 
-hist(dfWCyn$YrStart, ylim=c(0,900), col="lightblue", breaks = 15, main="Year First Cited")
+hist(dfWCUSAyn$YrStart, ylim=c(0,900), col="lightblue", breaks = 15, main="Year First Cited")
 hist(dfTS9J2yn$YrStart, ylim=c(0,900), col="lightblue", breaks = 15, main="Year First Cited")
 hist(dfBAJ2yn$YrStart, ylim=c(0,900), col="lightblue", breaks = 15, main="Year First Cited")
 
-hist(dfWCyn$`Publication Year`, ylim=c(0,900), breaks = 15, main="Year First Published")
+hist(dfWCUSAyn$`Publication Year`, ylim=c(0,900), breaks = 15, main="Year First Published")
 hist(dfTS9J2yn$`Publication Year`, ylim=c(0,900), breaks = 15, main="Year First Published") # lose papers published from 1945-1970
 hist(dfBAJ2yn$`Publication Year`, ylim=c(0,900), breaks = 15, main="Year First Published") # lose papers published from 1945-1970
 ```
