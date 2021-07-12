@@ -285,14 +285,31 @@ dfBAJ2ynR <- dfBAJ2yn[ ! dfBAJ2yn$`Article Title` %in% overlapping_articles, ]
 ```
 
 ```{r}
-dp4 = get_data_for_plotting(dfBAJ2ynR)
-generate_citation_plot(dp4) # removing dfTS9J2yn doesn't seem to make a dent in the overall composition of this pool of papers. Need to then check how necessary are these papers and why were they removed?
+dfWCyn$YrStart = as.numeric(dfWCyn$YrStart) 
+dfTS9J2yn$YrStart = as.numeric(dfTS9J2yn$YrStart) 
+dfBAJ2yn$YrStart = as.numeric(dfBAJ2yn$YrStart) 
+
+hist(dfWCyn$YrStart, ylim=c(0,900), col="lightblue", breaks = 15, main="Year First Cited")
+hist(dfTS9J2yn$YrStart, ylim=c(0,900), col="lightblue", breaks = 15, main="Year First Cited")
+hist(dfBAJ2yn$YrStart, ylim=c(0,900), col="lightblue", breaks = 15, main="Year First Cited")
+
+hist(dfWCyn$`Publication Year`, ylim=c(0,900), breaks = 15, main="Year First Published")
+hist(dfTS9J2yn$`Publication Year`, ylim=c(0,900), breaks = 15, main="Year First Published") # lose papers published from 1945-1970
+hist(dfBAJ2yn$`Publication Year`, ylim=c(0,900), breaks = 15, main="Year First Published") # lose papers published from 1945-1970
 ```
+
+Need to keep in mind that the WC dataset did not filter out for papers only published in the USA. That gap between 1945 and 1970 is most likely caused by location constraints.
 
 ```{r}
-dfBAJ2ynR
+dp4 = get_data_for_plotting(dfBAJ2ynR)
+generate_citation_plot(dp4) # removing dfTS9J2yn doesn't seem to make a dent in the overall composition of this pool of papers. Need to then check how necessary are these papers and why were they removed?
+
+dfBAJ2ynR$YrStart = as.numeric(dfBAJ2ynR$YrStart) 
+hist(dfBAJ2ynR$YrStart, ylim=c(0,900), col="lightblue", breaks = 15, main="Year First Cited")
+hist(dfBAJ2ynR$`Publication Year`, ylim=c(0,900), breaks = 15, main="Year First Published") # mostly loose papers cited a lot near the end of the century and loose papers published near the end of the century
 ```
 
+Notice: "In the 1960's, computer science came into its own as a discipline. In fact, the term was coined by George Forsythe, a numerical analyst. The first computer science department was formed at Purdue University in 1962." (https://cs.uwaterloo.ca/~shallit/Courses/134/history.html)
 
 6) Compute some weighted or comparable factor.
 
