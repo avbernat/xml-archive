@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">DC:TITLE</Name>
+  <Value className="java.lang.String">Energy Values of Ecological Materials</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/anastasiabernat/Desktop/group_corpus/1961%20-%20Energy%20Values%20of%20Ecological%20Materials.pdf</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">application/pdf</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">TIKA_DC:TITLE</Name>
+  <Value className="java.lang.String">Energy Values of Ecological Materials</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>Energy Values of Ecological Materials
+Energy Values of Ecological Materials 
+Author(s): Frank B. Golley 
+Source: Ecology , Jul., 1961, Vol. 42, No. 3 (Jul., 1961), pp. 581-584 
+Published by: Wiley on behalf of the Ecological Society of America 
+Stable URL: http://www.jstor.com/stable/1932247
+ REFERENCES Linked references are available on JSTOR for this article: http://www.jstor.com/stable/1932247?seq=1&amp;cid=pdf-reference#references_tab_contents You may need to log in to JSTOR to access the linked references.
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide range of content in a trusted digital archive. We use information technology and tools to increase productivity and facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.  Your use of the JSTOR archive indicates your acceptance of the Terms &amp; Conditions of Use, available at https://about.jstor.org/terms
+Wiley  and Ecological Society of America  are collaborating with JSTOR to digitize, preserve and extend access to Ecology
+This content downloaded from �������������98.193.32.14 on Thu, 15 Jul 2021 19:24:21 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+http://www.jstor.com/stable/1932247
+http://www.jstor.com/stable/1932247?seq=1&amp;cid=pdf-reference#references_tab_contents
+http://www.jstor.com/stable/1932247?seq=1&amp;cid=pdf-reference#references_tab_contents
+ July, 1961 REPORTS 581
+ ENERGY VALUES OF ECOLOGICAL MATERIALS
+ FRANK B. GOLLEY
+ AEC, Savannah River Project, University of Georgia
+ Since Lindeman (1942) formulated his concept of trophic dynamics, American ecologists have become in- creasingly interested in the energy relationships of eco- systems. Even though<Node id="1777"/> the application of thermodynamic theory to ecology has progressed rapidly (see Odum 1956, Odum and Pinkerton 1955, Patten 1959, Sobodkin 1960),<Node id="1921"/> understanding of the energy dynamics of individ- ual populations has been hampered by incomplete knowl- edge of the energy content of many plants and animals. In energy flow studies it is often necessary to convert biomass to energy by using caloric equivalents obtained from the literature. However, many workers, reluctant to depend upon equivalents, have made their own energy determinations in the oxygen bomb calorimeter. <Node id="2349"/>This paper summarizes my analyses of over 400 wild plants and animals collected from the field and over 200 anal- yses of other workers.<Node id="2485"/> These values were previously listed in a mimeographed publication (Golley 1959).
+<Node id="2567"/> I am indebte(d to a number of persons who have aided these studies. <Node id="2636"/>In 1956-57 equipment for caloric analyses in the laboratories of the Department of Foods and Nu- trition, Michigan State University, was used through the courtesy of Dr. Evelyn Jones. Later studies were made in the ecological laboratory of Dr. E. P. Odum, Univ. of Ga. and the work was supported by the U. S. Atomic Energy Commission, contract At(07-2)-10. I am grateful to Dr. Odum for his critical comments (luring these investigations. I am also grateful to Drs. lawrence Bliss, Univ. of Illinois; Francesco Trama, Rutgers Univ.; Edward Kuenzler, Woods Hole Ocean- ographic Institute; Clyde Connell, Valdosta State Col- lege, Ga.; and J. D). Ovington, The Nature Conservancy, London for providing unpublished data from their studies.
+ M ETHI-ODS
+ <Node id="3386"/>The caloric value of ecological materials was deter- mined by burning samples in a Parr oxygen bomb calo- rimeter. <Node id="3501"/>The standard procedure for determining energy values is fully discussed in the Parr Manual (1948).
+ Since the purpose of the measurements is to provide estimates of energy content of biomass that can be applied to populations of plants and animals in the field, the samples must reflect the variations inherent in field populations. <Node id="3834"/>Therefore, vegetation samples are col- lected from random I)lots on study areas, dried at 100C for 24 hours and ground in a Wiley Mill fitted with a 40 mesh-to-the-inch screen.<Node id="4010"/> When only the small mill is available, portions from pooled samples from all plots are selected for grinding. The ground tissue is then thoroughly mixed in jars before samples are re- moved for calorimetry.
+ Since the amount of body fat (which has a high energy value) varies with age and season in many animals, each age group must be sampled at each season to obtain a caloric estimate that can be applied to the populations at specific seasons. For many groups of animals, e.g., insects collected by sweep-netting, the en- tire dried sample can be run through the mill. For fleshy animals, such as birds or mammals, specimens are minced in a Waring Blender, the slurry of water and tissue dried in a vacuum oven, and the dried material grotin(1 in the Wiley Mill. Extremely fat animals are
+ difficult to handle even with this procedure. With these it is best to extract the fat after vacuum drying then redry and combust the nonfat residue.
+ <Node id="4956"/>The calorimeter is restandardized (the water equiv- alent determined) every third month, especially when the laboratory temperatures fluctuate widely. <Node id="5107"/>The magnesium fuse wire and the total acid corrections are
+ determined for each individual analysis, rather than as- sumed to be constant, <Node id="5246"/>since the amounts of fuse wire used and the acid produced vary widely. For instance, insect samples may require more than 9.0 ml of base to neutralize the acid formed during combustion, while
+ plant material usually requires only 5.0 ml or less. The difference of 4 ml is equivalent to 4 g cal. The amount of fuse wire burned has varied from 9.3-3.6 cm in these studies. Corrections are made by measuring the unburned wire with a ruler (1 cm of burned wire =2.8 g cal) and by titrating the bomb washings with a sodium carbonate solution (3.658 g Na2CO3/1H2O, 1 ml solution -_1 g cal).<Node id="5830"/>
+ The per cent ash in each sample has been determined since 1958. This merely requires drying and weighing the tarred calorimeter cup containing the ash after the tests are completed. The caloric value per gram ash- free weight more accurately reflects differences between materials than the value per gram dry weight because of contamination. Samples of roots and ground litter, in particular, often contain soil which cannot be dis- lodged by routine washing and if it is included the caloric value will be lowered.
+<Node id="6348"/> The Parr Manual (1948) states that the American Society for Testing Materials requires 0.3% accuracy for tests of the same material made in the same labora- tory and 0.5% for tests made in different laboratories. I have not achieved this degree of accuracy with all types of ecological materials and have accepted as satis- factory a variation of not more than 3.0% between 3 tests on a given sample.<Node id="6749"/> All of my analyses have been run in triplicate.
+ <Node id="6799"/>The caloric value of plant materials was tabulated under 3 categories: plant parts, month collected, and ecological community. <Node id="6926"/>Comparisons between members of a category were tested by an analysis of variance procedure. Mr. James Fortson, Institute of Exper- inmental Statistics, Univ. of Ga., transformed the data using matrices and the statistics were calculated on an IBM 650 computer. Significance of the difference be- tween values in each separate category was determined with the F-test. Animal caloric values were subjected to an analysis of variance using a desk calculator. Since many values were obtained from the literature or were made before the ash-correction became routine, all are reported as gram calories per gram dry weight.<Node id="7543"/>
+ RESULTS
+<Node id="7553"/> Table I presents the mean energy values for parts of plants.<Node id="7614"/> The differences are significant at the 99% level (F = 27.72, d.f. = 4 and 462). Seeds, which often con- tain high proportions of fat, have the highest values. Long (1934), one of the first to apply calorimetric meth- ods in ecological research, also found that energy values varied for parts of the plant. In the sunflower 
+This content downloaded from �������������98.193.32.14 on Thu, 15 Jul 2021 19:24:21 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+ 582 REPORTS Ecology, Vol. 42, No. 3
+ TABL E I. Average energy values for parts of plants,
+ based on determinations from 57 species (Value g cal/g dry wt)
+ Number Average Coefficient Part Samples Value Variation
+ Leaves 260 4229 .116 Stems and Branches .. 51 4267 .081 Roots ............... 52 4720 .092 Litter ............... 82 4298 .104 Seeds ................ 22 5065 .219
+<Node id="8467"/>he found that the values ranged from 4308 g cal/g dry wt for the seed head to 3435 g cal/g dry wt for one of the oldest leaves. The highest values he obtained were for seeds of conifers, which ranged from 5625-7117 g cal/g dry wt.<Node id="8697"/>
+ The seasonal analysis <Node id="8721"/>includes vegetative samples from
+ 3 old-field communities: a blue-grass field in Mich., a broomsedge field and young pine stand in Ga. (Table II)<Node id="8866"/>. 
+<Node id="8869"/>Values for the dominant plants in these 3 com- munities were grouped so that the comparison is between months, irrespective of the species of plants. The anal- ysis of variance showed that significant differences at
+ the 99% level (F = 2.36, d.f. = 11 and 272) existed between months. The highest caloric values occurred in the fall and winter, presumably from storage of energy in the roots, culms, and seeds. Morrison (1949) re-
+ ports that in many plants the per cent of crude protein in the green foliage decreases, that of crude fiber and nitrogen-free extract (mostly carbohydrate) increases,
+ while that of ether extract (partly fat) remains con-
+ stant through the growing season<Node id="9556"/>. Accordingly, the caloric value of the foliage should be higher in the spring than in the fall. However, when considering all parts of the vegetation growing in the community the caloric value per gram total vegetation (including roots and
+ seeds) appears to be greater in the fall and winter. <Node id="9851"/>Caloric data are available for the dominant plants in 9
+ ecological communities, ranging from tropical rain-forest to alpine tundra.<Node id="9983"/> The pine community data furnished by J. 1). Ovington are from England. The alpine tundra data obtained by L. Bliss are from New Hampshire. The Spartina (analysed by C. Connell), the Andropogon, and the old-field herb communities were studied in Ga., the Poa community in Mich., and the rain-forest and mangrove forest in Puerto Rico. The values in Table
+ TABLE II. Average energy values for dominant species in three old-field communities collected at different seasons
+ (Value g cal/g dry wt)
+ Number Average Coefficient Seasonal Season Samples Value Variation Average
+ January ...... s15 4039 .152 February ...... 17 4225 .022 March ....... 3 4034 .028 4099 April......... 27 3900 .129 May ......... 24 4127 .070 June .......... 24 3917 .088 3981 July .......... 21 4072 .065 August .41 3919 .079 September .. . . 38 4197 .061 4063 October ....... 20 4192 .066 November .... 33 4151 .097 December ..... 18 3907 .215 408.3
+<Node id="10908"/>Table III are mixed-species averages of all the data available for the dominant species; they are not average weighted by the importance of individual species in the phytoso- ciology or biomass composition of the communities. The statistical analysis showed that the average caloric value per gram total vegetation (roots, leaves, and stems) in these communities differed significantly at the 99% level (F = 11.3, d.f. = 8 and 343). The tundra estimates were considerably higher than those for the other com- munities indicating that communities with a long period of nonproduction accumulate a greater energy store than those which grow throughout the year. However, the pine community, with its high resin and turpentine con- tent, also had a high energy value.<Node id="11671"/>
+ TABLE III. Average energy values of dominant vegeta- tion in ecological communities
+ (Value g cal/g dry wt)
+ Number Average Coefficient Community Samples Value Variation
+ Tropical rain-forest ....... 15 3897 .060 Mongrove forest ......... it 3764 .082 Spartina marsh .......... 14 4072 .042 Andropogon field ......... 143 3905 .104 Herb old-field ........... 35 4177 .096; Poa old-field ............ 115 4075 .064 Pinus sylvestris stand ..... 14 4787 .078 Alpine meadow .......... 3 4711* .005 Alpine Juncus dwarf heath 2 4790* .003
+ * Bliss (pers. comm.) recently reported that the average value for tundra, based on 32 determinations, is 4709 g cal,/g dry wt.
+ <Node id="12336"/>The 3 analyses described are not as precise as de- sired because it was necessary to compare caloric values per gram dry weight rather than values per gram ash- free weight.<Node id="12509"/> <Node id="12510"/>The large amount of ash-free weight data available for the Andropogon virginicus community (Ta- ble IV) shows how ash may influence the differences between categories. When the caloric values by plant part and month uncorrected for ash are compared a significant difference exists between parts at the 95% level (F =2.74, d.f. =4 and 32) and months at the 99% level (F = 4.07, d.f. = 8 and 32). However, the same comparison but using calories per gram ash-free weight (Table IV) shows significant differences at the 95% level between seasons only. The average value for parts for all seasons, shown below, illustrates the dif- ferences when ash is considered.<Node id="13169"/>
+ Part callg dry zot callg ash-free wt Green Broomsedge 4231 4377 Standing-dead vegetation 4116 4290 Litter 3902 4139 Roots 3607 4169 Green herbs 3634 4288
+ ENERGY VALUES OF ANIMALS
+ Only limited caloric data are available for animals. Seven taxa, including invertebrates and vertebrates, are in Table V. The crabs were especially low in energy content, probably because the calcareous exoskeleton was not separated from the soft parts. E. P. Odum has provided unpublished data on the ash content of crabs from Sapelo Island, Ga., which indicate that the ash is about 51% of the total dry weight. This means that the caloric value per gram ash-free weight for crabs is about 4400 cal.
+This content downloaded from �������������98.193.32.14 on Thu, 15 Jul 2021 19:24:21 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+ July, 1961 REPORTS 583
+ TABLE IV. Energy values in an Andropogon Tvirginicus Old-field Community in Georgia (Value g cal/g dry organic matter)
+ Part April May June July Sept. Oct. Nov. Dec. Jan. Ave.
+ Green grass................ 4254 4372 4325 4187 4256 4529 4508 4505 4422 4373 Standing dead ............. 4435 4338 4201 4208 4281 4205 4429 4190 4325 4290 Litter ..................... 3928 4369 4104 4225 4124 4126 4264 4029 4078 4139 Roots ..................... 4387 4056 4344 4270 4104 4074 4137 4236 3891 4167 Green herbs .............. 4477 4157 4088 4212 4399 4429 4265 4375 4193 4288 Average ................... 4296 4258 4212 4220 4233 4273 4321 4267 4182 4251
+ TABLE V. Energy values for animal taxa (Value g cal/g dry wt)
+ Number Average Coefficient Taxa Samples Value Variation Authority
+ Crustacea
+ Daphnia .18 4419 .115 Richman (1958) Stenonema 29 5596 .048 Trama (1957) Uca and other crabs 8 2248 .188 Connell (unpubl.)
+ Mollusca
+ Modiolus ......... 3 4600 - Kuenzler (unpubl.) Insect
+ Schistocerca . 8 5363 .048 Connell (unpubl.) Annelida
+ Earthworms. 3 4617 .030 French et al (1957) Mammalia
+ Mice . .. 8 5163 .157 Golley (1960)
+<Node id="15152"/> The analysis of variance showed that the energy value of the animals, excluding the crabs, did not differ significantly (F- 1.84, d.f. = 5 and 63). In general, the values for the animals are about 1000 g cal/g dry wt higher than the plant values.<Node id="15399"/>
+ <Node id="15401"/>DISCUSSION<Node id="15411"/>
+ <Node id="15413"/>Examination of over 600 records of plants has shown that significant differences in caloric value exist between plant parts, between vegetation collected in different months, and between vegetation growing in different ecological communities. <Node id="15656"/>When the variation in chemical composition of various cultivated and noncultivated crop plants reported in Morrison (1949) is considered (e.g., fat ranges from 1.0% in Lespedeza stems to 38.8% in wild mustard seed) and the fact that Long (1934) found that caloric values varied with light intensity, length of day, amount of nutrients, and type of soil, the observed differences are not unexpected.
+<Node id="16055"/> Richman and Slobodkin (1960) have emphasized the constancy of the caloric value of animal tissue. Except under starvation or storage conditions animal tissue averages about 5000 g cal/g dry wt. The data in this report are less extensive but support their conclusions. Richman and Slohodkin (1960) point out that when an animal is storing food material before hibernation or a nonfeeding portion of the life cycle, the energy value of the body may increase to 6000 or 7000 g cal/g dry xvt.<Node id="16544"/> This condition in animals is analogous to the seed stage in the life history of the plant and to the fall condition of many perennial plants which store food in the root, tuber, or rhizomes. <Node id="16736"/>This analogy helps to explain why significant( differences exist between the plant categories.<Node id="16830"/>
+ <Node id="16832"/>The caloric value of a plant or animal is a function of its genetic constitution, nutritive condition, and life his-
+ tory. Because these factors may vary with species, seasons, and environmental conditions the ecologist making intensive measurements of energy flow through natural systems cannot depend on caloric constants or equivalents. This study shows that the ecologist must determine the energy content under the specific condi- tions of his particular study. However, those engaged in extensive surveys are probably justified in convert- ing biomass to energy by using the average caloric values in the tables.<Node id="17451"/>
+ SUMMARY
+ <Node id="17462"/>This report summarizes and evaluates the variation between caloric values of plants and animals. <Node id="17559"/>Analysis of over 600 records shows significant differences between plant parts, between vegetation collected in different seasons, and between vegetation from different ecological communities.<Node id="17751"/> Differences between animal taxa were not significant. <Node id="17806"/>It was concluded that ecologists should directly determine the energy content of ecological mate- rials when studying energy flow through natural sys- tems. It is also hoped, however, that the average val- ues presented may be useful for energy estimation in some types of ecological research.
+ REFERENCES
+ French, C. E., S. A. Liscinsky, and D. R. Miller. 1957. Nutrient composition of earthworms. J. Wildlife Management, 21: 348.
+ Golley, F. B. 1959. Table of caloric equivalents. Mimeo. Univ. of Georgia, 7p.
+ -. 1960. Energy dynamics of a food chain of an old-field community. Ecological Monog. 30: 187- 206.
+ Lindeman, R. L. 1942. The trophic-dynamic aspect of ecology. Ecology 23: 399-418.
+ Long, F. L. 1934. Application of calorimetric methods to ecological research. Plant Physiol. 9: 323-337.
+ Morrison, F. B. 1949. Feeds and Feeding. Morrison Publ. Co. Ithaca. 1207p.
+ Odum, H. T. 1956. Efficiencies, size of organisms, and community structure. Ecology 37: 592-597.
+ and R. C. Pinkerton. 1955. Time's speed reg- ulator: the optimum efficiency for maximum power output in physical and biological systems. Am. Sci. 43: 331-343.
+ Parr Instrument Company. 1948. Oxygen bomb calorimetry and oxygen bomb combustion methods. Manual No 120. Moline, Ill. 80p.
+ Patten, B. C. 1959. An introduction to the cybernet- ics of the ecosystem; the trophic-dynamic aspect. Ecology 40: 221-231.
+This content downloaded from �������������9:ffff:ffff:ffff:ffff:ffff on Thu, 01 Jan 1976 12:34:56 UTC 
+All use subject to https://about.jstor.org/terms
+ 584 REPORTS Ecology, Vol. 42, No. 3
+ Richman, S. 1958. The transformation of energy by Daphnia pulex. Ecological Monog. 28: 273-291.
+ and B. Slobodkin. 1960. A micro-bomb calo-
+ rimeter for ecology. Bull. Ecol. Soc. of Am., 41(3):
+ 88-89.
+ Slobodkin, L. B. 1960. Ecological energy relation- ships at the population level. Am. Naturalist 94 (876): 213-236.
+ Trama, F. B. 1957. The transformation of energy by an aquatic herbivore, Stenonema pulchellum. Ph.D. Thesis, Univ. of Mich.
+ INFLUENCE OF THINNING OF RED PINE PLANTATION ON SOIL1
+ F. P. HABERLAND AND S. A. WILDE
+ Recent research in Germany and Russia revealed that thinnings increase the diameter of trees and hence the value of forest stands, but not the total production of dry matter. These observations are valid under many site conditions but cannot be generalized indiscriminately and interpreted to mean that the yield of the thinned stand remains the same regardless of the form of partial cutting.
+ A partial cutting is a major operation which returns the stagnating community of trees to a productive life by removing the unwanted members of the stand. How- ever, if it is not performed with respect to the habitat conditions, it may result in a lasting deterioration of the site quality; it may bring about invasion of competing vegetation, depletion of soil water, increased or retarded decomposition of organic remains, loss of nutrients through leaching or biological fixation, compaction of the soil surface, rise of the water table, or accumulation of vadose water.
+ To counteract such adverse alterations, attempts have been made recently to detect by field and laboratory ana- lyses the effect of cuttings on the growth factors of the treated stand, particularly on the dynamics of water and nutrients in different types of soils (Zonn 1959, Sviridov 1959). Such investigation constitutes a long overdue effort to place on a firm scientific foundation the present, totally empirical practice of silvicultural cuttings. The ultimate aim of the analytical approach is to identify the intensity of partial cuttings with the optimum sub- canopy environment and thereby increase the volume and the value of the treated stand. The more restricted, immediate goal is the elimination of mistreatment of stands which diminishes the productive potential of the soil-forest entity and disrupts its biological cycle (Remezov et al. 1959).
+ This paper reports the results of an investigation of the changes in physical, chemical and microbiological properties of soil induced by heavy thinning of a dense pine plantation. Considerable time has been spent in devising analytical techniques suitable for this type of research. This report summarizes the most significant alterations observed during the last 3 growing seasons.
+ METHODS OF STUDY
+ The study was conducted in a 15-yr-old plantation of red pine, Pimis resinosa Ait., in central Wisconsin on a
+ non-podzolic outwash sand of Plainfield series. The level topography, stone-free porous soil, and uniform tree growth of this 40 acre plantation were favorable for detailed investigation of the effect of thinnings on soil properties.
+ In the spring of 1958, 1/3 acre plots were established in a fully stocked part of the plantation, having basal area of 156 sq. ft., in a part thinned to 50% of basal area, and on adjacent cleared land (Fig. 1).
+ FIG. 1. General view of a part of the study area showing the clear cut plot and fully stocked plantation.
+ Percolation of water and movement of soluble nutrient salts were studied by alundum tension lysimeters (Cole 1958, Krause 1960). Two lysimeters were installed in each plot at a depth of 2 ft with a water column of 90 cm, approximating the tension at field capacity. The content of soil moisture was recorded by Prosser's irro- meters, at 6 and 18 in. depths, Reinhart's fiberglass units, at depths of 1, 2, and 3 ft, and occasional gravimetric determinations. Recordings were made at intervals of one week, or more frequently. Precipitation data were obtained from the Griffith State Nursery, 14 miles dis- tant.
+ The microbiological activity of soil was appraised on the basis of carbon dioxide evolution, measured in situ by 6 "spratainer" samplers and a Trico vacuum pump driven by a 6-volt storage battery (Wallis and Wilde 1957). The decomposition of surface organic matter was estimated by periodic weighings of litter, sampled by a steel frame on one foot square areas selected at random.
+ Air permeability was determined by a permeameter of Tanner and Wengel (1957), analyses being made 24 hrs
+ ' Contribution from Soil Department, University of Wisconsin with financial support and cooperation from the Wisconsin Conservation Department and the Ne- koosa-Edwards Paper Company. Publication approved by the Director of the Wisconsin Agricultural Experi- mentation Station, Madison, Wisconsin.
+This content downloaded from �������������98.193.32.14 on Thu, 15 Jul 2021 19:24:21 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+	Contents
+	image 1
+	image 2
+	image 3
+	image 4
+	Issue Table of Contents
+	Ecology, Vol. 42, No. 3, Jul., 1961
+	Front Matter
+	Grassland Vegetation in the Big Horn Mountains, Wyoming [pp.  459 - 467]
+	Phytosociological Study of Burned Deciduous Woods, Turtle Mountains North Dakota [pp.  468 - 480]
+	The Effect of Temperature and Photoperiod on the Growth of Carica Papaya [pp.  481 - 486]
+	The Biology of Desmanthus Illinoensis [pp.  487 - 493]
+	Pattern in Ponderosa Pine Forests [pp.  493 - 499]
+	A Micro-Limnological Study of Jamaican Bromeliads [pp.  499 - 517]
+	The Distribution of Some Small Mammals and Their Associated Fleas from Central Labrador [pp.  518 - 525]
+	Comparative Ecology of Two Beetles Established in Hawaii: An Anthribid, Araecerus Levipennis, and a Bruchid, Mimosestes Sallaei [pp.  526 - 532]
+	Standing Crop and Drift of Stream Bottom Organisms [pp.  532 - 537]
+	A Population Survey of Rhesus Monkeys in Villages, Towns and Temples of Northern India [pp.  538 - 547]
+	Food Energy Available for and Required by the Blue Grouse Chick [pp.  547 - 553]
+	Trophic Spectrum of an Estuarine Community, Based on Studies of Lake Pontchartrain, Louisiana [pp.  553 - 568]
+	Reports
+	Botanical Notes on the Canary Islands. III. The Life Form Spectrum and Its Interpretation [pp.  569 - 572]
+	Quantitative Studies of the Removal of Litter and Duff by Fire under Controlled Conditions [pp.  572 - 575]
+	The Russian School of Phytocenology [pp.  575 - 577]
+	A Simple Method of Measuring Integrated Light Values in the Field [pp.  577 - 580]
+	Energy Values of Ecological Materials [pp.  581 - 584]
+	Influence of Thinning of Red Pine Plantation on Soil [pp.  584 - 586]
+	The Altitudinal Limits of Vascular Plants [pp.  587 - 590]
+	A Note on Silicone Oil as a Mounting Medium for Fossil and Modern Pollen [p.  591]
+	A Further Comment on the Ecology of Woolgrass (Scirpus Cyperinus) [pp.  591 - 592]
+	Balanus Balanoides; Recent Observations on Its Southern Limit [pp.  592 - 593]
+	Inhibition of Digital Regeneration in Salamanders and Its Use in Marking Individuals for Field Studies [pp.  593 - 594]
+	On Bird Species Diversity [pp.  594 - 598]
+	Habitat of Juvenile Shrimp (Family Penaeidae) [pp.  598 - 600]
+	The Relative Abundance of Snake Species [pp.  600 - 602]
+	Effect of a Cover of Duckweeds and the Alga Pithophora upon the Dissolved Oxygen and Free Carbon Dioxide of Small Ponds [pp.  602 - 603]
+	Resistance to High Temperatures in a Mediterranean Snail, Littoria Neritoides [pp.  604 - 606]
+	The Disappearance of Cyathura Polita from the Ashepoo River, South Carolina, After Hurricane "Gracie" in 1959 [pp.  606 - 607]
+	Reviews
+	untitled [pp.  608 - 609]
+	untitled [pp.  609 - 610]
+	Russian Forest Influences [pp.  610 - 611]
+	The Botany and Plant Ecology of Arnhem Land [p.  611]
+	The Biology of Weeds [p.  612]
+	The Mycorrhizae [p.  613]
+	Mycology of Soils and Waters [pp.  613 - 614]
+	Evolution and Natural Selection [pp.  614 - 615]
+	Tides [p.  615]
+	New Serials [p.  616]
+	Books and Monographs Received for Review [pp.  616 - 618]
+	Back Matter
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="236" Type="thermodynamic theory ; interdiscplinary paper" StartNode="1777" EndNode="1921">
+</Annotation>
+<Annotation Id="237" Type="Abstract/Introduction, summarizes ; count of data" StartNode="2349" EndNode="2485">
+</Annotation>
+<Annotation Id="238" Type="Acknowledgements ;" StartNode="2567" EndNode="2636">
+</Annotation>
+<Annotation Id="239" Type="Methods ; exact temperatures and time measurements" StartNode="3834" EndNode="4010">
+</Annotation>
+<Annotation Id="240" Type="Parr oxygen bomb calorimeter ; technology" StartNode="3386" EndNode="3501">
+</Annotation>
+<Annotation Id="241" Type="restandardized ; this paper is detailed in explaining its methods and protocol, technology plays a central role" StartNode="4956" EndNode="5107">
+</Annotation>
+<Annotation Id="242" Type=" ; exact measurements that are case-specific " StartNode="5246" EndNode="5830">
+</Annotation>
+<Annotation Id="243" Type="The Parr Manual ; science is not just becoming more circulated (citations) but also becoming more standardized, reproducibility is growing" StartNode="6348" EndNode="6749">
+</Annotation>
+<Annotation Id="244" Type="categories ; sounds like predictors in a model" StartNode="6799" EndNode="6926">
+</Annotation>
+<Annotation Id="245" Type="Statistics, analysis of variance, F-test, IBM 650 computer, desk calculator, calories ; streamlining of measurements and analyses" StartNode="6926" EndNode="7543">
+</Annotation>
+<Annotation Id="247" Type="Table 1 ; " StartNode="7553" EndNode="7614">
+</Annotation>
+<Annotation Id="248" Type="values, ranged ; results of others are mixed with own results in the results section, but the values are precise and ordered " StartNode="8467" EndNode="8697">
+</Annotation>
+<Annotation Id="249" Type="Table 2, samples ; sampled at different locations" StartNode="8721" EndNode="8866">
+</Annotation>
+<Annotation Id="250" Type="analysis of variance, between months ; " StartNode="8869" EndNode="9556">
+</Annotation>
+<Annotation Id="251" Type="caloric data ; " StartNode="9851" EndNode="9983">
+</Annotation>
+<Annotation Id="252" Type="Table 3, mixed-species averages, differed significantly ; ranking and comparing ecological communities based on bioass as measure and then testing significance" StartNode="10908" EndNode="11671">
+</Annotation>
+<Annotation Id="253" Type="precise ; " StartNode="12336" EndNode="12509">
+</Annotation>
+<Annotation Id="254" Type="Table 4, significant difference ; accounting for incosistencies in the data leading to different statistical outcomes in significance" StartNode="12510" EndNode="13169">
+</Annotation>
+<Annotation Id="255" Type="analysis of variance ; numerical comparison between plant and animal weight, but not significant difference, trophic level differences being examined" StartNode="15152" EndNode="15399">
+</Annotation>
+<Annotation Id="256" Type="Discussion ;" StartNode="15401" EndNode="15411">
+</Annotation>
+<Annotation Id="257" Type="600 records of plants ; this almost reads like a meta-analysis, unsure if this researcher collected the data themself" StartNode="15413" EndNode="15656">
+</Annotation>
+<Annotation Id="258" Type="caloric value, averages ; exact averages are cited" StartNode="16055" EndNode="16544">
+</Annotation>
+<Annotation Id="259" Type="significant differences, plant categories ; " StartNode="16736" EndNode="16830">
+</Annotation>
+<Annotation Id="260" Type="the ecologist must determine...under the specific conditions; the ecological field is still struggling with trying to be more general (generalizing)" StartNode="16832" EndNode="17451">
+</Annotation>
+<Annotation Id="261" Type="variation ; 'variation' is used to mean comparison here" StartNode="17462" EndNode="17559">
+</Annotation>
+<Annotation Id="262" Type=" ; results" StartNode="17751" EndNode="17806">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

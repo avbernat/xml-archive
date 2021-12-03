@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">DC:TITLE</Name>
+  <Value className="java.lang.String">Measures of the Amount of Ecologic Association Between Species</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/anastasiabernat/Desktop/group_corpus/1945%20-%20Measures%20of%20the%20Amount%20of%20Ecological%20Association%20Between%20Species.pdf</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">application/pdf</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">TIKA_DC:TITLE</Name>
+  <Value className="java.lang.String">Measures of the Amount of Ecologic Association Between Species</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>Measures of the Amount of Ecologic Association Between Species
+Measures of the Amount of Ecologic Association Between Species 
+Author(s): Lee R. Dice 
+Source: Ecology , Jul., 1945, Vol. 26, No. 3 (Jul., 1945), pp. 297-302 
+Published by: Wiley on behalf of the Ecological Society of America 
+Stable URL: https://www.jstor.org/stable/1932409
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide range of content in a trusted digital archive. We use information technology and tools to increase productivity and facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.  Your use of the JSTOR archive indicates your acceptance of the Terms &amp; Conditions of Use, available at https://about.jstor.org/terms
+Ecological Society of America  and Wiley  are collaborating with JSTOR to digitize, preserve and extend access to Ecology
+This content downloaded from �������������98.193.32.14 on Thu, 15 Jul 2021 14:59:43 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+https://www.jstor.org/stable/1932409
+ MEASURES OF THE AMOUNT OF ECOLOGIC ASSOCIATION
+ BETWEEN SPECIES
+ LEE R. DICE
+ University of Michigan
+<Node id="1226"/> In many ecologic studies there is need to express in a quantitative manner the degree to which two different species are associated in nature. Nevertheless, no such measure has up to the present time come into general use by ecologists.<Node id="1463"/>
+ <Node id="1465"/>Of the measures of association between species previously proposed, the "coeffi- cient of association" of Forbes ('07) is useful, though no estimate of its statisti- cal reliability has in the past been em- ployed. The "coefficient of association" of Michael ('20) is too complicated for general use. The "association value" of Hacker ('21) varies with the total num- ber of associations between all the species in a given locality and therefore is im- practicable for most field studies. Van Deventer ('36) has calculated the per- centage of association between certain species of birds, but his brief statement gives no details of the method of compu- tation. Recently Edmondson ('44) ap- plied the chi-square test as a measure of the deviation from chance expectation of the occurrences together of two given species of rotifers in a series of lakes, but he did not use any measure of the amount of association between the species.<Node id="2399"/>
+ The coefficient of association devel- oped by Forbes ('07) considers the num- ber of associated occurrences of two given species in a series of random samples com- pared to the number of such joint occur- rences expected by chance. In order to calculate this coefficient we must there- fore count the number of samples in which each of the two species occurs and also the number of samples in which both species occur together. Let us indicate by a the number of samples in which spe- cies A occurs either alone or together with species B, by b the number of sam- ples in which species B occurs, by h the number of samples in which both species
+ occur, and by n the total number of sam- ples examined. The chance of species A occurring in any particular sample in the series is therefore a/n. Similarly, the chance of species B occurring in any sam- ple is b/n. The chance that species A and B will both occur in any given sam- ple is a/n X b/n. The number of sam- ples in the series in which species A and B would be expected to occur together is therefore a/n X b/n X n or ab/n. To obtain the coefficient we now divide the number of samples (h) in which both species are observed to occur by the number of samples (ab/n) in which they would be expected to occur by chance:
+ Coefficient of association = h/(ab/n) = hn/ab.
+ 
+<Node id="3726"/>This formula is exactly that proposed by Forbes, except that the symbols are different.
+ A coefficient of association of 1.0 shows that the two species under con- sideration occur together in exactly the number of sample units expected by chance. A coefficient smaller than 1.0 shows that they occur together in fewer samples than would be expected by chance. For example, a coefficient of 0.5 shows that they are found together only half as frequently as expected by chance. Similarly, a coefficient larger than 1.0 indicates that the species being com- pared are associated more frequently than would be expected by chance alone. The coefficient of association therefore gives a readily understandable indication of the degree to which the association be- tween any two species conforms to ex- pectation on the basis of chance.<Node id="4555"/>
+ The value of the coefficient of associa- tion between any two given species varies with the abundance of the forms in the area studied. If the two species com-
+ 297
+This content downloaded from �������������98.193.32.14 on Thu, 15 Jul 2021 14:59:43 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+ 298 LEE R. DICE Ecology, Vol. 26, No. 3
+ pared are both abundant, both will ap- pear in a high proportion of the samples taken. The chance of both species oc- curring together in any given sample is therefore high, and it will be impossible for any great deviation from expectation to occur. Under these conditions the coefficient of association can never be far from 1.0. On the other hand, if both species are rare in the situation, then the chance of their occurring together in any given sample is also low.<Node id="5386"/> Any deviation from expectation may result in a very high or very low value for the coefficient of association. A high coefficient there- fore does not necessarily mean that the two forms are strongly associated, nor does a low coefficient always indicate that the forms are strongly repulsed. A coefficient of 1.0 shows that the two forms were observed to occur together in exactly the number of samples expected by chance, but it does not necessarily indicate that the forms do not tend to be associated. The coefficient of associa- tion is therefore not a measure of the amount of association between species, but only a measure of the amount of the deviation of the number of their occur- rences together from the number ex- pected by chance.<Node id="6132"/>
+ <Node id="6134"/>To provide a simple and direct measure of the amount of association between any given species (A), taken as the basis of comparison, and any other species (B) I here propose the association index. This index is obtained by dividing the number (a) of random samples of a given series in which species A occurs into the number (h) of samples in which species A and B occur together. Therefore:
+ Association index B/A = h/a.
+ The formula for the reciprocal index is:
+ Association index A/B = h/b.
+ For example, if species A should occur on a total of 40 sample plots (a = 40), and if species B should occur together with A on 30 of these plots (t = 30), then the association index of species B
+ with species A (B/A) would be 30/40 = 0.75. This index shows that on three- quarters of the plots on which species A occurred, it was associated with B.<Node id="6978"/> If we further assume that in the series of sample plots under consideration the number (b) of plots in which species B appeared was 30, then the association index of species A with species B (A/B) would be 30/30 = 1.0. This index shows that on all the plots where species B ap- peared species A also was present.
+ <Node id="7293"/>It will be noted that the association in- dex may differ depending on which spe- cies is used as the basis of comparison. Such a difference may point out an im- portant ecologic relation between the two species.<Node id="7504"/> Frequently one species is de- pendent upon another, without there being any reciprocal dependency. It is believed that the association indices may sometimes be of value in discovering such unilateral dependencies.
+ Because the reciprocal association in- dices are different it will be important always to indicate which species is used as the basis of comparison. This may be done by placing the name of the base species second in the statement. Thus, for a theoretical example: "association index gracilis/bairdii = 0.01."
+ <Node id="8030"/>In some ecologic studies it will be de- sirable to use a measure of the amount of association between species that does not change depending on which species is used as a base. Such a measure, here called the coincidence index, has a value intermediate between the reciprocal asso- ciation indices A/B and B/A. Thus:
+ Coincidence index = 2h a+b
+ In the example previously given the coin- cidence index would be (2 X 30)/(30 + 40) = 60/70 = 0.86. The coincidence index therefore is a measure of the amount of association between both the two species compared.<Node id="8588"/>
+ The values of the association indices and of the coincidence index range from 1.0, which indicates association of the
+This content downloaded from �������������98.193.32.14 on Thu, 15 Jul 2021 14:59:43 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+ July, 1945 AMOUNT OF ECOLOGIC ASSOCIATION BETWEEN SPECIES 299
+ two species in all the samples examined, to 0.0, which indicates complete failure of association under the conditions of ob- servation. Intermediate values give the proportional amount of association. The indices are therefore easy to comprehend.
+ No indication of a possible deviation from chance expectation is given either by the association index or by the coin- cidence index. It will therefore often be desirable to give one or other of these indices and also the coefficient of associa- tion. All of these may be calculated with only slight effort from the same data.
+<Node id="9499"/> No statistical test of the reliability of any of these measures of association has been devised. However, the chi-square test (Snedecor, '40: 16-19) will show whether the combinations of species in the samples of a particular series may possibly be due to chance errors in ran- dom sampling. This test should there- fore always be applied to the data from which any association index, coincidence index, or coefficient of association is derived.<Node id="9945"/>
+ In applying the chi-square test it is necessary to determine the number of units on which each possible combination of the two species would be expected to occur by chance. The expected number of samples in which two species, A and B, would be expected to occur together has already been shown to be ab/n. Species A would be expected to occur alone in the number of samples from which it has been recorded (a) less the number of sam- ples in which it is expected to occur to- gether with B. Similarly, B is expected to occur alone in b samples minus the number of samples in which B is expected to occur along with A. The chance of species A not occurring in any given sam- ple in the series is (n - a)/n. Similarly the chance of B not occurring in any sample is (n - b)/n. The chance that neither A nor B will occur in a given sample is therefore (n - a) /n X (n - b) /n and the total number of samples in which neither species is expected to be present will be (n - a)/n X (n - b)/n X n or (n - a) (n - b)/n. From the deviations
+ from these expected numbers chi-square is calculated.
+ As an example let us assume a series of 100 samples in which species A has been found alone in 5 samples, species B alone in 20 samples, both species A and B to- gether in 20 samples, and neither species in 55 samples (table I). Then the value
+ <Node id="11279"/>TABLE I. Theoretical example of the association between two species (A and B) shown
+ by 100 samples<Node id="11378"/>
+ Number of samples Deviation
+ Class from (deviation)2 expecta- expected Observed Expected tion
+ A only 5 15 -10 6.667 A+B 20 10 +10 10.000 B only 20 30 -10 3.333 Neither 55 45 +10 2.222
+ Totals 100 100 0 22.222
+<Node id="11590"/> a = 25; b =40; n = 100; coefficient of association = 2.0; association index A/B =0.5; association index B/A = 0.8; coincidence index= 0.62; degree of freedom=1; X2=22.222.
+ of a is 25, b is 40, and n is 100. The number of samples in which A and B are expected to occur together by chance (abin) is 10. The coefficient of associa- tion is accordingly 20/10 or 2.0, which shows that the two species in the example occur together twice as frequently as would be expected by chance. The asso- ciation index of species A with species B (A/B) is 20/40 = 0.5, and of species B with species A (B/A) is 20/25 = 0.8. The coincidence index is (2 X 20)/(25 + 40) = 40/65 = 0.62.
+ In calculating the chi-square devia- tions in our example we used data from two species. The number of degrees of freedom is therefore one. The total chi- square is 22.222 (table I). From a table of the values of chi-square (Fisher, '36, table III; or Snedecor, '40, table 9.1) it is evident that this amount of chi-square with one degree of freedom is far above the one per cent. level of significance. The association of species A and B on the sample plots must therefore be due to some factor other than chance errors in random sampling. <Node id="12800"/>We may conclude
+This content downloaded from �������������98.193.32.14 on Thu, 15 Jul 2021 14:59:43 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+ 300 LEE R. DICE Ecology, Vol. 26, No. 3
+ <Node id="13010"/>that there is a tendency in this situation for species A and B to be rather strongly associated in their distribution. From the difference in association indices, moreover, it is suggested that species A is somewhat more strongly associated with B than species B is with species A.<Node id="13291"/>
+<Node id="13292"/> The chi-square test is not reliable when the number of expected units in any class falls below five. If possible the expected number in each class should be ten or more. Should the number of samples available for a particular study neverthe- less be few and if there be only a single degree of freedom, Yates' "correction" (Snedecor, '40: 168-169) may be applied. It is better, however, in every field study of the amount of association between spe- cies to secure a sufficient number of sam- ples so that no class will contain less than ten expected units.<Node id="13850"/>
+ <Node id="13852"/>The magnitude of chi-square varies to some degree with the abundance of the species compared. Two strongly asso- ciated species might occur together on a large number of sample plots and yet, if both were abundant, the deviation from expectation might be slight and chi- square therefore small and not statisti- cally significant. Also, two species that have only a slight tendency toward as- sociation, if both were rare in the sam- ples, might occur together frequently enough to have a large and very signifi- cant chi-square. Care should therefore be taken not to interpret the magnitude of chi-square as indicating the strength of association between the species under consideration. On the other hand, the degree of significance of chi-square may be an indirect but valid measure of association.<Node id="14653"/>
+ The amount of association between three or more species can be determined by means of the coincidence index and coefficient of association by an expansion of the formulas used for two species. Also the significance of the deviation from expectation of the observed amount of association between these species can be determined by the chi-square test. Attempts to measure the association of
+ three or more species will, however, very rarely be practical. The number of sam- ples needed to secure an adequate meas- ure of the association of only two species is very considerable. <Node id="15233"/>A fully reliable measure of the amount of association be- tween two species will seldom be secured with much less than 100 samples,<Node id="15364"/> and more than this number will nearly always be desirable. It will rarely be possible to secure the much greater number of com- parable samples needed to measure in one step the amount of association be- tween three or more species.
+ So far we have discussed only the asso- ciation between two or more given spe- cies. We may also need to measure the amount of association between a species and some inanimate feature of its habitat. For this purpose we may use the indices of association or coincidence, the coeffi- cient of association, and the chi-square test of significance. <Node id="15945"/>We may thus com- pare the occurrence of a given species with the simultaneous presence of rocks, logs, trees, clumps of bushes, or any other feature of the environment. It must not be expected, however, that the calcula- tion of these statistics will alone solve all the problems of the relationships between organisms and their environments.<Node id="16287"/>
+ The abundance of the individuals of either of the species concerned on the sample units is not considered in the cal- culation of the coefficient of association or of the indices of association or coinci- dence. Such an omission from measures of association has been criticized by Cal- vert ('22). <Node id="16587"/>Furthermore, no account has been taken, in these computations, of the possible tendency of the individuals to be associated with one another in pairs, families, or larger social aggrega- tions.
+ The abundance and also the social be- havior of the individuals of any given species obviously affect the frequency with which the form appears in any kind of sample. Therefore the frequency with which any species appears in a given set of samples includes, to some degree, an indication both of its abun-<Node id="17087"/>
+This content downloaded from �������������98.193.32.14 on Thu, 15 Jul 2021 14:59:43 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+ July, 1945 AMOUNT OF ECOLOGIC ASSOCIATION' BETWEEN SPECIES 301
+ dance and of its social behavior. So long as any given sample is as likely as any other sample to contain a representa- tive of each of the species concerned we may use these sample counts as a basis for <Node id="17509"/>computing the association between the species<Node id="17554"/>. We will readily grant, how- ever, that these measures of association apply only to the samples taken and that if the two species involved should occur in other densities or if one or both should have another type of social grouping, such as might be true in other seasons of the year, then different values for these measures of association would probably be obtained<Node id="17923"/>. No- methods have yet been devised for predicting the values of these measures of association under other pop- ulation densities or under other social groupings than those exhibited by a par- ticular sample series.<Node id="18138"/>
+ The samples that are used as a basis for the measurement of association may be any of the usual sample units em- ployed in ecologic field work. They may be quadrats, transects, or sample plots of any kind, or they may be sample catches obtained by sweeps of an insect net, secured by drags of a tow net or dredge, or collected in any other stand- ardized manner. The essential feature is that the two species to be compared actually must have been in close associa- tion with one another if they are recorded in the same sample unit. Any sample unit that covers a large area or that in- cludes several different types of ecologic communities, therefore, will not usually be a proper base for the calculations. Sample units based on time intervals will be admissible only if they also are space units each of which covers an area of not too great extent.
+ <Node id="18995"/>The size of the units from which the samples are obtained influences all these measures of association. This is true because the frequency with which any species appears in a series of samples is dependent not only upon its density and its social tendencies but also upon the size of the area from which the sample is drawn.<Node id="19319"/> <Node id="19320"/>If the sample plots are of large
+ size, almost all the species in the local biota, except only the rarer ones, will appear on a large proportion of the plots. On sample plots of small size, on the con- trary, even the most abundant species are likely to appear on only a small frac- tion of the plots. For this reason hetero- geneous samples, such as the collections of fish compared by Forbes ('07), do not provide a sound basis for the calculation of the amount of association between species.<Node id="19815"/>
+ Inasmuch as the value of all these measures of association varies with the size of the sample units employed, it is evident that the sample units of the series on which any of these computations is based must all be of the same size. The size of sample unit to be employed must of course be adjusted to the abun- dance and also to the size and mobility of the species being compared. The most efficient measure of association seems generally to be obtained when the more abundant one of the species under con- sideration occurs on about half of the sample units in the series.
+ All sample units on which estimates of association are to be based<Node id="20461"/> should be taken at random, using this term in the statistical sense. If any selection is used in locating the sample units the method of selection should be fully described.<Node id="20635"/> Samples taken systematically, such as one collection in each of a series of stands or of communities, usually cannot be used properly as a basis for statistical calculations.
+ <Node id="20812"/>Any measure of association is of course true only for the particular place and time for which it is calculated.<Node id="20923"/> The ecologic relations between organisms vary from time to time, from community to community, and from place to place. It will always be important, therefore, to specify the particular conditions upon which any given measure is based. It will usually be impossible to combine data taken at different times, in different places, in different types of communities, in different manners, or from different sizes of samples to serve as a basis- for
+This content downloaded from �������������98.193.32.14 on Thu, 15 Jul 2021 14:59:43 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+ 302 LEE R. DICE Ecology, Vol. 26, No. 3
+ the calculation of the degree of associa- tion between species.
+<Node id="21627"/> The fact that two species may tend to occur together, as shown by a high asso- ciation index, coincidence index, or coeffi- cient of association, or by a significant chi-square deviation from expectation, does not in any way explain the reason for their association. It may be that the two forms are mutually attracted to one another or that one form is in some way dependent upon the other. The two species may, however, be associated only because of the presence in their habitat of certain features attractive or essential to both. In such a case the two asso- ciated species may have no relationship at all to one another, other than selection of the same habitat. These statistics at best are a measure only of the actual amount of association between two spe- cies rather than of the amount of attrac- tion between them.<Node id="22454"/>
+ SUMMARY
+ The coefficient of association of Forbes indicates the amount of association be- tween two given species compared to the amount of association between them ex- pected by chance. In order to provide a simple direct measure of the amount of association of one species with another the association index is proposed. If a is the number of random samples of a given series in which species A occurs and h is the number of samples in which another species B occurs together with A,
+ then the association index B/A = h/a. Similarly, if b is the number of samples in which species B occurs, then the associa- tion index A/B = h/b. There is also proposed a coincidence index, 2h/(a + b), whose value is intermediate between the two reciprocal association indices. <Node id="23221"/>As a measure of the statistical reliability of the deviation shown by the samples of a given series from the amount of associa- tion expected by chance, the chi-square test may be used<Node id="23405"/>.
+ LITERATURE CITED
+ Calvert, Philip P. 1922. Methods for express- ing the associations of different species. Ecology 3: 163-165.
+ Edmondson, W. T. 1944. Ecological studies of sessile Rotatoria. Part I. Factors affecting distribution. Ecol. Monog. 14: 31-66, 5 figs.
+ Fisher, R. A. 1936. Statistical methods for research workers; Sixth edition. Edinburgh and London: Oliver and Boyd. xiii + 339 pp.
+ Forbes, S. A. 1907. On the local distribution of certain Illinois fishes: an essay in statistical ecology. Bull. Illinois State Lab. Nat. Hist. 7: 273-303, 15 maps, 9 pls.
+ Hacker, H. P. 1921. On the distribution of anophelines in the Brickfields Road area of Kuala Lumpur, November, 1917. Federated Malay States Malaria Bureau Reports 2: 3-28, 1 map.
+ Michael, Ellis L. 1920. Marine ecology and the coefficient of association. Jour. Ecol. 8: 54-59.
+ Snedecor, George E. 1940. Statistical meth- ods applied to experiments in agriculture and biology. Ames, Iowa: Iowa State College Press. xiii + 422 pp., Illus.
+ Van Deventer, William C. 1936. A winter bird community in western New York. Ecology 17: 491-499, 3 figs.
+This content downloaded from �������������98.193.32.14 on Thu, 15 Jul 2021 14:59:43 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+	Contents
+	p. 297
+	p. 298
+	p. 299
+	p. 300
+	p. 301
+	p. 302
+	Issue Table of Contents
+	Ecology, Vol. 26, No. 3 (Jul., 1945) pp. 235-315
+	Front Matter [pp. ]
+	Frost Pocket and Other Microclimates in Forests of the Northern Allegheny Plateau [pp. 235-250]
+	Diel Activity Rhythms of the Rodents, Microtus Ochrogaster and Sigmodon Hispidus Hispidus [pp. 251-273]
+	The Effect of Overhead Shade on the Survival of Loblolly Pine Seedlings [pp. 274-282]
+	Coagulation Film Anoxia in Fishes [pp. 283-287]
+	Use of Shoot Characters in Selecting Ponderosa Pines Resistant to Resin Midge [pp. 288-296]
+	Measures of the Amount of Ecologic Association Between Species [pp. 297-302]
+	Notes and Comment
+	Ecology of Upogebia Affinis (SAY) [pp. 303-305]
+	A Further Report on Toleration Experiments by Ecology Classes [pp. 305-308]
+	Evidence of Winter Breeding of Peromyscus [pp. 308-309]
+	Adjustment of Black Spruce Root Systems to Increasing Depth of Peat [pp. 309-311]
+	Book Reviews
+	Jamaican Shore-Line Ecology, Especially Mangroves [pp. 312]
+	Review: untitled [pp. 313]
+	Review: untitled [pp. 313-314]
+	Book Notices [pp. 315]
+	Back Matter [pp. ]
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="194" Type="quantitative ; " StartNode="1226" EndNode="1463">
+</Annotation>
+<Annotation Id="195" Type="measures of association ; a historical outline of statistical practices being used in ecology" StartNode="1465" EndNode="2399">
+</Annotation>
+<Annotation Id="197" Type="the degree to which the association be ; Forbes, to this researcher, makes a greater impact in helping ecologists compare species than other statistical methods" StartNode="3726" EndNode="4555">
+</Annotation>
+<Annotation Id="199" Type="deviation from expectation ; this is smart - the researcher redefines or more precisely defines what the coefficient of association is in the context of an ecology system" StartNode="5386" EndNode="6132">
+</Annotation>
+<Annotation Id="200" Type="association index ; author proposing own statistical method that mostly seems like a proportions formula but puts it into the context of ecological systems " StartNode="6134" EndNode="6978">
+</Annotation>
+<Annotation Id="201" Type="may differ depending ; researcher trying to generalize ecological relations in a numerical way while giving caution about the value of ecological context" StartNode="7293" EndNode="7504">
+</Annotation>
+<Annotation Id="202" Type="coincidence index ; " StartNode="8030" EndNode="8588">
+</Annotation>
+<Annotation Id="203" Type="chi-square test, data ; researcher is trying to answer the quetstion of how significant are these associations?" StartNode="9499" EndNode="9945">
+</Annotation>
+<Annotation Id="206" Type="TABLE 1. ; strong example of how another researcher could apply this researcher's statistics" StartNode="11279" EndNode="11378">
+</Annotation>
+<Annotation Id="207" Type="must therefore be due to some factor other than chance errors in random sampling ; chi-square significance determined and calculated in what would be seen as a precise way" StartNode="11590" EndNode="12800">
+</Annotation>
+<Annotation Id="208" Type="it is suggested ; interpretations offered by statistical analyses" StartNode="13010" EndNode="13291">
+</Annotation>
+<Annotation Id="209" Type="Yates' &quot;correction&quot; ; cautions that chi-square does not work with sample sizes lower than 5" StartNode="13292" EndNode="13850">
+</Annotation>
+<Annotation Id="210" Type="care should therefore be taken ; certain conditions make it so that significance or no significance is tested but it does not fit the ecological context (meaning that stats is not absolute)" StartNode="13852" EndNode="14653">
+</Annotation>
+<Annotation Id="211" Type="100 samples ; sample size matters" StartNode="15233" EndNode="15364">
+</Annotation>
+<Annotation Id="212" Type="must not be expected...statistics will alone solve all problems; cautions against thinking of statistics as a panacea " StartNode="15945" EndNode="16287">
+</Annotation>
+<Annotation Id="213" Type="social behavior ; this section sounds like the discussion section of a paper where the author is assessing the pitfalls of these statistical tools and (what they can't do or omit)" StartNode="16587" EndNode="17087">
+</Annotation>
+<Annotation Id="214" Type="computing ;" StartNode="17509" EndNode="17554">
+</Annotation>
+<Annotation Id="215" Type="no methods...for predicting ; regression modeling which helps predict what will happen has not yet been applied and researcher states this roadblock" StartNode="17923" EndNode="18138">
+</Annotation>
+<Annotation Id="217" Type="size of units ; geographical implications not considered" StartNode="18995" EndNode="19319">
+</Annotation>
+<Annotation Id="218" Type="heterogeneous samples...do not provide a sound basis ; limitations of statistics still, highlighting limits of Forbes' example" StartNode="19320" EndNode="19815">
+</Annotation>
+<Annotation Id="220" Type="the statistical sense, fully described ; the demand to make methods more explicit " StartNode="20461" EndNode="20635">
+</Annotation>
+<Annotation Id="221" Type="true only for the particular place and time ; researcher still struggling to make generalizations but limited by this truth" StartNode="20812" EndNode="20923">
+</Annotation>
+<Annotation Id="224" Type="does not in any way explain the reason for their association ; powerful to state, statistics is interpretative, not absolute or able explanative" StartNode="21627" EndNode="22454">
+</Annotation>
+<Annotation Id="225" Type="statistical reliability ;" StartNode="23221" EndNode="23405">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

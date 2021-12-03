@@ -1,0 +1,610 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">DC:TITLE</Name>
+  <Value className="java.lang.String">Age Specificity and Ecological Theory</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/anastasiabernat/Desktop/group_corpus/1970%20-%20Age%20Specificity%20and%20Ecological%20Theory.pdf</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">application/pdf</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">TIKA_DC:TITLE</Name>
+  <Value className="java.lang.String">Age Specificity and Ecological Theory</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>Age Specificity and Ecological Theory
+Age Specificity and Ecological Theory 
+Author(s): J. Merritt Emlen 
+Source: Ecology , Jul., 1970, Vol. 51, No. 4 (Jul., 1970), pp. 588-601 
+Published by: Wiley on behalf of the Ecological Society of America 
+Stable URL: https://www.jstor.org/stable/1934039
+ REFERENCES Linked references are available on JSTOR for this article: https://www.jstor.org/stable/1934039?seq=1&amp;cid=pdf-reference#references_tab_contents You may need to log in to JSTOR to access the linked references.
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide range of content in a trusted digital archive. We use information technology and tools to increase productivity and facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.  Your use of the JSTOR archive indicates your acceptance of the Terms &amp; Conditions of Use, available at https://about.jstor.org/terms
+Ecological Society of America  and Wiley  are collaborating with JSTOR to digitize, preserve and extend access to Ecology
+This content downloaded from �������������98.193.32.14 on Mon, 19 Jul 2021 14:26:09 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+https://www.jstor.org/stable/1934039
+https://www.jstor.org/stable/1934039?seq=1&amp;cid=pdf-reference#references_tab_contents
+https://www.jstor.org/stable/1934039?seq=1&amp;cid=pdf-reference#references_tab_contents
+ AGE SPECIFICITY AND ECOLOGICAL THEORY'
+ J. MERRITT EMLEN Biological Sciences, State University of New York at Stony Brook, Stony Brook, New York
+ <Node id="1617"/>Abstract. This paper attempts first to deal with the question of aging as a byproduct of natural selection, drawing on the theories of Medawar, Williams and Hamilton, and second, to apply the conclusions to considerations of population and behavioral ecology. It is concluded that<Node id="1897"/>:
+ (1) Age-specific mortality should drop to a minimum prior to earliest reproductive age and then rise with age.
+ (2) Age-specific fecundity should rise with age to a peak, which may occur at almost any age depending on the sort of organism considered, and then fall.
+ (3) <Node id="2171"/>A sudden increase in mortality at a given age will result in natural selection favoring higher relative mortality at immediately preceding and following ages, and lowered fecundity immediately after that age.
+ (4) A sudden increase in fecundity at a given age will result in natural selection favoring relative higher mortality in early life and immediately after that age, as well as relaxed selec- tion for increased fecundity, especially at middle and late ages.
+ (5) Selection acts to make increasingly steep the survivorship curve of a population de- clining or fluctuating due to changes in mortality.
+ (6) Selection acts to postpone reproductive effort in populations declining or fluctuating due to changes in fecundity.<Node id="2899"/>
+ (7) If mortality is very low, animals, as they age, should ideally take greater risks to secure reproductive success.
+ (8) <Node id="3024"/>The nature of altruistic behavior may be age specific, with older individuals more characteristically altruistic and younger individuals more characteristically pampered.<Node id="3194"/>
+ (9) Intergroup hostilities should be largely directed toward certain age groups.
+ <Node id="3278"/>Ecologists have for years worked with survivor- ship curves and age-specific fecundity curves and several papers dealing with evolution and the aging process have appeared in the literature (Williams 1957, Medawar 1957, Hamilton 1966)<Node id="3512"/>. It does not seem to have occurred to many ecologists, however, <Node id="3577"/>that the mortality and fecundity changes with which they deal are, in fact, defined by the aging process, and that a knowledge of the natural- selective processes responsible for aging can prof- itably be applied to an understanding of birth and death rates. To my knowledge only one recent publication has even attempted to deal with this notion (Slobodkin 1968). It is the purpose of this paper to discuss the subject at some length, deriving expressions for selection on mortality and fecundity schedules and then applying these ex- pressions to ecological theory.<Node id="4144"/>
+ AGING
+<Node id="4152"/> In 1957, Medawar described a manner in which selection might act to influence the age of onset or demise of genetically determined traits. He used as his basis of thinking the "reproductive value," Vx, curve of Fisher (1958), which is a measure of the expected remaining contribution to the an- cestry of future generations by an individual of age x (see Fig. 1)<Node id="4515"/>. (A hypothetical set of data- <Node id="4546"/>see appendix<Node id="4558"/>-has been used to generate the
+ ' Received August 2, 1969; accepted April 10, 1970.
+ vx
+ x
+This content downloaded from �������������98.193.32.14 on Mon, 19 Jul 2021 14:26:09 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+ Summer 1970 AGE SPECIFICITY 589
+
+<Node id="4835"/> FIG. 1. The relationship between Fisher's reproductive value, V., and age, X.<Node id="4913"/>
+ curves in this and subsequent figures, except for Figure 11). <Node id="4977"/>The argument can be paraphrased as follows: To the extent that variation in the age of appearance of some given trait can be ascribed to additive genetic variance, the mean age of the appearance will be influenced by natu- ral selection. Since the total genetic contribution of individuals which acquire the trait at an age of high reproductive value should be more greatly affected by the trait than the total genetic contri-bution of individuals acquiring the trait at a later age (the potential passage of fewer genes is in- volved), it would seem that selection should act most strongly on individuals of high V_,. Thus beneficial traits would be selected for most rapidly at such ages and, to the extent that such traits cannot appear at each of several ages, would tend to appear closer and closer to the age of maximum reproductive value. Deleterious traits, by anal- ogous argument would be pushed off to old age which corresponds to low vales of Va,.<Node id="5936"/>
+ <Node id="5938"/>While the form of Medawar's argument is sound, his use of the reproductive value curve is not entirely appropriate. This fact does not qual- itatively affect his theory of aging, but if the theory is to be extended in application, it is desirable that it first be made more quantitatively accurate. As pointed out by Hamilton (1966), it is not nec- essarily valid to equate the strength of selection at a given age with the reproductive value at that age. Rather, the problem of natural selection and aging should be approached through the use of the familiar equation:<Node id="6507"/>
+ 1 E R-LvFy V==O
+ <Node id="6526"/>where R is the ratio of population size in one time unit to that in the previous time unit, Ly is the average survivorship over the age interval y - 1 to y, weighted according to the distribution of fecundity over the interval, and Fy is the total number of young born per individual between ages y - 1 and y. Where all breeding occurs at the end of a given age interval, we can write LY = ly,, Fy = my,, where ly, and my,, respectively, are sur- vivorship and fecundity at age y. <Node id="7007"/>Hence:
+ 1- E R-vlymy. (1) V==o
+ <Node id="7039"/>We are not concerned here with the derivation of the equation (those unfamiliar with its derivation are referred to Lotka 1956), but must be aware that its validity depends on two assumptions: (1) that ly, and my, are invariant in time, and (2) that the age distribution within the population in ques- tion is constant. That R must be constant also is obvious, but constant R follows from satisfaction of the other two conditions. If we are to use this equation, then, we mugt be certain that over the period of time in which we are interested, mor- tality and fecundity rates remain constant (al- though small oscillations due to environmental perturbations should not greatly affect the accu- racy of the equation). We must also be sure that stable age distributions are expected equilib- rium situations and not likely to change in the populations under scrutiny. Lotka (1922) dem- onstrated this to be the case under conditions of
+ "an invariable life curve, an invariable ratio of male to female births, an invariable rate per head of procreation at each year of age for any given sex-and-age distribution in the populations." This is sufficient if we are concerned only with popula- tions showing constant growth rates.<Node id="8264"/>
+ <Node id="8266"/>Consider a locus with any number of alleles, and let pi be the frequency of the ith allele. Let Rij be the ratio, in numbers, of the genotype with alleles i and j in one time unit to that in the previous time unit (measured over some integer multiple of the time between successive breeding seasons), and fij be the frequency with which the genotype occurs in that previous time unit.
+ R = fijRH,
+ which will be written simply, R, is the ratio of in- dividuals in one time unit to that in the previous time unit-see equation (1). Then, in a<Node id="8806"/> pan- mictic population<Node id="8829"/> in which the change per unit time in fij is small (so that, to a close approxima- tion, the population is in Hardy-Weinberg equi- librium) and which possesses a stable age distri- bution, we can write:
+ p pi(l pi) /DR DR\ At- 2R Vapi api)-
+ This is analogous to the expression given by Wright (1937<Node id="9128"/>) except that it avoids the problems posed by generation time and is approximately applicable to populations with overlapping gen- erations. For purposes of simplicity, <Node id="9297"/>epistatic<Node id="9306"/> in- teractions and <Node id="9326"/>frequency-dependent selection<Node id="9355"/> will be ignored in this paper, and the above expression written:
+ A P, i(l - Pi) DR 2R 5Pi
+<Node id="9447"/> Now the change in R per unit time due to a change in pi, AR (pi), can be given by the Taylor series:
+ ApiR _ 1apk which, when Api is small (corresponding to small Afij), is closely approximated by the first term:<Node id="9660"/>
+ ApiR Api .
+ Where the effects of Api for all i are small and additive, therefore, the change in fitness due to changes in an allelic frequencies may be given by
+ AR E - Api.
+ Substituting for Apt (see above), this becomes 1 p(1 - pi) (DR )2
+ Ri 2 Dp
+This content downloaded from �������������98.193.32.14 on Mon, 19 Jul 2021 14:26:09 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+ 590 J. MERRITT EMLEN Ecology, Vol. 51, No. 4
+ <Node id="10111"/>Now let q., be the proportion of individuals of age x - 1 dying in the interval x - 1 to x. Define by Ut, Z,, respectively, the sets of all alleles af- fecting q. and m. (fecundity at age x), and de- note the frequencies of the uth member of U,,, the zth member of Z,, by p.(x), p,(x). Assume for the moment that U,, Ub, Za, Zb, for all a=,&amp;= b, are disjoint (that is, genes affecting mortality at one age do not affect mortality at other ages, fe- cundity at any age). Then, since R is a function<Node id="10608"/>
+ of q,, m,, for all x, in the absence of epistasis be- tween the above loci:
+ 1 PU(X)[1-PM(x)] DR Dq 12 1 DR 2 2 DP. p,(X)J KLR
+ P r (X) [l- p(X)r[R DI 2 1 FaR] 2 n.,R =R? 2 Lm . epz(x) R13 where the left sides of the equations denote the changes in R due specifically to changes in q,, mi, respectively, and
+ EPUWx ( 1- PUWx) 3 aB ]2 Jmq(X) =E -Pu()( ( \\,2
+ 2~~~~
+<Node id="10975"/> But Aq,,R, Am-,R can also be written as Taylor series which, for smallAq,, Am, approach<Node id="11063"/>
+ B)R 3)R
+ aq q , a m m$
+ respectively. Thus,
+ 1 1R Aqx_ = V 3q, bq (x), '(2a)
+ 1 DR
+ AMXR = am (X). (2b) In these equations Aq, Am-, represent selective response,
+ l 1 B)R | 1 eRm
+ described the selection intensity and Fq (x), Jm (x)<Node id="11297"/> measure the ability of the population to respond. Without detailed genetic and ecologic
+ knowledge of the species chosen for examination
+ it is impossible to evaluate Jq(X), 4Jm (x). As individuals die, the additive genetic variance of an
+ age class is likely to decline so that the ability to respond to selection pressures affecting survivor-
+ ship should generally drop with age, but it is pos- sible that this ability remains unchanged or even rises. <Node id="11753"/>Thus, whether changes in 4Iq(x), 4Im(X) with x significantly affect the following predic- tions is impossible to say, but<Node id="11874"/> the reader should be aware that a lowered ability to respond to se- lection pressures with greater age will result in more steeply dropping survivorship and fecundity
+ curves than are implied below<Node id="12072"/>. Increased ability
+ to respond will have the opposite effect. The gen- eral tenor of the following arguments is not af- fected.
+ MORTALITY
+ Consider the selection intensity on mortality at age x, denoted by "q (x), which is easily calculated. <Node id="12316"/>The prime is used to distinguish this use of I' from Crow's (1958) I (index of selection) which, for mortality factors at age x, would be:
+ 1 aR I - D-Aqx = I'q(X) Aq$<Node id="12483"/>
+ Note now that l= (1 -ql) .... (1 - q$).<Node id="12524"/> Then, differentiating both sides of equation <Node id="12570"/>(1) with respect to qa:
+ 0 E (-YR--Illym) aq? (R ? -ylm) V=O q V=$
+ 1 1 BR
+ 1 -q.,so that I( )7 Dq E R -YIvm _ RVl=m$ 1 (3)
+ - yR-vlmv 1- qX
+<Node id="12711"/> This same expression, in slightly different form, is given by Hamilton (1966)<Node id="12789"/>. Equations 2 and 3 can be combined to give:
+ AqX = 'q (X)Dq (X) (4) <Node id="12858"/>Ideally q$. will tend to zero, but in reality must
+ approach some nonzero value determined by the point of equilibrium between the selection depicted in equation 4 and opposing selective pressures and mutations. The point of equilibrium may also be affected by purely mechanical limitations. Where these opposing forces are invariant with age, how- ever, the equilibrium value of qx, should more closely approach zero when I'q(x) is large and, to the extent that a beneficial trait may appear either at one age or another, but not both, it will be se- lected for most strongly, and thus tend to appear, at the age corresponding to the higher value of I'q(x). <Node id="13517"/>The general form of the I'q(x) curve is shown in Figure 2.
+ Before the age of first reproduction, differences in "q (x) are affected only by changes in q$,, and not m-, (see equation 3).<Node id="13703"/> If q., falls with age, ifq(x) also falls so that selection intensity to de- crease q$ is highest where qa, is highest. If selec- tive response at all ages prior to minimum repro- ductive age is proportional to selection pressure, then, unlike Figure 2, selection should result in an IqV(x) curve which is perfectly horizontal over this age span; q$ should be constant in this range.<Node id="14086"/> There are reasons, however, for believing that deleterious traits may accumulate in early, pre-
+This content downloaded from �������������98.193.32.14 on Mon, 19 Jul 2021 14:26:09 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+ Summer 1970 AGE SPECIFICITY 591
+ Iq(x
+ X <Node id="14377"/>FIG. 2. Selection intensity with respect to age-specific
+ mortality, I"q(x), as a function of age, x.<Node id="14478"/>
+ reproductive life as well as old age. <Node id="14518"/>As suggested by Hamilton (1966), parents which produce de- fective young will show higher fitness if those young die as soon after zygote formation as pos- sible. Because of the advantage of efficient paren- tal time and energy budgeting as well as rapid gene passage, selection will favor, on this basis, the <Node id="14828"/>precession<Node id="14838"/> in age of deleterious traits. This, of course, holds only for the parental care period which includes the time between zygote forma- tion (or, in a sense, gamete production) and the severing of parental ties, and which in the case of some species may be almost negligably short. In this argument selection acts on individual ge- notypes through their parental stock-i.e. by kin selection (Fisher 1958; Haldane 1955; Hamilton 1964; Maynard Smith 1964).<Node id="15290"/> Mechanical con- siderations may lead to the same conclusion. <Node id="15352"/>Time is required for the development of maximum re-
+ sistance to death and in viviparious species the demands of gestation on the parent do not allow for full development at birth. In other species, high larval mortality may be a necessary compro-
+ mise brought on by the physical nature of a se-
+ lected dispersal life-form. <Node id="15678"/>There is another consideration which also leads
+ to the same conclusion. We note that Ua, Ub, Za,
+ Zb are not always disjoint as assumed above. The life-long <Node id="15836"/>ontogenetic<Node id="15847"/> process also includes the co- development of many characteristics present throughout life, each at its own rate. <Node id="15961"/>Natural selection will then act to decrease or increase age- specific resistances to mortality by altering the rates of development, or age at which development starts, for each of these characteristics. It is the integration of these characeristics that affects sus- ceptibility to stress and there may be one or sev- eral ontogenetic "adaptive peaks" associated with particular developmental configurations. If nat- ural selection acts to push those peaks occurring late in life towards early reproductive maturity, some may be pushed beyond that age into the prereproductive period. Maximum realizable fit- ness will be achieved when these peaks become maximally compressed into the period up to and including earliest reproductive maturity.<Node id="16705"/> Max- imum resistance to mortality should occur some- times during this period.
+600
+ 10
+ 8
+ 6
+ 400 q 2
+ qX 0 4 1 10 13 16 19
+ 200
+ 0 20 40 60 80 100 Age (X)
+<Node id="16862"/> FIG. 3. The relationship between age-specific mortality, q., and age, x, in man.<Node id="16943"/>
+This content downloaded from �������������98.193.32.14 on Mon, 19 Jul 2021 14:26:09 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+ 592 J. MERRITT EMLEN Ecology, Vol. 51, No. 4
+
+ <Node id="17144"/>Age-specific mortality, in other words, should generally be high at conception, fall to a minimum during prereproductive life, and then, after the age of first reproduction, rise with age. This pat- tern is beautifully borne out by data organized by Pearl (1940) on man (Fig. 3) (also see more recent demographic tables and Keyfitz 1968), and would appear to be true for mammals generally (Caughley 1966). Farner's (1945) data on the American Robin show a steady rise in qt. with age. High nestling mortality combined with these re- sults yields the predicted mortality curve. In data gathered on birds by Lack (1943a, b, c) qx appears to drop for the first year or first few years, remain fairly level (with considerable variability) and then rise in old age, but these trends are not clear cut and the final rise may be a statistical artifact. In rotifers the mortality curve rises with age yet appears to fall in very early age (Edmondson 1945). The data for the barnacle, Balanucs bala- noides, in France, show the same pattern (Hat- ton 1938, after Deevey 1947), as do those for Daphnia pulex (Frank, Boll, and Kelley 1957) and D. obtusa (Slobodkin 1954). After the initial
+ drop in q_, following the fingerling stage, mortality also rises with age in the East Anglian herring (Clupea harengus), the Pacific herring (C. pal- lasii), the whitefish (Coregonus ciupeaformis), the sauger (Stizostedian canadense) (Beverton and Holt 1957), and the bluegill (Lepomis. machro- chirus) (Gerking 1962).<Node id="18642"/>
+ An interesting and pertinent observation less directly connected with mortality, per se, is that the ability of the prawn (Hippolyte) to change its protective coloration degenerates with age (Portman 1959). Still less directly connected, but perhaps significant, is the fact that, in man, learn- ing ability, measured by two methods, rises with age until about 11, remains fairly constant until roughly 30 (see mortality curve, Fig. 3) then declines (Inglis, Ankus, and Sykes 1968). <Node id="19127"/>Cases such as those of many invertebrates with inde- terminate growth, in which mortality falls off steadily with age-at least until very old age- can be explained on the basis of mechanical lim-
+ itations [one component of 4Iq(x))]: younger in- dividuals by virtue of their smaller size are more easily destroyed than their larger, older relatives. It would be instructive to examine susceptibility to physiological, rather than physical or predative factors in such species.<Node id="19603"/>
+ FECUNDITY
+ Selection for age-specific birth rates can be handled in the same manner as selection for age specific mortality rates, where:
+ 1 3R
+ m R 3?m(Z (same as equation 2b), (5)
+ 1 DR R _ ___ ___
+ I'm(X) = i aDm, - E yR -1,mv
+ (6) A selection intensity curve for fecundity is given in Figure 4.
+ Clearly, traits increasing fecundity will be pushed to earlier and earlier ages until stopped by opposing forces. These forces may be of sev-
+ 1@I\
+ x\ <Node id="20057"/>FIG. 4. Selection intensity with respect to age-specific fe-
+ cundity, I'n(x), as a function of age, x.<Node id="20160"/>
+ eral kinds. Selective factors may retard maturity. <Node id="20213"/>For example, a young animal has available to it only a finite amount of energy which must be used for growth, regulation and maturation. Sur- vival is an obviously important factor in natural selection and must figure significantly in the evo- lution of systems of priority for energy appro- priation. <Node id="20515"/>Obviously, <Node id="20526"/>if survival is threatened, maturation need not merit top priority. Another consideration is exemplified in the many bird spe- cies characterized by delayed maturity in the males. That is, males start mating at significantly later ages than females. Since late mating is disad- vantageous, there must be some compensating factor that encourages waiting. It appears that young males often cannot compete with older males in the defense of territories, cannot so successfully defend their nests from predatory or nonspecific attack, or cannot so efficiently care for their young (for example, see Coulson 1966; Coulson and White 1958). In short, females will generally have greater reproductive success if they mate with the older males (which they do)<Node id="21275"/>. In addi- tion, where this is likely to occur, the advantages of conserving time and energy and cutting risk may militate against even an attempt to win a mate. Under these circumstances, the early ap- pearance of reproductive behavior and plumage is selected against. The Common Redwing (Age- laius phoeniceus) is such a case, the first-year males retaining much of their brown, juvenile ap- pearance and appearing on territories only very briefly (unless unchallenged) early in the breed- ing season (Orians 1961).
+ With respect to mechanical difficulties it is
+This content downloaded from �������������98.193.32.14 on Mon, 19 Jul 2021 14:26:09 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+ Summer 1970 AGE SPECIFICITY 593
+ trivially apparent that individuals cannot give birth simultaneously with their own births. Re- production cannot occur immediately, and prior to its appearance there can be no selection for suc- cessful reproduction (barring possible cases in- volving linkage or <Node id="22290"/>pleiotropy<Node id="22300"/>). <Node id="22303"/>Note also that the age at which developing characteristics integrate in such a manner that successful reproduction first becomes possible is, in fact, minimal repro- ductive age.<Node id="22481"/> <Node id="22482"/>Optimal reproductive success, on the basis of selective forces, and considering "onto- genetic inertia," must thus occur after minimal reproductive age.<Node id="22634"/>
+ In conclusion, fecundity should rise following earliest reproductive capability, then fall progres- sively with advancing age. <Node id="22763"/>This is true in a num- ber of insect species, for example Oncopeltus fas- ciatus and Aphis fabae (Dingle 1965), Tribolium castaneum (Leslie and Park 1949), Calandra ory- zae and Rhizopertha dominica (Birch 1953), and Dacus tryoni (Lewontin and Birch 1966). It is also true for Daphnia pulex (Frank et al. 1957), and appears to hold for rotifers (Edmondson 1945). Leslie and Ranson (1940) note the same trend for the vole (Microtus agrestis), and Key- fitz (1968) gives pertinent data for man<Node id="23254"/>. <Node id="23256"/>In many species, however, mechanical or experiential con- siderations seem to alter the picture considerably. There are many invertebrates and lower verte- brates with indeterminate growth in which egg number increases with body size. The result is that even though selection for fecundity falls off with age, individuals will produce larger numbers of young in later life.<Node id="23629"/> In the case of birds, too, clutch size and number of young fledged per breed- ing pair seems to rise with age, probably due to accumulated parental experience (Coulson and White 1958). The shape of the ma, curve may be such that fecundity reaches a peak anywhere from minimum reproductive age on. <Node id="23927"/>What is particu- larly interesting is that since selection for fecun- dity (which must involve selection for congen- itally healthy young) falls off with age, progeny of
+ older individuals (regardless of their numbers) would be expected to be more mortality-prone than progeny of younger individuals. To my knowledge this has been explored only in man where, as expected, the incidence of <Node id="24316"/>congenital<Node id="24326"/> defects first falls, then progressively rises with the age of the mother (Milham and Gittelsohn 1965; see Table 1).<Node id="24442"/>
+ Selection on the mA, curve may be viewed in either of two ways. In individuals which repro- duce regularly, selection will tend to increase or decrease fecundity at each of those ages scheduled for reproduction. <Node id="24656"/>On the other hand, selection, through its effects on ma, may be looked upon as determining those ages at which reproductive ef- forts should be most strongly directed. <Node id="24824"/>The first view is implicit in the above discussion. A par- ticularly nice example of the second view is af- forded us by species that reproduce only once during their lifetime, such as the Pacific salmon, in which potential fecundity increases with age. Here we can write, from (1), with T the age of reproduction and ma, = 0 for y # T:
+ 1 = R TTmT.
+ Hence,
+ R =exp [log (nT T)].
+ <Node id="25205"/>Natural selection acts to maximize R. Thus, if we know IT and physiological potential MT as func- tions of T., in order to find optimum T, we have only to find that value of T for which R is max- imum.<Node id="25406"/>
+ It may be argued that observed rises in mortality and drops in fecundity with age can be explained (except for the early decreases in death rate and increases in reproductive success) on the basis of <Node id="25608"/>gradually accumulated chromosomal aberrations.
+ Clearly it would be satisfying to be able to show that under normal conditions (radiation of body tissues in the laboratory and by atom bomb explo- sion are not normal biological stresses) the rate at which such mutations occur falls initially with age<Node id="25908"/>
+ <Node id="25910"/>TABLE 1. Defects per 10,000 recorded human births<Node id="25959"/>
+ Mother's age Defect l . _
+ 15-19 20-24 25-29 30-34 35-39 40-44 45+
+ Anencephalus .......... . 9.8 8.7 7.2 7.7 8.8 9.7 5.5 Spina bifida ............. 11.5 11.3 9.7 10.1 12.5 12.6 16.4 Hydrocephalus .......... 18.0 7.2 6.9 7.6 9.6 15.2 24.5 Microcephalus ........... 1.1 0.8 0.8 0.9 1.1 13.0 Heart defects ............ 17.2 17.8 16.9 16.8 23.8 27.5 50.1 Cleft lip, palate .......... 10.4 10.8 10.9 9.9 11.5 16.3 Mongolism ............. 2.0 1.7 1.9 3.4 11.2 32.6 89.4 Club foot........ . 14.8 13.7 11.2 11.3 12.4 14.3 17.9
+ aData from Milham and Gittelsohn 1965.
+This content downloaded from �������������98.193.32.14 on Mon, 19 Jul 2021 14:26:09 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+ 594 J. MERRITT EMLEN Ecology, Vol. 51, No. 4
+ and then rises. An examination of the information available indicates that this may be so. A number of papers (Court Brown et al. 1966, Jacobs and Court Brown 1961, Jacobs et al. 1963, Hamerton et al. 1965) <Node id="26927"/>show significant rises in the frequency of <Node id="26970"/>aneuploidy<Node id="26980"/> with age<Node id="26989"/>. Except for the data of Jacobs et al. (1963), there also appears (although in no case is it statistically significant) to be a de- cline in the proportion of aneuploid cells prior to ages 5 to 14. If this drop is real it means not only a tendency for the abnormal cells to be lost with age, but also a drop in the rate of appearance of these abnormalities. Furthploidyermore, in all the above cases, the subsequent rise in aneuploidy with age appears to be linear or increasingly steep. If, as seems certain (and as suggested above), the abnor- mal cells are discarded, then this means that the rate of appearance of aneuploid cells increases, or the rate of their disposal decreases with age, or both.
+
+ Perturbations in the survivorship and fecundity curves
+
+ The shape of the ls and ma, curves is the result of a balance between the selective forces described above and opposing forces which may or may not be directly related to natural selection. Thus, if I'q(x) or Inm(x) were changed, we would expect the resulting selective equilibrium values of qS or ma to change accordingly. Suppose, for example, that for some reason q were to increase between ages k - 1 and k. The result of such a change is a transient Iq (x) curve which changes the rate of selection on all qua. An examination of equation (3), for R very roughly 1, shows the resulting transient curve to drop more rapidly than the original curve for x &lt; k - 1, less rapidly for x > k. An example of the appropriate transient curve is given in Figure 5. <Node id="28510"/>The arrows show the directions in which selection pushes deleterious traits relative to their old equilibrium positions. This and subsequent figures are based on different sets of hypothetical data given in the appendix, but the results are general in application. As traits responsible for decreased resistance to mor- tality factors accumulate to either side of the interval k - 1 to k, the selection intensity curve smooths and the survivorship curve is brought to a new equilibrium form.<Node id="29001"/> The interesting point is that an increase in susceptibility to one source of potential mortality at a given age tends to "attract" to the same general age traits resulting in increased susceptibility to other mortality sources.
+ Suppose m increases at age k. In this case the iq (x) curve slopes less steeply than the original
+ Iq(x) \
+ x k <Node id="29343"/>FIG. 5. Selection intensity with respect to age-specific
+ mortality<Node id="29410"/>: (a) before increase in qk (mortality at age k), (b) immediately after increase in qk*
+ as x increases, and drops suddenly at x = k. The transient curve for this particular situation is shown in Figure 6.
+ The same sort of arguments can be applied to the I'm(x) curve. The drop in I'"(x) (transient
+ with increase in qk) is less steep than for the original curve and the curve jumps downward at x_ k. Thus, there will be an increase in dele- terious fecundity traits immediately following age k. The value of DT't (x)/3Mk becomes increas- ingly negative with x until the trend is reversed for large x. The appropriate transient selection intensity curves are shown in Figures 7 and 8. <Node id="30096"/>The general results of this discussion may be sum- marized as follows:
+ (a) Increased qk leads to selection favoring in- creased q., for x close to k (Fig. 5).
+ (b) Increased Mk leads to selection favoring raised q0, for x immediately following k
+ (Fig. 6). (c) Increased q7 leads to selection favoring low-
+ ered fecundity at ages immediately follow- ing k<Node id="30453"/> (Fig. 7).
+This content downloaded from �������������98.193.32.14 on Mon, 19 Jul 2021 14:26:09 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+ Summer 1970 AGE SPECIFICITY 595
+ a
+ --Ab
+ Iq(x);
+ x k <Node id="30671"/>FIG. 6. Selection intensity with respect to age-specific
+ mortality:
+ (a) before increase in mk (fecundity at age k), (b) immediately after increase in mk.<Node id="30826"/>
+ --a
+ x k <Node id="30837"/>FIG. 7. Selection intensity with respect to age-specific
+ fecundity: (a) before increase in qk (mortality at age k), (b) immediately after increase in qa.
+ (d) Increased ma results in relaxed selection for reproduction, particularly in middle and late ages<Node id="31093"/> (Fig. 8).
+ The above conclusions apply to changes occur- ring within populations and not between species.
+ . t _~~~~~~~~~a ---b
+ x k
+<Node id="31227"/> FIG. 8. Selection intensity with respect to age-specific fecundity:
+ (a) before increase in mk (fecundity at age k), (b) immediately after increase in mk.<Node id="31382"/>
+ <Node id="31384"/>The use of selection intensity curves may, how- ever, be extended to cover the latter case. For example, species which for some reason (small sized individuals, perhaps) have inevitably high mortality rates, posses I'm(x) curves which fall off rather rapidly toward old age.<Node id="31658"/> This, in effect, means little selection except at young ages and tends to mass all reproductive activity in early life. Early reproduction results in relaxed selec- tion against mortality factors later in life and ac- centuates still further the drop in the I'm(x) curve with age. It is thus no accident that small animal species reproduce early in life (and are often semelparous) and possess short life spans even when protected from the predation or harsh cli- mates that are the cause of their greatest mortality in the field. There is simply no selection acting to keep the physiological processes viable in old in- dividuals.<Node id="32290"/> Increasingly larger species (and species inhabiting increasingly stable areas or places where they are less subject to predation) suffer increas- ingly less mortality. Thus, there is less selection pressure to reproduce early and selection against susceptibility to mortality factors later in life is stronger; potential longevity is greater<Node id="32632"/>. It is well known that larger animals tend to show greater longevity than small even under ideal conditions. It also seems generally true that marine organisms (stable environments) have potentially longer life- spans than similarly sized aquatic or terrestrial organisms (less stable environments). Similar explanations of most of these phenomena have been made previously by Williams (1957).
+This content downloaded from �������������98.193.32.14 on Mon, 19 Jul 2021 14:26:09 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+ 596 J. MERRITT EMLEN Ecology, Vol. 51, No. 4
+ FLUCTUATIONS
+<Node id="33239"/> The conditions under which equation (1) holds
+ specify no temporal change in mn, q,. Suppose, however, that my or qu, undergo a sudden change and that the population rapidly comes to a stable age distribution and remains there during its sub- sequent increase or decline. Populations fluctu- ating in size due to repeated changes of this sort may be explored legitimately through the use of equation 1, and although such populations are not accurate reflections of real populations, they to
+ some degree approximate them. <Node id="33762"/>If the 1, and m, curves of a stable population are changed by virtue of the onset of fluctuations of the sort described above, the 1, and mg, curves of any fluctuating population should also change in, qualitatively, the same fashion. Now, populations fluctuating due to changes in selective birth and death rates will in- crease if and only if relaxed selection pressures allow them to do so. Selection acts most strongly during population decline when the number of selective deaths increases and/or selective fecun- dity falls. Thus the bulk of selected change occurs when R &lt; 1, so that the net effect of selection in fluctuating populations should, unless changes in
+ !q(x)
+ -- x
+ <Node id="34448"/>FIG. 9. Selection intensity with respect to age-specific mortality:
+ (a) R = 1 (equilibrium populations), (b) R &lt; 1 (declining or fluctuating populations).<Node id="34603"/>
+ ) are opposite to and sufficiently greater than
+ changes in I', be as implied by the I'q(x), I'm(s) curves but with R &lt; 1. In constant populations, R = 1. The appropriate curves are given in Fig- ures 9 and 10. It is important to note that selec- tion pressures may be stronger in declining pop- ulations as opposed to increasing populations only with respect to factors responsible for the popula- tion decrease (i.e. selective deaths, or selective
+ fecundity, as the case may be.) <Node id="35088"/>Thus, if the fluc- tuations are caused strictly by changes in mortality the I'q(x) curve is affected by fluctuations (Fig- ure 9) but not the I'm(x) curve. Similarly, if mortality remains constant and fecundity varies there will be a change in the pattern of selection
+ due to population fluctuations (R effectively less than one) only with respect to fecundity. In the
+ case of populations declining or fluctuating due to
+ changes in mortality rates it is clear from Figure 9 that selection for an early age of maximum re- sistance to stress is relatively greater than in a constant population. Where decline or fluctuation follows from variation in fecundity (Figure 10) maximum reproductive success and, therefore, sub- sequently maximum reproductive effort should oc- cur later in life than in constant populations. This is an accurate statement of the often-heard thesis that early reproduction is favored in growing, de- layed reproduction in declining populations.<Node id="36059"/> It is doubtful that clear-cut, side-by-side cases of stable populations and populations changing due strictly to mortality changes or fecundity changes ever exist in nature, but the predictions above provide
+ -a
+ Ilnx) \ ,
+ x <Node id="36286"/>FIG. 10. Selection intensity with respect to age-specific
+ fecundity: (a) R = 1 (equilibrium populations) (b) R &lt; 1 (declining or fluctuating populations)<Node id="36440"/>.
+This content downloaded from �������������98.193.32.14 on Mon, 19 Jul 2021 14:26:09 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+ Summer 1970 AGE SPECIFICITY 597
+ a rather elegant method for laboratory testing of the general approach to aging discussed in this paper. What may happen in nature is that pop- ulation growth resulting from fewer genetic deaths results in stiffer competition for ability to produce offspring rapidly. Thus I'm(x) may, in actuality, be affected by mortality-induced population fluc- tuations. In this case selection acts on fecundity as if R > 1, and reproduction at earlier ages is advantageous.<Node id="37090"/> It has been noted before (Ford 1964) that over long periods of time (several fluc- tuations) selection acts more quickly to bring about changes in fluctuating than in stable environments. It appears also that selection will act in slightly different directions.<Node id="37352"/>
+ Time, Energy and Risk
+<Node id="37376"/> In 1962 Levins introduced a technique for in- vestigating adaptation patterns in heterogeneous environments which involves what he calls "fit- ness sets" and "adaptive functions." The tech- nique has since been used elsewhere with varying degrees of success (Levins and MacArthur 1966, MacArthur 1965, MacArthur and Levins 1964). In all cases, age specificity has been ignored. In the following discussion I have applied the tech- nique to an examination of time and energy budg- eting as affected by risk factors taking fully into consideration the matter of age.<Node id="37941"/>
+ <Node id="37943"/>Natural selection may be thought of as acting as an efficiency expert. Thus, we should expect that an animal's budgeting of the time and energy available to it would be such as to maximize fit- ness. The incorporation of considerations of the risk involved with different activities, however, is much more difficult. Consider all forms of risk together as unavoidable byproducts of activity leading ultimately (and often very indirectly) to- ward the successful passage of genes, and assume that natural selection will tend to maximize R. Then, with respect to selected changes in R due to mortality and fecundity changes only at age x<Node id="38578"/>:
+ DR DR dR dqZ, + d
+ so that for a given value of R, dR 0, and:
+ dqo, DR/D3,, dm, DR/Dq,,
+ Substituting from equations (3) and (6), and changing slightly the form, this becomes:
+ d(l - qua) it'm(X) R-01,(l - qua) din - Itq(x) ? R lyiy
+ #=$
+ (7)
+ I-qL
+ <Node id="38831"/>FIG. 11. The fitness set (shaded) and adaptive function (parallel lines) for fecundity-risk relations at age x.<Node id="38942"/>
+<Node id="38943"/> Equation (7) provides a family of lines relating survivorship through the interval x - 1, x to fe- cundity at age x, each of which represents a given value of R. That is, the relation between sur- vivorship and fecundity given above defines a family of R isoclines. This is the "adaptive func- tion" of Levins.<Node id="39254"/> Now consider the set of all com- binations of' (1 - q.,) and m, realizable in the living organism. A genotype which induces its owner to expend a maximum amount of time and energy looking after its own survival will not al- low for high fecundity also. Similarly an indi- vidual which concentrates maximally on producing young has little time and energy left for defending itself.<Node id="39635"/> The shaded area in Figure 11, superim- posed on a graph showing the adaptive function, represents the set of all possible combinations of (1 - qu,) and m. This is Levin's "fitness set." Since selection acts to increase fitness (R), it chooses that genotype in the fitness set tangent to the highest isocline of fitness. This approach allows us to make predictions concerning optimal priorities in an animal's use of time and energy in the face of defined risks. Without quite elab- orate data, quantitative application of the model is impossible. But concrete uses of the above tech- nique do not concern us here. What does con- cern us is the fact that the adaptive function changes with age. <Node id="40330"/>The change in d ( - q,) /dm. between ages x - 1 and x can be written:
+This content downloaded from �������������98.193.32.14 on Mon, 19 Jul 2021 14:26:09 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+ 598 J. MERRITT EMLEN Ecology, Vol. 51, No. 4
+ rR-xlx(l qX) r R-x+-1,_1(1 -qx-,)l L E R q-)v]mRI E E. R-qYIy I V-= V=X-1
+ = Rl-x ((1 qa1)lX_1 R-1(1 q-VI l XE R -vlym ?: R-lm Yv=X-1 v-X
+ <Node id="40738"/>If mortality is very low so that (for R = 1) the numerators of the bracketed expressions are roughly equal, then, after minimal reproductive age the change may be negative, meaning that the adaptive function slopes more steeply with age. This is particularly apt to be true when R &lt; 1 (declining or fluctuating populations). In such populations animals, as they grow older, should ideally take more risks in order to assure repro- ductive success. Where mortalit is sufficiently high, the situation may be reverseJ, individuals concentrating increasingly on staying alive even at the cost of successful reproduction.<Node id="41354"/> The situ- ation is complicated by another consideration. The above treatment examines priorities on the basis of selective advantage to the individual. Priorities may also be explored on the basis of<Node id="41554"/> kin selection<Node id="41568"/>. The expected remaining contribution to the ances- try of future generations by a parent of age x + 1 is V, +, (reproductive value). Its contribution via its just-produced offspring (in diploid species) is
+ mxv,/2 (since each parent contributes one-half the genetic compliment of its young). Where V.+1 declines faster than m.,VO/2 with age, there is an increasing selective advantage to as- suring reproductive success at the expense of sur- vivorship. <Node id="42023"/>The kin selection argument indicates an advantage to shifting priorities at any age more toward reproduction than suggested above. How- ever, clear cut statements as to the expected changes in priority with age require information specific to the situation under consideration.<Node id="42300"/>
+ ALTRUISTIC BEHAVIOR
+ <Node id="42323"/>Any population may be arbitrarily subdivided into a number of subpopulations. For our present purposes, we shall define a subpopulation as any pair of adjacent individuals at some given time. Altruism is defined as any behavior that benefits one of the individuals in a subpopulation at the expense of the other, the altruist. Let us now suppose that on the average the ratio of altruism- inducing genes in recipient versus altruist is a.<Node id="42761"/> If the average increase in fitness accruing to the
+ recipient from one altruistic act is I ARBI (subscript B denotes recipient), and the loss in fitness to the
+ altruist is JARA4, <Node id="42942"/>then, if altruism is a recessive trait, the average number of altruist genes saved per subpopulation per altruistic act is 20 ARBI and the number lost is 2 AR, 1.<Node id="43104"/> Where
+ a > IARal/IARBj the gene for altruism increases in number. If the total population size remains constant it seems intuitively obvious that <Node id="43251"/>the local increases in al- truist gene number must mean an increase in the frequency of the gene. This is a slight simplifica- tion-changes in the number of genes in subpop- ulations without altruists change the picture slightly-but will do for the present purpose of painting a simple, intuitive picture. The condi- tion for the spread of an altruist (recessive) gene, laid down by Hamilton (1964) in his rigorous treatment of kin selection is:
+ f > ARAI/IARBf, where f is the coefficient of relationship, or co- ancestry, between the altruist and the recipient.<Node id="43814"/> In this paper we shall concern ourselves with the conditions obtaining at the time of first appear- ance of the altruist gene, when ax - f, and in keep- ing with the simplified derivation above, use the expression:
+ a > ARAI/IARBIX A moment's reflection shows that the above
+ condition warrants closer attention. We may pic- ture, for example, a young altruist with a very old recipient. Clearly the increase in fitness to the older individual is small since its reproductive life is nearly over while the average loss in fitness to the younger animal is disproportionately high. If the change in fitness is mediated through changes in mortality, we may write that the change in fit- ness due to altruism performed at age a, is
+ AqaRA=.Rq Aqua Similarly the effect on a recipient of age b is given by
+ Aq RB DR Aqb-
+ The general conditions for the spread of an altruist trait can now be written (where RB- RA is very small):
+ DRA
+ ___ q I'q(a) JAqal 0 > 3RB I' q(b)jAqhv (8)
+ Dqb Aqb or
+ I'q(b) > J'q(a) Aqbf (9a) or
+ I' q(a) &lt;a I'q( b) Aqd * (9b)
+ Where no age recognition is possible, of course,
+This content downloaded from �������������98.193.32.14 on Mon, 19 Jul 2021 14:26:09 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+ Summer 1970 AGE SPECIFICITY 599
+ there will be no differential behavior between al- truists and recipients of different ages. <Node id="45192"/>Where age recognition occurs, however, selection should fa- vor discriminatory reactions in individual encoun- ters and a tendency to change individual biases with age; each age group will come to behave altruistically toward individuals of some but not all other age groups. This situation is shown graphically in Figure 12.<Node id="45517"/> For any altruist of age a, there will be a corresponding value of 1q (a), so that for given values Aqa, Aqb, and a, there also will be a corresponding value of
+ 1/a ITq (a) Aq,
+ Fqq(b) (selection intensity on the recipient) will meet the required conditions for altruistic treat- ment for all ages prior to k (see equation 9a, shaded portion of Fig. 12). For a recipient of age b (Fig. 13, equation 9b) there are correspond- ing values of I'q(b), and
+ a I/q(b) I qb lAqa~l
+ All individuals older than k (shaded portion of Fig. 13) are potential altruists with respect to in- dividuals of age b.
+ Parental care and the subsequent, often dra- matic, rebuff of young as they grow older are examples of age specificity in altruism so well
+ Iq(a)
+ I-q(X)
+ I AqI
+ x a k <Node id="46282"/>FIG. 12. Age (&lt;k) of potential recipients of altruism
+ from individuals of age a.<Node id="46363"/>
+ ______ Iq(b)
+ x k b <Node id="46385"/>FIG. 13. Age (> k) of potential altruists towards indi-
+ viduals of age b.<Node id="46459"/>
+ known that they appear almost trivial. The pro- tection and attention afforded young animals by adult males in some higher primate species is an- other example. Beyond these rather straightfor- ward cases, though, information is difficult to find.<Node id="46708"/> For one thing, until the benefits accruing to actor and receiver are known, there is no way to cate- gorize a trait as altruistic or selfish.<Node id="46850"/> Since these benefits are known only for a number of rather obvious traits (for example, some aspects of phys- ical protective behavior, alarm calls) <Node id="47000"/>it is hard to know where to look for information on age speci- ficity in altruism. Is grooming behavior in mon- keys altruistic or not? Another difficulty is that selflessness is often hard to identify even when the benefits mentioned above are known. Is the willingness of one individual to share a food source, when another is unwilling to do so, a sign of al- truism or an indication that the individual is in- capable of displaying dominance?<Node id="47446"/> It is often un- clear as to whether an altruistic act affects the recipient's survival or fecundity more importantly. In the former case protective behavior should be most directed toward young, prereproductive an- imals [I'q(x) is maximum] ; in the latter case, towards individuals in their reproductive prime [I'm(x) is maximum]. Recognition of specific behavior patterns which are altruistic and the subsequent examination of those patterns for any
+This content downloaded from �������������98.193.32.14 on Mon, 19 Jul 2021 14:26:09 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+ 600 J. MERRITT EMLEN Ecology, Vol. 51, No. 4
+ possible correlation with age in any animal species is badly needed.
+ One further point is worthy of mention. In species which live in reasonably closed groups of individuals and which are capable of recognizing members of their own group, the altruism argu- ment can be carried further (see also Emlen 1966). Since altruism spreads through its bene- ficial effects on neighbors and since different groups may be in competition with one another, natural selection should favor the discriminatory practice of altruism within the group and hostility between individuals of separate groups. Inter- group hostilities are well documented in a num- ber of species, most thoroughly in the higher pri- mates (see, for example, Carpenter 1965, on howler monkeys). Just as altruism is most pro- fitably (in the sense of increased fitness) directed toward individuals with high I' values, hostility is most profitably directed toward individuals, in opposing groups, with high I' values. Whether the important value is I'q(x) or I'm(x) will de- pend on the nature of the interactions. In most cases, though, the pertinent value would be Fq (x). <Node id="49232"/>Data are again extremely hard to come by. <Node id="49274"/>Since the defenders of a group are apt to be males in their reproductive prime it is necessary that hos- tilities be directed mainly in the direction of males this age, thus obscuring any other age-specific trends. <Node id="49489"/>Examples dealing with human behavior must be presented with caution.<Node id="49557"/> Nevertheless, since it seems the only good information available, I yield to temptation in offering the following quote: "There seems to be a tendency in the adult world toward hostility to youth as such which is in striking contrast to the fact that we all "like kids," especially our own or those entrusted to our care. Something seems to happen to the most child-acceptant of us when we suddenly switch from personal involvement with a child to a col- lective view of the youth problem" (Redl 1955).
+ <Node id="50062"/>ACKNOWLEDGMENTS
+ I would like to acknowledge the considerable help of Charles Taylor of the State University of New York at Stony Brook, both for his suggestions and corrections of the original manuscript. George Williams of Stony Brook, Charles King and Richard Miller of Yale Uni- versity, and Egbert Leigh of Princeton were also ex- tremely kind in their criticisms and ideas for improve- ment. Credit for thoroughly shaking any complacent overconfidence in the approach, as well as encouragement for my further.pursuit of it, goes to the ecology graduate students at the University of Michigan.<Node id="50660"/>
+<Node id="50661"/> LITERATURE CITED<Node id="50678"/>
+ Beverton, R. J. H., and S. J. Holt. 1957. On the dy- namics of exploited fish populations. Min. Agric. Fish. and Food, Fish Invest., Ser. II, Vol. XLX.
+ Birch, L. C. 1953. Experimental background to the study of the distribution and abundance of insects, I. the influence of temperature, moisture and food on the innate capacity for increase of three grain beetles, Ecology 34: 698-712.
+ Carpenter, C. R. 1965. The howlers of Barro Colorado Island, In DeVore, I., Primate behavior: field studies of monkeys and apes, Holt, Rinehart and Winston, New York.
+ Caughley, G. 1966. Mortality patterns in mammals. Ecology 47: 906-918.
+ Coulson, J. C. 1966. The influence of the pair bond and age on the breeding biology of the Kittiwake Gull, Rissa tridactylca. J. Animal Ecol. 35: 269-279.
+ Coulson, J. C., and E. White. 1958. The effect of age on the breeding biology of the Kittiwake. Ibis 100: 40-51.
+ Court Brown, W. M., K. E. Buckton, P. A. Jacobs, I. M. Tough, E. V. Kuensberg, and J. D. E. Knox. 1966. Chromosome studies on adults, Eug. Lab. Mem. XLII.
+ Crow, J. F. 1958. Some possibilities of measuring se- lection intensities in man. Human Biol. 30: 1-13.
+ Deevey, E. S., Jr. 1947. Life tables for natural popula- tions of animals. Quart. Rev. Biol. 22: 283-314.
+ Dingle, H. 1965. The relation between age and flight activity in the milkweed bug, Oncopeltus. J. Exp. Biol. 42: 269-283.
+ Edmondson, W. T. 1945. Ecological studies on sessile Rotatoria. Part II, Dynamics of populations and social structure. Ecol. Monogr. 15: 141-172.
+ Emlen, J. M. 1966. Natural selection and human be- havior. J. Theoret. Biol. 12: 410-418.
+ Farner, D. 1945. Age groups and longevity in the American Robin. Wilson Bull. 57: 56-74.
+ Fisher, R. A. 1958. The genetical theory of natural selection. Dover, N.Y., 2nd edition.
+ Ford, E. B. 1964. Ecological genetics, Wiley, N.Y. Frank, P. W., C. D. Boll, and R. W. Kelly. 1957. Vital
+ statistics of laboratory cultures of Daphnia pulex De- Geer as regulated to density, Physiol. Zool. 30: 287- 305.
+ Gerking, S. D. 1962. Production and food utilization in a population of bluegill sunfish. Ecol. Monogr. 32: 31-78.
+ Haldane, J. B. S. 1955. Population genetics. New Biol. 18: 34-51.
+ Hamerton, J. L., A. I. Taylor, R. Angell, and V. M. McGuire. 1965. Chromosome investigations of a small isolated human population: chromosome abnormal- ities and distribution of chromosome counts accord- ing to age and sex among the population of Tristan Da Cunha. Nature 206: 1232-1234.
+ Hamilton, W. D. 1964. The genetic evolution of social behavior. I. J. Theoret. Biol. 7:1-13.
+ . 1966. The moulding of senescence by natural selection. J. Theoret. Biol. 12: 12 45.
+ Hatton, H. 1938. Essais de bionomie explicative sur quelques especes intercotidales d'algues et d'animaux. Ann. Instit. Oceanogr. 17: 241-348.
+ Inglis, J., M. N. Ankus, and D. H. Sykes. 1968. Age- related differences in learning and short-term memory from childhood to the senium. Hum. Devel. 11: 42- 52.
+ Jacobs, P. A., and W. M. Court Brown. 1961. Distri- bution of human chromosomes in relation to age. Nature 191: 1178-1180.
+ Jacobs, P. A., M. Brunton, W. M. Court Brown, R. Doll, and H. Goldstein. 1963. Change of human chromo- some count distribution with age: evidence for a sex difference. Nature 197: 1080-1081.
+This content downloaded from �������������98.193.32.14 on Mon, 19 Jul 2021 14:26:09 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+ Summer 1970 AGE SPECIFICITY 601
+ Keyfitz, N. 1968. Introduction to the mathematics of populations. Addison-Wesley, Reading, Mass.
+ Lack, D. 1943a. The life of the Robin. H. F. and G. Witherby, London.
+ . 1943b. The age of the Blackbird. Brit. Birds 36: 166-175.
+ . 1943c. The age of some more British birds. Brit. Birds 36: 193-197, 2: 14-221.
+ Leslie, P. H., and T. Park. 1949. The intrinsic rate of natural increase of Triboliim castaneum Herbst. Ecology 30: 469-477.
+ Leslie, P. H. and R. M. Ranson. 1940. The mortality, fertility and rate of natural increase of the vole (Microtus agrestis) as observed in the laboratory. J. Animal Ecol. 9: 27-52.
+ Levins, R. 1962. Theory of fitness in a heterogeneous environment. I. The fitness set and the adaptive function. Amer. Naturalist 96: 361-373.
+ Levins, R., and R. H. MacArthur. 1966. Maintenance of genetic polymorphism in a heterogeneous environ- ment: variations on a theme by Howard Levine. Amer. Naturalist 100: 585-589.
+ Lewontin, R. C., and L. C. Birch. 1966. Hybridization as a source of variance for adaptation to new en- vironments. Evolution 20: 315-336.
+ Lotka, A. J. 1922. The stability of the normal age distribution. Proc. Nat. Acad. Sci. 8: 339-345.
+ . 1956. Elements of mathematical biology, 2nd edition, Dover publ., N.Y.
+ MacArthur, R. H. 1965. Ecological consequences of natural selection, p. 388-397. In T. H. Waterman and H. J. Morowitz (ed.) Theoretical and mathe- matical biology. Blaisdell, N.Y.
+ MacArthur, R. H. and R. Levins. 1964. Competition, habitat selection and character displacement in a patchy environment. Proc. Nat. Acad. Sci. 51: 1207- 1210.
+ Maynard Smith, J. 1964. Group selection and kin se- lection. Nature 201: 1145-1147.
+ Medawar, P. B. 1957. The uniqueness of the indi- vidual, Methuen, London.
+ Milham, S., Jr., and A. M. Gittelsohn. 1965. Parental age and malformations. Human Biol. 3: 13-22.
+ Orians, G. H. 1961. The ecology of Blackbird (Aga- laeus) social systems. Ecol. Monogr. 31: 285-312.
+ Pearl, R. 1940. Introduction to medical biometry and statistics. 3rd edition. W. B. Saunders, Phila.
+ Portman, A. 1959. Animal camouflage. Univ. Mich- igan Press.
+ Redl, F. 1955. Our troubles with defiant youth. Chil- dren 2: 5-14.
+ Slobodkin, L. B. 1954. Population dynamics in Daph- nia obtwsa Kurz. Ecol. Monogr. 24: 69-88.
+ . 1968. How to be a predator. Amer. Zool. 8: 43-51.
+ Williams, G. C. 1957. Pleiotropy, natural selection and the evolution of senescence. Evolution 11: 398- 411.
+ Wright, S. 1937. The distribution of gene frequencies in populations. Proc. Nat. Acad. Sci. 23: 307-320.
+ APPENDIX
+ Hypothetical data used in Figures 1, 2, 4 were as follows:
+ z _x I, In, V, i'2(:) 1's(-) 0 1.00 0 1.00 .236 .236 1 0.5 0.50 0 2.00 .472 .118 2 0.1 0.45 0 2.23 .263 .106 3 0.1 0.405 0.6 2.82 .263 .095 4 0.2 0.325 1.2 2.33 .223 .077 5 0.2 0.26 1.0 1.37 .105 .061 6 0.3 0.18 0.4 0.54 .033 .043 7 0.4 0.11 0.23 0.23 .010 .026 8 1.0 0.00 I0-
+ (R=1)
+ For figures 5 and 7, let q5 be 0.6. Then:
+ O~~~~~z 1 x mI'Q(x) I M.(x)
+ 0 . 1.00 0 .248 .248 1 ....... 0.5 0.500 0 .496 .130 2 ....... 0.1 0.45 0 .275 .124 3 ....... 0.1 0.405 0.6 .275 .117 4 ....... 0.2 0.325 1.2 .222 .099 5 ....... 0.6 0.130 1.0 .146 .042 6 ....... 0.3 0.091 0.4 .024 .031 7 ....... 0.4 0.055 0.23 .008 .020
+ 8 ....... 1.0 0.00 - _ - (R =0.95)
+ For figures 6 and 8, let m5 be 2.0. Then:
+ x l x mx I'q(x) I'm(X)
+ 0 ...... .......... 1.00 0 .230 .230 1................... 0.50 0 .460 .108 2 .0.45 0 .255 .093 3 .0.405 0.6 .255 .080 4 .325 1.2 .226 .061 5 .26 2.0 .135 .046 6 .18 0.4 .023 .030 7 .11 0.23 .007 .0175 8 .0.00 0 _
+ (R= 1.056)
+ For figure 9, let l-q, be half as large as in the original system. Then:
+ qx .1. _ r 'Q(x)
+ 0 .- 1.00 0 .257 1 .75 .25 0 1.028 2 .55 .113 0 .572 3 .55 .051 0.6 .572 4 .6 .02 1.2 .480 5 .6 .008 1.0 .235 6 .65 .003 0.4 .078 7 .7 .001 0.23 .026 8 .1.0 .000 0 -
+ (R=0.5)
+ For figure 10, let mi, be one-half its original value. Then:
+ 0 .1.00 0 .226 1 .50 0 .133 2 .45 0 .142 3 .405 0.3 .149 4 .325 0.6 .142 5 .26 0.5 .134 6 .18 0.2 .107 7 .11 0.12 .078 8 .00 0 _
+ (R=0.85)
+This content downloaded from �������������98.193.32.14 on Mon, 19 Jul 2021 14:26:09 UTC�������������� 
+All use subject to https://about.jstor.org/terms
+	Contents
+	p. [588]
+	p. 589
+	p. 590
+	p. 591
+	p. 592
+	p. 593
+	p. 594
+	p. 595
+	p. 596
+	p. 597
+	p. 598
+	p. 599
+	p. 600
+	p. 601
+	Issue Table of Contents
+	Ecology, Vol. 51, No. 4 (Jul., 1970) pp. 565-760
+	Front Matter
+	Seasonal Changes in Oak Leaf Tannins and Nutrients as a Cause of Spring Feeding by Winter Moth Caterpillars [pp. 565-581]
+	A Method to Determine Heat-Caused Mortality in Bunchgrasses [pp. 582-587]
+	Age Specificity and Ecological Theory [pp. 588-601]
+	Predation and Abundance in Populations of Flour Beetles [pp. 602-619]
+	Relationship Among the Forest Types of Indiana [pp. 620-629]
+	Multivariate Procedures in an Investigation of Vegetation and Soil Relations of Two Beech Woodlands, Cotswold Hills, England [pp. 630-639]
+	Dietary Similarity of Some Primary Consumers [pp. 640-648]
+	Ecological Investigations of Thlaspi Alpestre L. Along an Elevational Gradient in the Central Rocky Mountains [pp. 649-656]
+	Mechanism of Desiccation Damage of Conifers Wintering in Soil-Frozen Areas [pp. 657-664]
+	Freezing Resistance of Alpine Plants [pp. 665-671]
+	Effects of Host Fighting Behavior on the Course of Infection of Trypanosoma Duttoni in Mice [pp. 672-679]
+	The Role of Food in the Regulation of the Pond Snail, Lymnaea Elodes [pp. 680-684]
+	Distribution of Cs^(137) in Andropogon Scoparius Michx. Clones in Two Native Habitats [pp. 685-689]
+	Total Energy Balance in Salt Marsh Grasses [pp. 690-695]
+	Water-Repellent Soils, Fire, and Annual Plant Cover in a Desert Scrub Community of Southeastern California [pp. 696-700]
+	Correlation of CO^2 Exchange with Moisture Regime and Light in Some Wyoming Subalpine Meadow Species [pp. 701-702]
+	Comparative Autecology of the Lizard Cnemidophorus Tigris in Different Parts of Its Georgraphic Range [pp. 703-720]
+	Copper Concentrations in the High-Beach Isopod Tylos Punctatus [pp. 721-723]
+	The Role of Behavior in the Nature Regulation of Numbers in the Gekkonid Lizard Gehyra Variegata [pp. 724-728]
+	An Empirical Approach to the Estimation of Pattern Intensity from Density and Cover Data [pp. 729-734]
+	Plant Dispersal by Hares (Lepus Capensis L.) in Kenya [pp. 735-737]
+	Terrestrial Activity in Aquatic Turtles [pp. 738-740]
+	The Ecological Efficiency of Consumer Populations [pp. 741-742]
+	Why Don't Boblinks Breed in Brazil? [pp. 743-751]
+	Reviews
+	Whittaker's First Textbook [pp. 752]
+	Old World Domestications [pp. 752-754]
+	Ecosystem Theory [pp. 754]
+	Hultén's New Alaskan Flora [pp. 754-755]
+	Atoms and Human Health [pp. 756]
+	Plant Science [pp. 756-757]
+	Perspectives in Phytochemistry [pp. 757]
+	A Comprehensive Plant Embryology [pp. 757-758]
+	Wild Animal Nutrition [pp. 758]
+	Books and Monographs Received for Review [pp. 758-760]
+	Back Matter
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="496" Type="Abstract, natural selection, population and behavioral ecology ; a whole mound of big modern ecological terms appears in the 1970s" StartNode="1617" EndNode="1897">
+</Annotation>
+<Annotation Id="498" Type="natural selection favoring ; as a term, &quot;natural selection&quot; is driving the reasoning/logics behind observed relationships" StartNode="2171" EndNode="2899">
+</Annotation>
+<Annotation Id="499" Type="altruistic behavior ; anthropomorphism " StartNode="3024" EndNode="3194">
+</Annotation>
+<Annotation Id="500" Type="survivorship curves, age-specific fecundity curves, evolution ; " StartNode="3278" EndNode="3512">
+</Annotation>
+<Annotation Id="502" Type="aging prrocess, knoweldge, birth and death rates, mortality and fecundity ;" StartNode="3577" EndNode="4144">
+</Annotation>
+<Annotation Id="503" Type="Fisher (1958), Medawar, &quot;reproductive value&quot;, genetically, Fig. 1 ; ecologists followed Fisher because they thought they could model these age relationships with other life processes" StartNode="4152" EndNode="4515">
+</Annotation>
+<Annotation Id="505" Type="appendix ;" StartNode="4546" EndNode="4558">
+</Annotation>
+<Annotation Id="506" Type="variation, trait, genetic variance, mean, natural selection, genetic contribution, benficial/deleterious traits ;  rich in ecological terms/theories making connections between age, genetics, traits, and natural selection" StartNode="4977" EndNode="5936">
+</Annotation>
+<Annotation Id="507" Type="problem of natural selection of aging, equation ; again, trying to model these theories using equations" StartNode="5938" EndNode="6507">
+</Annotation>
+<Annotation Id="509" Type="ratio, average, age interval, total per individual ; all numerical metrics used in a single equation to determin survivorship and fecundity as a function of age (y)" StartNode="6526" EndNode="7007">
+</Annotation>
+<Annotation Id="510" Type="derivation, assumptions, Lotka (1922 and 1956) ; Lotka was influential on population dynamics but only now gaining lots of traction in ecology? Also, assumptions seem to not be well-founded" StartNode="7039" EndNode="8264">
+</Annotation>
+<Annotation Id="511" Type="epistatic ; definition: the interaction of genes that are not alleles, in particular the suppression of the effect of one such gene by another." StartNode="9297" EndNode="9306">
+</Annotation>
+<Annotation Id="512" Type="panmictic ; definition: characterized by random mating within a breeding population" StartNode="8806" EndNode="8829">
+</Annotation>
+<Annotation Id="513" Type="number of alleles, frequency of the ith allele, ratio of genotype, successive, Wright (1937) ; explanations like these mimic the sort of complex model explanations modern day researchers make for their regressions" StartNode="8266" EndNode="9128">
+</Annotation>
+<Annotation Id="514" Type="frequency-dependent selection" StartNode="9326" EndNode="9355">
+</Annotation>
+<Annotation Id="515" Type="Taylor series ; derivatives, integrals, and estimations are used everywhere" StartNode="9447" EndNode="9660">
+</Annotation>
+<Annotation Id="516" Type="proportion, time interval, assume...are disjoint ; equation assumptions like assuming independence emerges here" StartNode="10111" EndNode="10608">
+</Annotation>
+<Annotation Id="517" Type="Taylor series ;" StartNode="10975" EndNode="11063">
+</Annotation>
+<Annotation Id="518" Type="genetic and ecologic knowledge of the species chosen, genetic variance, selection pressures ; the new ecological language growing in the field as it absorbs concepts from other fields " StartNode="11297" EndNode="11753">
+</Annotation>
+<Annotation Id="519" Type="respond to selection pressures, suvivorship " StartNode="11874" EndNode="12072">
+</Annotation>
+<Annotation Id="520" Type="FIG. 1, Fisher ;" StartNode="4835" EndNode="4913">
+</Annotation>
+<Annotation Id="521" Type="Crow's (1958) (index of selection) ;" StartNode="12316" EndNode="12483">
+</Annotation>
+<Annotation Id="522" Type="differentiating ; " StartNode="12524" EndNode="12570">
+</Annotation>
+<Annotation Id="523" Type="Hamilton (1966) ;" StartNode="12711" EndNode="12789">
+</Annotation>
+<Annotation Id="524" Type="point of equilibrium, selective pressures and mutations, mechanical limitations, invariant with age, forces ; the paper maps mathematical formulas much like physics as a field boomed with these eqs" StartNode="12858" EndNode="13517">
+</Annotation>
+<Annotation Id="525" Type="FIG. 2, selection intensity ; selection intensity is quantified as a derivative of an equation that considers pop size, survivorship age, total number born per individual, etc." StartNode="14377" EndNode="14478">
+</Annotation>
+<Annotation Id="526" Type="proportional, falls, highest ; the author makes predictions based on the equations and different scenarious what would be the subsequent outcomes" StartNode="13703" EndNode="14086">
+</Annotation>
+<Annotation Id="527" Type="precession ; huge physics word, definition: the slow movement of the axis of a spinning body around another axis due to a torque (such as gravitational influence) acting to change the direction of the first axis." StartNode="14828" EndNode="14838">
+</Annotation>
+<Annotation Id="528" Type="selected dispersal life-form ; this seems to be describing r- and k- selection theory" StartNode="15352" EndNode="15678">
+</Annotation>
+<Annotation Id="529" Type="Hamilton, Fisher, Maynard, sygote, gene passage, traits ; genetics langauge seems to permeate this paper" StartNode="14518" EndNode="15290">
+</Annotation>
+<Annotation Id="530" Type="ontogenetic ; definition: the development or course of development especially of an individual organism." StartNode="15836" EndNode="15847">
+</Annotation>
+<Annotation Id="532" Type="age-specific mortality ; summary and various examples of age, reproduction, and mortality trade-offs in the field of human genetics and ecology" StartNode="17144" EndNode="18642">
+</Annotation>
+<Annotation Id="533" Type="natural selection, maximum realizable fitness ; " StartNode="15961" EndNode="16705">
+</Annotation>
+<Annotation Id="534" Type="physiological, mechanical limitations ;" StartNode="19127" EndNode="19603">
+</Annotation>
+<Annotation Id="535" Type="FIG. 4, selection intensity, fecundity ; " StartNode="20057" EndNode="20160">
+</Annotation>
+<Annotation Id="536" Type="FIG. 3, in man ; a plot within a plot" StartNode="16862" EndNode="16943">
+</Annotation>
+<Annotation Id="537" Type="finite amount of energy, survival, natural selection ; trade-off theory" StartNode="20213" EndNode="20515">
+</Annotation>
+<Annotation Id="538" Type="(which they do) ; not sure what &quot;many bird species&quot; means without citations - one paper noted that when snow petrels mate, the age when they mate is most closely related to corticosterone levels (stress levels)" StartNode="20526" EndNode="21275">
+</Annotation>
+<Annotation Id="539" Type="pleiotrophy ; definition: the production by a single gene of two or more apparently unrelated effects" StartNode="22290" EndNode="22300">
+</Annotation>
+<Annotation Id="540" Type="minimal reproductive age ; definition" StartNode="22303" EndNode="22481">
+</Annotation>
+<Annotation Id="541" Type="ontogenetic inertia ; physics language " StartNode="22482" EndNode="22634">
+</Annotation>
+<Annotation Id="542" Type="pertinent data for man ; the overlap of insect fecundity with human fecundity...you can see how genetics was strongly studied in humans and then bleed into scientists' analysis/interpreation of other species " StartNode="22763" EndNode="23254">
+</Annotation>
+<Annotation Id="543" Type="however, indeterminate growth ; a contradiction that explores a concept we know of today as allometry" StartNode="23256" EndNode="23629">
+</Annotation>
+<Annotation Id="544" Type="congenital ;  definition: having a particular trait (of a disease or physical abnormality) from birth or by firmly established habit" StartNode="24316" EndNode="24326">
+</Annotation>
+<Annotation Id="545" Type="explored only in man ; see again where the field of genetics has a strong hold on the imagination of ecologists" StartNode="23927" EndNode="24442">
+</Annotation>
+<Annotation Id="546" Type="effects ; trying to understand or weave in a sense of causality between age and reproduction" StartNode="24656" EndNode="24824">
+</Annotation>
+<Annotation Id="547" Type="maximize, functions of ; " StartNode="25205" EndNode="25406">
+</Annotation>
+<Annotation Id="548" Type="atom bomb, normal biological stresses, chromosomal aberrations ; sounds a lot like ideas that orginated from US atomic bomb and WWII attacks/experiments on humans" StartNode="25608" EndNode="25908">
+</Annotation>
+<Annotation Id="549" Type="TABLE 1. ; human data shown only" StartNode="25910" EndNode="25959">
+</Annotation>
+<Annotation Id="550" Type="aneuploidy ; definition: the condition of having an abnormal number of chromosomes in a haploid set." StartNode="26970" EndNode="26980">
+</Annotation>
+<Annotation Id="551" Type=" ; " StartNode="26927" EndNode="26989">
+</Annotation>
+<Annotation Id="552" Type="FIG. 5 ;" StartNode="29343" EndNode="29410">
+</Annotation>
+<Annotation Id="553" Type="equilibrium positions, deleterious traits ;" StartNode="28510" EndNode="29001">
+</Annotation>
+<Annotation Id="554" Type="FIG. 6 ;" StartNode="30671" EndNode="30826">
+</Annotation>
+<Annotation Id="555" Type="FIG. 7 ;" StartNode="30837" EndNode="31093">
+</Annotation>
+<Annotation Id="556" Type="FIG. 8 ;" StartNode="31227" EndNode="31382">
+</Annotation>
+<Annotation Id="557" Type="results...summarized ;" StartNode="30096" EndNode="30453">
+</Annotation>
+<Annotation Id="558" Type="selection intensity curves ; r-selection" StartNode="31384" EndNode="31658">
+</Annotation>
+<Annotation Id="559" Type=" ; k-selection" StartNode="32290" EndNode="32632">
+</Annotation>
+<Annotation Id="560" Type="approximate ; limitations of the equations based on assumptions" StartNode="33239" EndNode="33762">
+</Annotation>
+<Annotation Id="562" Type="FIG. 9 ;" StartNode="34448" EndNode="34603">
+</Annotation>
+<Annotation Id="563" Type="fluctuations ; provides predictions based on the equations of how populations would act based on the effect of these fluctuations" StartNode="35088" EndNode="36059">
+</Annotation>
+<Annotation Id="564" Type="selection ; fluctuating vs. stable environments, concept of environmental disturbance" StartNode="37090" EndNode="37352">
+</Annotation>
+<Annotation Id="565" Type="&quot;fitness sets&quot;, &quot;adaptive functions&quot;, heterogenous environments, Levins, MacArthur ; becomes a factors game, trying to determine what factors matter and when, so many and still today test what is significant" StartNode="37376" EndNode="37941">
+</Annotation>
+<Annotation Id="566" Type="Natural selection...as an efficiency expert ; trade-offs are complex and this author hasn't considered maladaption as a possibility, natural selection is always optimizing" StartNode="37943" EndNode="38578">
+</Annotation>
+<Annotation Id="567" Type="FIG. 10 ;" StartNode="36286" EndNode="36440">
+</Annotation>
+<Annotation Id="568" Type="FIG. 11 ; " StartNode="38831" EndNode="38942">
+</Annotation>
+<Annotation Id="570" Type="&quot;fitness set&quot;, optimal priorities ; still assuming that natural selection is this optimizing feature in nature" StartNode="39635" EndNode="40330">
+</Annotation>
+<Annotation Id="571" Type="isoclines, &quot;adaptive function&quot; ; " StartNode="38943" EndNode="39254">
+</Annotation>
+<Annotation Id="572" Type=" ; equation relationships" StartNode="40738" EndNode="41354">
+</Annotation>
+<Annotation Id="573" Type="kin selection ;" StartNode="41554" EndNode="41568">
+</Annotation>
+<Annotation Id="574" Type="kin selection, shifting priorities ; " StartNode="42023" EndNode="42300">
+</Annotation>
+<Annotation Id="575" Type="altruism, average, ratio, subpopulations ; defining and quantifying altruism" StartNode="42323" EndNode="42761">
+</Annotation>
+<Annotation Id="576" Type="recessive trait ; " StartNode="42942" EndNode="43104">
+</Annotation>
+<Annotation Id="577" Type="frequency, intuitive picture, Hamilton (1964), coefficient of relationship ;" StartNode="43251" EndNode="43814">
+</Annotation>
+<Annotation Id="579" Type="discriminatory, biases ;" StartNode="45192" EndNode="45517">
+</Annotation>
+<Annotation Id="580" Type="FIG. 12 ;" StartNode="46282" EndNode="46363">
+</Annotation>
+<Annotation Id="581" Type="FIG. 13 ;" StartNode="46385" EndNode="46459">
+</Annotation>
+<Annotation Id="582" Type=" ; what do you do when something is un-categorizable?" StartNode="46708" EndNode="46850">
+</Annotation>
+<Annotation Id="583" Type="hard to know ; anthropomorphic interpretations disalign with quantification, hitting against human bias and influence inevitable in science" StartNode="47000" EndNode="47446">
+</Annotation>
+<Annotation Id="584" Type=" ; " StartNode="49232" EndNode="49274">
+</Annotation>
+<Annotation Id="585" Type=" ; " StartNode="49489" EndNode="49557">
+</Annotation>
+<Annotation Id="586" Type="acknowledgements ; " StartNode="50062" EndNode="50660">
+</Annotation>
+<Annotation Id="587" Type="literature cited ;" StartNode="50661" EndNode="50678">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

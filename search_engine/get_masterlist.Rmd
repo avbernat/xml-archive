@@ -10,78 +10,35 @@ rm(list=ls())
 library(readxl)
 library(dplyr)
 
-dir = "/Users/anastasiabernat/Desktop/search_engine/"
+dir = "/Users/anastasiabernat/Desktop/git_repositories/xml-archive/search_engine/"
 setwd(dir)
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Read XLS file and remove unnecessary
+## Read Source Files
 
-1) Read XLS file
+```{r message=FALSE}
+source_path = paste0(dir,"/src/")
 
-```{r}
-data2 <- read_excel("savedrecs-2.xls")
-data3 <- read_excel("savedrecs-3.xls")
-data4 <- read_excel("savedrecs-4.xls")
+script_names = c("get_cite_yr_range.R", # 1 function: get_citation_yr_range()
+                 "plotting_helpers.R") 
 
-cite1 <- read_excel("yr_citations.xls")
-cite2 <- read_excel("yr_citations-2.xls")
-cite3 <- read_excel("yr_citations-3.xls")
-
-cols = c("Title","Authors","Corporate Authors","Editors","Book Editors","Source Title","Publication Date","Publication Year","Volume","Issue","Part Number","Supplement","Special Issue","Beginning Page","Ending Page","Article Number","DOI","Conference Title","Conference Date","Total Citations","Average per Year","1900","1901","1902","1903","1904","1905","1906","1907","1908","1909","1910","1911","1912","1913","1914","1915","1916","1917","1918","1919","1920","1921","1922","1923","1924","1925","1926","1927","1928","1929","1930","1931","1932","1933","1934","1935","1936","1937","1938","1939","1940","1941","1942","1943","1944","1945","1946","1947","1948","1949","1950","1951","1952","1953","1954","1955","1956","1957","1958","1959","1960","1961","1962","1963","1964","1965","1966","1967","1968","1969","1970","1971","1972","1973","1974","1975","1976","1977","1978","1979","1980","1981","1982","1983","1984","1985","1986","1987","1988","1989","1990","1991","1992","1993","1994","1995","1996","1997","1998","1999")
-
-clean_cite_data = function(d, cnames) {
-  colnames(d) = cnames
-  d = d[29:nrow(d),]
-  return(d)
+for (script in script_names) { 
+  path = paste0(source_path, script)
+  source(path) 
 }
-
-cite1 = clean_cite_data(cite1, cols)
-cite2 = clean_cite_data(cite2, cols)
-cite3 = clean_cite_data(cite3, cols)
-
-data = rbind(data2,data3,data4)
-cites = rbind(cite1, cite2, cite3)
 ```
 
-2) Remove unnecessary columns 
+## Read and Clean XLS files 
 
-```{r warning=FALSE}
-remove_cols = c("Book Authors", "Book Editors", "Book Group Authors", "Book Author Full Names", 
-                "Group Authors", "Book Series Title", "Book Series Subtitle", "Book DOI", 
-                "Conference Title", "Conference Date", "Conference Location", "Conference Sponsor",
-                "Conference Host", "Funding Orgs", "Funding Text", "Cited References", "ISBN",
-                "Supplement", "Early Access Date", "...68", "Journal Abbreviation", 
-                "Journal ISO Abbreviation", "WoS Categories", "Research Areas")
-drop_identifiers = c("Email Addresses", "Researcher Ids", "ORCIDs", "ISSN", 
-                     "eISSN", "IDS Number", "UT (Unique WOS ID)", "Pubmed Id")
-drop_nuances = c("Cited Reference Count", "Times Cited, WoS Core", 
-                 "180 Day Usage Count", "Highly Cited Status", "Hot Paper Status")
+The exported xls files are read and cleaned by removing unnecessary columns, changing the datatype of columns, and ordering the data by year (descending order).
 
-d = data %>%
-  select(-remove_cols) %>%
-  select(-drop_identifiers) %>%
-  select(-drop_nuances)
-```
-
-```{r}
-remove_cols = c("Corporate Authors","Editors","Book Editors","Supplement","Special Issue","Conference Title","Conference Date")
-
-c = cites %>%
-  select(-remove_cols)
-```
-
-3) Clean inconsistent data entries
-
-```{r}
-c$`Publication Year` = as.numeric(c$`Publication Year`)
-```
-
-4) Order the data by year and article title 
-
-```{r}
-do = d[order(-d$`Publication Year`, d$`Article Title`),]
-co = c[order(-c$`Publication Year`, c$Title),]
+```{r warning=FALSE, message=FALSE}
+source(paste0(source_path, "clean_xls_data.R")) # 6 cleaned datasets: 
+                                                # doWCUSA, coWCUSA, doTS9J2, coTS9J2, doBAJ2, coBAJ2
+# example:
+doWCUSA[1:3,c(1:5,19)]
+coWCUSA[1:3,c(1:4)]
 ```
 
 ## Filtering
@@ -89,79 +46,66 @@ co = c[order(-c$`Publication Year`, c$Title),]
 1) Filter out duplicates
 
 ```{r}
-df = do[!duplicated(do$`Article Title`),]
-cf = co[!duplicated(co$Title),]
+dfWCUSA = doWCUSA[!duplicated(doWCUSA$`Article Title`),]
+cfWCUSA = coWCUSA[!duplicated(coWCUSA$Title),]
 ```
 
-2) Determine citation year range (str). 
+```{r}
+dfTS9J2 = doTS9J2[!duplicated(doTS9J2$`Article Title`),]
+dfBAJ2 = doBAJ2[!duplicated(doBAJ2$`Article Title`),]
 
-```{r warning=FALSE}
-r = c()
-s = c()
-e = c()
-for (i in 1:nrow(cf)) { 
-  yrs = unlist(cf[i,15:length(cf)])
-
-  if (sum(yrs) == 0) {
-    range = ""
-    r = c(r, range)
-    s = c(s, range)
-    e = c(e, range)
-  }
-  if (sum(yrs) > 0) {
-    yrscited = which(yrs > 1)
-    
-    if (length(yrscited) == 0) {
-      range = ""
-      r = c(r, range)
-      s = c(s, range)
-      e = c(e, range)
-    }
-    if (length(yrscited) == 1) {
-      range = names(yrscited)
-      r = c(r, range)
-      s = c(s, range)
-      e = c(e, range)
-    }
-    if (length(yrscited) > 1) {
-      all_yrs = (as.numeric(names(yrscited)))
-      start_yr = min(all_yrs)
-      end_yr = max(all_yrs)
-      range = paste0(start_yr,"-", end_yr)
-      r = c(r, range)
-      s = c(s, start_yr)
-      e = c(e, end_yr)
-    }
-  }
-}
-length(r)
-length(s)
-length(e)
+cfTS9J2 = coTS9J2[!duplicated(coTS9J2$Title),]
+cfBAJ2 = coBAJ2[!duplicated(coBAJ2$Title),]
 ```
 
-```{r warning=FALSE}
-cf$YrRange = r
-cf$YrStart = s
-cf$YrEnd = e
+2) Determine citation year range (str). [First year cited to the last year cited]
 
-df$YrRange = r
-df$YrStart = s
-df$YrEnd = e
+```{r}
+cfWCUSAy = get_citation_yr_range(cfWCUSA, dfWCUSA)[[1]]
+dfWCUSAy = get_citation_yr_range(cfWCUSA, dfWCUSA)[[2]]
+```
+
+```{r}
+cfTS9J2y = get_citation_yr_range(cfTS9J2, dfTS9J2)[[1]]
+dfTS9J2y = get_citation_yr_range(cfTS9J2, dfTS9J2)[[2]]
+
+cfBAJ2y = get_citation_yr_range(cfBAJ2, dfBAJ2)[[1]]
+dfBAJ2y = get_citation_yr_range(cfBAJ2, dfBAJ2)[[2]]
 ```
 
 3) Compute the number times cited from 1900-1999.
 
 ```{r}
-years = cf[,18:length(cf)-3]
-cf$CiteT = rowSums(years) 
-df$CiteT = cf$CiteT
+get_num_cited = function(cf, df) {
+  
+  years = cf[,18:length(cf)-3]
+  cf$CiteT = rowSums(years) 
+  df$CiteT = cf$CiteT 
+  
+  return(list(cf,df))
+}
+```
+
+```{r}
+cfWCUSAyn = get_num_cited(cfWCUSAy,dfWCUSAy)[[1]]
+dfWCUSAyn = get_num_cited(cfWCUSAy,dfWCUSAy)[[2]]
+```
+
+```{r}
+cfTS9J2yn = get_num_cited(cfTS9J2y,dfTS9J2y)[[1]]
+dfTS9J2yn = get_num_cited(cfTS9J2y,dfTS9J2y)[[2]]
+
+cfBAJ2yn = get_num_cited(cfBAJ2y,dfBAJ2y)[[1]]
+dfBAJ2yn = get_num_cited(cfBAJ2y,dfBAJ2y)[[2]]
 ```
 
 4) Compare citation metrics.
 
 ```{r}
-df$CiteX = df$`Times Cited, All Databases` - df$`Since 2013 Usage Count`
-cbind(df$CiteT,df$CiteX)[1:10,] 
+dfWCUSAyn$CiteX = dfWCUSAyn$`Times Cited, All Databases` - dfWCUSAyn$`Since 2013 Usage Count`
+compare = cbind(dfWCUSAyn$CiteT,dfWCUSAyn$CiteX)[1:10,] 
+colnames(compare) = c("Times Cited (1900-1999) ", "Num Cited All Years - Cited Since 2013")
+compare
 ```
 
 It is probably the case that 2000 onwards, papers were cited much more frequently and it shows: http://apps.webofknowledge.com.proxy.uchicago.edu/summary.do?product=WOS&parentProduct=WOS&search_mode=CitationReport&qid=3&SID=5C1gNouD5pzsDOQyCCj&&page=1&action=sort&sortBy=PY.A;LD.A;SO.A.en;VL.A;PG.A;AU.A.en&showFirstPage=1&isCRHidden=false.
@@ -169,36 +113,61 @@ It is probably the case that 2000 onwards, papers were cited much more frequentl
 5) Create a plot that shows the year range on the x axis and on the y the number of times cited.
 
 ```{r}
-t_col <- function(color, percent = 70, name = NULL) {
-  rgb.val <- col2rgb(color)
-  t.col <- rgb(rgb.val[1], rgb.val[2], rgb.val[3],
-             max = 255,
-             alpha = (100 - percent) * 255 / 100,
-             names = name)
-invisible(t.col)
-}
+# check overlapping articles using intersect()
+overlapping_articles = intersect(dfTS9J2yn$`Article Title`,dfBAJ2yn$`Article Title`)
+length(overlapping_articles) # all aritcles in dfTS9J2yn are in dfBAJ2yn
+
+# remove overlapping articles from dfBAJ2yn
+dfBAJ2ynR <- dfBAJ2yn[ ! dfBAJ2yn$`Article Title` %in% overlapping_articles, ]
 ```
 
 ```{r}
-dp = cbind(as.numeric(df$CiteT),
-      as.numeric(df$CiteX), 
-      as.numeric(df$YrStart), 
-      as.numeric(df$YrEnd))
-dp = as.data.frame(dp)
-colnames(dp) = c("CiteT", "CiteX", "YrStart", "YrEnd")
-dp = dp[complete.cases(dp),]
+dp1 = get_data_for_plotting(dfWCUSAyn)
+generate_citation_plot(dp1)  # similar to dp2, expect dp2 has more recently cited papers
 
-plot(1, type="n", xlab="Year", ylab="Number of Citations Per Year Range", 
-     xlim=c(1920,1999), ylim=c(0,610), 
-     main="blue <=20 yr range | black = remaining")
-for (i in 1:nrow(dp)){
-  if (dp$YrEnd[i]-dp$YrStart[i] <=20) {
-    lines(c(dp$YrStart[i], dp$YrEnd[i]), c(dp$CiteT[i], dp$CiteT[i]), type="l", col="blue")
-  }
-  else {
-    lines(c(dp$YrStart[i], dp$YrEnd[i]), c(dp$CiteT[i], dp$CiteT[i]), type="l", col=t_col("black"))}
-}
+dp2 = get_data_for_plotting(dfTS9J2yn)
+generate_citation_plot(dp2) # Noticing that this group has two groups: those cited since the 1920's and those cited since the 1970's.
+
+dp3 = get_data_for_plotting(dfBAJ2yn)
+generate_citation_plot(dp3) # Similar to dp2, but it also has the most papers that were published from 1930-1960 and cited till the end of the century as well as much more recently cited papers.
+
+dp4 = get_data_for_plotting(dfBAJ2ynR)
+generate_citation_plot(dp4) # removing dfTS9J2yn doesn't seem to make a dent in the overall composition of this pool of papers. Need to then check how necessary are these papers and why were they removed?
 ```
+
+```{r}
+dfWCUSAyn$YrStart = as.numeric(dfWCUSAyn$YrStart) 
+dfTS9J2yn$YrStart = as.numeric(dfTS9J2yn$YrStart) 
+dfBAJ2yn$YrStart = as.numeric(dfBAJ2yn$YrStart) 
+dfBAJ2ynR$YrStart = as.numeric(dfBAJ2ynR$YrStart) 
+
+hist(dfWCUSAyn$YrStart, ylim=c(0,900), col="lightblue", breaks = 15, xlab="Year First Cited", main="WCUSA")
+hist(dfTS9J2yn$YrStart, ylim=c(0,900), col="lightblue", breaks = 15, xlab="Year First Cited", main="TS9J2")
+hist(dfBAJ2yn$YrStart, ylim=c(0,900), col="lightblue", breaks = 15, xlab="Year First Cited", main="BAJ2")
+hist(dfBAJ2ynR$YrStart, ylim=c(0,900), col="lightblue", breaks = 15, xlab="Year First Cited", main="BAJ2-TS9J2")
+
+hist(dfWCUSAyn$`Publication Year`, ylim=c(0,900), breaks = 15, xlab="Year First Published", main="WCUSA")
+hist(dfTS9J2yn$`Publication Year`, ylim=c(0,900), breaks = 15, xlab="Year First Published", main="TS9J2") # lose papers published from 1945-1970
+hist(dfBAJ2yn$`Publication Year`, ylim=c(0,900), breaks = 15, xlab="Year First Published", main="BAJ2") # lose papers published from 1945-1970
+hist(dfBAJ2ynR$`Publication Year`, ylim=c(0,900), breaks = 15, xlab="Year First Published", main="BAJ2-TS9J2") # mostly loose papers cited a lot near the end of the century and lose papers published near the end of the century
+```
+
+WC filter terms seems to filter out mostly papers publisehd near the end of the century. 
+
+Notice there is also a gap between 1945 and 1970 that is caused by location constraints (USA only). If you include all nations then that gap is slightly filled. 
+
+Note on History: "In the 1960's, computer science came into its own as a discipline. In fact, the term was coined by George Forsythe, a numerical analyst. The first computer science department was formed at Purdue University in 1962." (https://cs.uwaterloo.ca/~shallit/Courses/134/history.html)
+
+Overall, the good thing is that we are not missing any years. We are just missing quantity in each year. Testing out the key search terms would be the next step.
+
+
+
+
+
+
+
+
+
 
 6) Compute some weighted or comparable factor.
 
@@ -235,10 +204,10 @@ dt = dd[order(-dd$`Publication Year`, -dd$CiteX),]
 ```
 
 ```{r}
-write.csv(dt, "filtered_articles2.csv") 
+write.csv(dt, "output/filtered_articles2.csv") 
 ```
 
-c) Get top 5 cited and bottom 5 cited. Could also become top 5% or bottom 5% because there can be a lot of papers only cited once and it doesn't really matter.
+c) Get top 10% or bottom 10% cited.
 
 ```{r}
 unique(dt$`Publication Year`) # notice that there were no papers published before 1920
@@ -304,11 +273,13 @@ colnames(datat) = c("", paste0("group",q))
 colnames(datab) = c("", paste0("group",q))
 
 masterlist = rbind(datat, datab)
+masterlist$reader = ""
+
 masterlist
 ```
 
 ## Write as a CSV file
 
 ```{r}
-write.csv(masterlist, "masterlist2.csv") 
+write.csv(masterlist, "output/masterlist3.csv") 
 ```
